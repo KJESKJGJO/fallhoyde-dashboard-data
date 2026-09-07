@@ -1,0 +1,1028 @@
+{
+  "AKER.OL": {
+    "sektor_eller_selskapsspesifikk": "sektor",
+    "hendelser": [
+      {
+        "dato": "2026-05-26",
+        "tittel": "Oljeprisfall sender Oslo Børs og Aker-selskapene ned",
+        "forklaring": "Oljeprisen falt fra 104 til 98 dollar fatet på signaler om fremgang i fredssamtalene mellom USA og Iran. Oslo Børs åpnet ned 0,6 prosent, og Aker BP – Akers største børsnoterte eierpost – falt over 3 prosent.",
+        "kilde_url": "https://www.investornytt.no/bors/oljeprisfall-sender-oslo-bors-ned/533529"
+      },
+      {
+        "dato": "2026-06-24",
+        "tittel": "Brent til laveste nivå siden før Iran-krigen",
+        "forklaring": "Brent falt 4,3 prosent til 73,74 dollar fatet og var innom 73,12 dollar, det laveste siden 27. februar, etter at strandede tankere forlot Hormuzstredet og forsyningsfrykten avtok. Dette rammet hele det oljetunge Oslo Børs og Akers energiportefølje.",
+        "kilde_url": "https://www.reuters.com/business/energy/oil-prices-extend-decline-expectations-smoother-crude-flows-via-hormuz-2026-06-24/"
+      },
+      {
+        "dato": "2026-06-30",
+        "tittel": "Oslo Børs ned 5,5 prosent i juni – energi og AI falt mest",
+        "forklaring": "Oljeprisen falt rundt 20 dollar gjennom juni etter en intensjonsavtale mellom USA og Iran, og Oslo Børs falt rundt 5,5 prosent. Nedgangen var særlig drevet av energi- og AI-aksjer, som er nettopp de to største verdidriverne i Akers portefølje (Aker BP og Nscale).",
+        "kilde_url": "https://www.sparebank1.no/nb/bank/privat/sparing/markedsnytt/artikler/markedskommentar-av-alexander-miller-for-juni-2026.html"
+      }
+    ]
+  },
+  "AKRBP.OL": {
+    "sektor_eller_selskapsspesifikk": "sektor",
+    "hendelser": [
+      {
+        "dato": "2026-05-22",
+        "tittel": "Aker BP faller 5,7 prosent på svakere oljepris",
+        "forklaring": "Aker BP-aksjen falt rundt 5,7 prosent til omtrent 353 kroner. Fallet ble forklart med svakere oljepris og et mer forsiktig sentiment i energisektoren, der oljeprisvolatiliteten overskygget selskapets operative fremgang.",
+        "kilde_url": "https://www.it-boltwise.de/aker-bp-dividende-bleibt-kurs-rutscht-oelpreis-und-sentiment-druecken.html"
+      },
+      {
+        "dato": "2026-06-24",
+        "tittel": "Brent under 74 dollar da tankere forlot Hormuzstredet",
+        "forklaring": "Brent falt 4,3 prosent til 73,74 dollar fatet, laveste nivå siden før de amerikansk-israelske angrepene på Iran, etter at rundt 20 millioner fat råolje forlot Hormuzstredet i løpet av ett døgn. Bortfallet av krigspremien slo direkte inn i verdsettelsen av norske oljeprodusenter.",
+        "kilde_url": "https://www.reuters.com/business/energy/oil-prices-extend-decline-expectations-smoother-crude-flows-via-hormuz-2026-06-24/"
+      },
+      {
+        "dato": "2026-06-30",
+        "tittel": "Brent ned ca. 21 prosent i juni – største månedsfall siden mars 2020",
+        "forklaring": "Brent endte juni på 72,92 dollar fatet etter et månedsfall på rundt 21 prosent, mens WTI falt over 20 prosent. Utsikter til USA–Iran-samtaler i Doha fjernet geopolitisk risikopremie og presset oljeaksjene ned mot bunnen 1. juli.",
+        "kilde_url": "https://www.cnbc.com/2026/06/30/oil-prices-brent-wti-crude-trump-iran.html"
+      }
+    ]
+  },
+  "AKSO.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2025-04-04",
+        "tittel": "Tollsjokk: Oslo Børs ned 5 prosent, oljeservice hardt rammet",
+        "forklaring": "Hovedindeksen falt 5,01 prosent, det største fallet siden mars 2020, etter Trumps tollkunngjøring og Kinas mottoll på 34 prosent. Brent falt 7,4 prosent til 64,95 dollar fatet, noe som traff oljeserviceselskaper som Aker Solutions særlig hardt.",
+        "kilde_url": "https://www.finansavisen.no/finans/2025/04/04/8255617/verste-siden-covid-oslo-bors-stupte-5-prosent"
+      },
+      {
+        "dato": "2025-07-11",
+        "tittel": "Aker Solutions faller over 10 prosent etter Q2-rapport",
+        "forklaring": "Aksjen falt over 10 prosent etter andrekvartalsrapporten. DNB Carnegie mente den underliggende ebitda-marginen var «litt svak», og påpekte at rapporten i seg selv ikke var spesielt svak, men at aksjen hadde steget mye i forkant.",
+        "kilde_url": "https://www.finansavisen.no/tdn/2025/07/14/06477188/kommentar-store-kursutslag-etter-kvartalsrapporter-fredag"
+      },
+      {
+        "dato": "2025-10-31",
+        "tittel": "Nedjustert 2026-guiding overskygget sterk Q3",
+        "forklaring": "Til tross for omsetning på 17 milliarder kroner mot konsensus på 14,2 milliarder, falt aksjen over 2 prosent fordi selskapet senket omsetningsutsiktene for 2026 til rundt 45 milliarder kroner, under konsensus på cirka 47 milliarder. Dette bekrefter at markedet gjennom hele nedgangsperioden fryktet lavere aktivitetsnivå fremover.",
+        "kilde_url": "https://www.investing.com/news/earnings/aker-solutions-q3-profit-rises-on-29-revenue-gain-4322347"
+      }
+    ]
+  },
+  "AUTO.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2025-04-24",
+        "tittel": "AutoStore kollapser 31,8 prosent på «katastrofalt svake» Q1-tall",
+        "forklaring": "Aksjen falt 31,8 prosent etter at inntektene kom inn på 85,9 millioner dollar (ned 38 prosent) og driftsresultatet på 7,8 millioner dollar (ned 83 prosent). Ordreinngangen falt 23 prosent til 141,2 millioner dollar, og i tillegg kom kritikk fra Finanstilsynet av selskapets finansielle rapportering.",
+        "kilde_url": "https://www.finansavisen.no/finans/2025/04/24/8259583/nedgang-pa-oslo-bors-flere-faller-tosifret-kollaps-i-autostore"
+      },
+      {
+        "dato": "2025-04-24",
+        "tittel": "Marginkollaps og makrousikkerhet i Q1-presentasjonen",
+        "forklaring": "Justert EBITDA-margin falt til 25 prosent fra 47 prosent i foregående kvartal, drevet av omsetningsfallet og tapt operasjonell løftestang. Selskapet viste selv til geopolitisk og makroøkonomisk volatilitet samt amerikanske tollsatser.",
+        "kilde_url": "https://www.investing.com/news/company-news/autostore-q1-2025-presentation-revenue-drops-38-yoy-despite-stable-order-intake-93CH-4000496"
+      },
+      {
+        "dato": "2025-04-04",
+        "tittel": "Bredt tollrelatert børsfall forsterket nedgangen",
+        "forklaring": "Oslo Børs falt 5,01 prosent 4. april 2025 etter Trumps tollpakke og Kinas mottoll, det største fallet siden mars 2020. Vekst- og teknologiaksjer som AutoStore ble ekstra hardt rammet i denne perioden rett før kvartalsrapporten.",
+        "kilde_url": "https://www.finansavisen.no/finans/2025/04/04/8255617/verste-siden-covid-oslo-bors-stupte-5-prosent"
+      }
+    ]
+  },
+  "BAKKA.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2025-02-17",
+        "tittel": "Q4-skuffelse: driftsresultat 280 mot ventet 356 mill. DKK",
+        "forklaring": "Aksjen falt over 7 prosent fra start etter at operasjonelt driftsresultat kom inn på 280 millioner danske kroner mot forventet 356 millioner. Skottland leverte minus 55 millioner, og selskapet nedjusterte ventet slaktevolum for 2025 fra 100.000 til 97.000 tonn.",
+        "kilde_url": "https://www.finansavisen.no/sjomat/2025/02/17/8242857/bakkafrost-raser-pa-nye-skuffelser-oppgitthet-blant-investorene-sier-analytiker"
+      },
+      {
+        "dato": "2025-07-16",
+        "tittel": "Resultatvarsel: aksjen faller 15,3 prosent",
+        "forklaring": "Bakkafrost falt 15,3 prosent etter å ha varslet et operasjonelt driftsresultat på 65 millioner danske kroner i Q2, oppgitt som 76 prosent under konsensus. Skottland leverte et tap på 199 millioner danske kroner drevet av dødelighetskostnader og nedskrivninger.",
+        "kilde_url": "https://www.finansavisen.no/tdn/2025/07/16/06478693/kommentar-bakkafrost-faller-kraftig-pa-oslo-bors-onsdag"
+      }
+    ]
+  },
+  "BRG.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2025-10-22",
+        "tittel": "Q3 2025: EBITDA ned til 440 mill. kroner",
+        "forklaring": "EBITDA falt til 440 millioner kroner fra 524 millioner året før, og resultat før skatt til 247 millioner fra 326 millioner. Nedgangen skyldtes lavere bioetanolpriser og en midlertidig forstyrrelse i celluloseproduksjonen i Sarpsborg med negativ effekt på rundt 40 millioner kroner.",
+        "kilde_url": "https://www.borregaard.com/no/om-oss/nyhetsarkiv/driftsresultat-440-millioner-i-3.-kvartal"
+      },
+      {
+        "dato": "2026-04-29",
+        "tittel": "Q1 2026: EBITDA ned til 428 mill. kroner og fortsatt kostnadspress",
+        "forklaring": "EBITDA falt til 428 millioner kroner fra 511 millioner, og resultat per aksje til 1,82 kroner fra 2,52 kroner. Både BioSolutions og BioMaterials svekket seg, blant annet på grunn av midlertidig forsinkelse i verdikjeden drevet av geopolitiske forhold, økt usikkerhet og lagerreduksjoner hos kunder.",
+        "kilde_url": "https://www.borregaard.com/no/om-oss/nyhetsarkiv/428-millioner-i-1.-kvartal-2026"
+      }
+    ]
+  },
+  "BWLPG.OL": {
+    "sektor_eller_selskapsspesifikk": "sektor",
+    "hendelser": [
+      {
+        "dato": "2025-02-27",
+        "tittel": "Resultatstup i Q4 2024 på fallende VLGC-rater",
+        "forklaring": "Kvartalsresultatet på 39,7 millioner dollar var 80,8 millioner dollar svakere enn i tredje kvartal. Snittraten for VLGC-ene falt til 37.900 dollar dagen fra 46.820 dollar i tredje kvartal, og spotratene lå tidlig i 2025 rundt 30.000 dollar dagen.",
+        "kilde_url": "https://www.finansavisen.no/shipping/2025/02/27/8245272/resultatstup-for-bw-lpg"
+      },
+      {
+        "dato": "2025-04-10",
+        "tittel": "Handelskrigen halverer VLGC-ratene",
+        "forklaring": "Etter at Kina svarte med 84 prosent toll på all amerikansk eksport, inkludert LPG, falt VLGC-spotratene 63 prosent – fra rundt 42.000 dollar dagen i første uke av april til rundt 15.000 dollar dagen 10. april. LPG-handelen mellom USA og Kina stoppet i praksis helt opp.",
+        "kilde_url": "https://www.marsoft.com/post/china-s-retaliatory-tariffs-on-us-lpg"
+      },
+      {
+        "dato": "2025-04-04",
+        "tittel": "Generell markedsuro: Oslo Børs ned 5 prosent",
+        "forklaring": "Hovedindeksen falt 5,01 prosent, det største fallet siden mars 2020, etter Trumps tollpakke og Kinas mottoll på 34 prosent. Shippingaksjer med USA–Kina-eksponering ble spesielt hardt rammet inn mot bunnen 4. april.",
+        "kilde_url": "https://www.finansavisen.no/finans/2025/04/04/8255617/verste-siden-covid-oslo-bors-stupte-5-prosent"
+      }
+    ]
+  },
+  "CDLR": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2025-07-01",
+        "tittel": "Ørsted terminerer langtidskontrakt for A-Class-fartøy",
+        "forklaring": "Ørsted terminerte langtidsavtalen om et A-Class installasjonsfartøy etter at selskapet besluttet å stoppe Hornsea 4. Avtalen hadde sikret fartøyskapasitet fra første kvartal 2027 til utgangen av 2030, og Cadeler var da allerede ned over 20 prosent hittil i 2025.",
+        "kilde_url": "https://live.euronext.com/en/products/equities/company-news/2025-07-01-cadeler-receives-notice-termination-long-term-agreement"
+      },
+      {
+        "dato": "2025-07-01",
+        "tittel": "Tapt kontrakt bekreftet svakere backlog-utsikter",
+        "forklaring": "Kontrakten gjaldt utleie av installasjonsbåt til Ørsteds vindpark Hornsea 4 fra 2027 til 2030, og bortfallet fjernet flere års sikret inntjening. Meldingen kom rett før stengetid, og aksjen hadde da falt over 20 prosent så langt i året.",
+        "kilde_url": "https://www.finansavisen.no/energi/2025/07/01/8275809/mistet-kontrakt-hever-guidingen"
+      },
+      {
+        "dato": "2025-11-19",
+        "tittel": "Ny 52-ukers bunn på 16,87 dollar",
+        "forklaring": "Cadeler-aksjen på NYSE falt rundt 3,9 prosent til en ny 52-ukers bunn på 16,87 dollar, godt under både 50-dagers (19,74 dollar) og 200-dagers snitt (20,38 dollar). Wall Street Zen hadde nedgradert aksjen fra Buy til Hold 3. oktober 2025.",
+        "kilde_url": "https://www.marketbeat.com/instant-alerts/cadeler-as-nysecdlr-reaches-new-1-year-low-heres-why-2025-11-19/"
+      }
+    ]
+  },
+  "DNB.OL": {
+    "sektor_eller_selskapsspesifikk": "sektor",
+    "hendelser": [
+      {
+        "dato": "2025-04-02",
+        "tittel": "Trumps «Liberation Day»-toll utløser bred aksjenedgang",
+        "forklaring": "Tollsatsene Trump presenterte 2. april 2025 ga bred aksjenedgang. DNBs aksjestrateg Paul Harper beskrev reaksjonen som «en kontrollert respons på innføring av tollen i USA», der selskaper som ikke var direkte påvirket holdt seg i grønt.",
+        "kilde_url": "https://www.dnb.no/dnbnyheter/no/bors-og-marked/trump-toll-webinar-aksjestrateg-paul-harper-april25"
+      },
+      {
+        "dato": "2025-04-04",
+        "tittel": "Oslo Børs ned 5,01 prosent – verste dag siden mars 2020",
+        "forklaring": "Hovedindeksen falt 5,01 prosent til 1.396,13 etter Kinas mottoll på 34 prosent, og var da ned nøyaktig 10 prosent fra all-time high 20. mars 2025. Som indekstungvekter og syklisk banklån-eksponert aksje fulgte DNB markedet ned.",
+        "kilde_url": "https://www.finansavisen.no/finans/2025/04/04/8255617/verste-siden-covid-oslo-bors-stupte-5-prosent"
+      },
+      {
+        "dato": "2025-04-09",
+        "tittel": "Gjengjeldelsestollen trer i kraft – nytt fall og resesjonsfrykt",
+        "forklaring": "Da Trumps gjengjeldelsestoll trådte i kraft onsdag 9. april falt hovedindeksen på Oslo Børs 2,68 prosent, og var på det meste ned over 3,3 prosent. Brent falt 3,34 prosent til 60,72 dollar fatet, og de amerikanske langrentene hadde en av de bratteste oppturene i historien – en kombinasjon som rammet bankaksjer via økt kredittrisiko.",
+        "kilde_url": "https://www.finansavisen.no/finans/2025/04/09/8256719/oslo-bors-raser"
+      }
+    ]
+  },
+  "DNO.OL": {
+    "sektor_eller_selskapsspesifikk": "sektor",
+    "hendelser": [
+      {
+        "dato": "2026-06-30",
+        "tittel": "Oljeprisen ned ca. 21 prosent i juni 2026",
+        "forklaring": "Brent endte juni på 72,92 dollar fatet etter det største månedsfallet siden mars 2020, drevet av utsikter til USA–Iran-samtaler i Doha. Fallet fjernet krigspremien som hadde løftet DNO-kursen frem til slutten av mars.",
+        "kilde_url": "https://www.cnbc.com/2026/06/30/oil-prices-brent-wti-crude-trump-iran.html"
+      },
+      {
+        "dato": "2026-07-28",
+        "tittel": "Kurdistan-produksjonen ned over 99 prosent i Q2 2026",
+        "forklaring": "DNOs produksjon i Kurdistan falt fra 39.600 fat per dag i Q1 til 273 fat per dag i Q2, og salget stoppet helt opp. Årsaken var den langvarige stengingen av eksportrørledningen Irak–Tyrkia kombinert med forebyggende nedstenging etter regionale fiendtligheter; Tawke kom først tilbake i full drift 28. juni.",
+        "kilde_url": "https://channel8.com/english/news/62380"
+      },
+      {
+        "dato": "2026-02-28",
+        "tittel": "DNO stanset produksjonen i irakisk Kurdistan",
+        "forklaring": "DNO stanset oljeproduksjonen i irakisk Kurdistan som et forebyggende sikkerhetstiltak etter angrepene mot Iran, og flyttet personell til sikre områder. Nedstengingen ble utgangspunktet for det nesten totale produksjonsbortfallet som preget kursutviklingen inn i sommeren 2026.",
+        "kilde_url": "https://www.reuters.com/business/energy/dno-shuts-oil-output-iraqi-kurdistan-precaution-after-strikes-iran-2026-02-28/"
+      }
+    ]
+  },
+  "ECO": {
+    "sektor_eller_selskapsspesifikk": "sektor",
+    "hendelser": [
+      {
+        "dato": "2025-02-19",
+        "tittel": "Q4 2024 under forventningene – aksjen faller",
+        "forklaring": "Okeanis Eco Tankers rapporterte EPS på 0,41 dollar mot ventet 0,5033 dollar og inntekter på 49,4 millioner dollar mot ventet 53,56 millioner. Aksjen falt 7,58 prosent i etterhandelen og nærmet seg 52-ukers bunn.",
+        "kilde_url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-okeanis-eco-tankers-q4-2024-misses-forecasts-stock-drops-93CH-3935667"
+      },
+      {
+        "dato": "2025-04-04",
+        "tittel": "Tollsjokk og oljeprisfall rammer tankaksjene",
+        "forklaring": "Oslo Børs falt 5,01 prosent 4. april 2025 – det verste fallet siden mars 2020 – etter Trumps tollpakke og Kinas mottoll på 34 prosent, mens Brent falt 7,4 prosent til 64,95 dollar fatet. Frykt for lavere global oljeetterspørsel og handelsvolumer traff tankrederier som Okeanis direkte på bunndagen.",
+        "kilde_url": "https://www.finansavisen.no/finans/2025/04/04/8255617/verste-siden-covid-oslo-bors-stupte-5-prosent"
+      },
+      {
+        "dato": "2025-06-11",
+        "tittel": "Fortsatt svakt VLCC-marked bekrefter ratesvakheten",
+        "forklaring": "Ratene for moderne VLCC-er lå rundt 30.000 dollar dagen, mot et årsgjennomsnitt på litt over 40.000 dollar dagen. Det svake ratebildet gjennom vinteren og våren 2025 var hoveddriveren bak verdifallet i Okeanis-aksjen.",
+        "kilde_url": "https://www.finansavisen.no/shipping/2025/06/11/8270669/fortsatt-svakt-vlcc-marked"
+      }
+    ]
+  },
+  "ELMRA.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2026-02-12",
+        "tittel": "Q4-rapport sendte aksjen ned 9,8 prosent",
+        "forklaring": "Elmera Group la frem Q4 2025-tallene 12. februar 2026, og aksjen falt 9,76 prosent til 37,00 kroner samme dag. Justert nettoinntekt falt til NOK 463m fra NOK 486m, og volumet var ned 5 prosent som følge av mildere vær, utfasing av lavmarginkunder i Business og nedtrapping av eldre kontrakter i Nordic.",
+        "kilde_url": "https://mfn.se/all/a/fjordkraft-holding"
+      },
+      {
+        "dato": "2026-02-12",
+        "tittel": "Lavere volum og innføring av Norgespris preget kvartalet",
+        "forklaring": "I børsmeldingen forklarte selskapet det svake volumet med mildere vær og kontraktsavganger, og viste til at Norgespris ble innført 1. oktober 2025 med et innledende kundefrafall. Selskapet guidet EBIT adj. på rundt NOK 550m for 2026 og foreslo utbytte på NOK 2,00 per aksje.",
+        "kilde_url": "https://live.euronext.com/en/products/equities/company-news/2026-02-12-elmera-group-asa-q4-results-increased-ebit-despite-lower"
+      },
+      {
+        "dato": "2026-05-13",
+        "tittel": "Q1 2026 ga nytt kursfall tross rekordtall",
+        "forklaring": "Elmera rapporterte justert nettoinntekt på NOK 527m og EBIT adj. på NOK 201m for Q1 2026, opp fra NOK 174m året før, men aksjen falt likevel 3,38 prosent til 31,45 kroner på rapportdagen. Aksjen bunnet 8. juni 2026 før den steg over 41 prosent 25. juni da Audax/Fortum-interessen ble kjent.",
+        "kilde_url": "https://mfn.se/all/a/fjordkraft-holding"
+      }
+    ]
+  },
+  "ELO.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2026-03-20",
+        "tittel": "Negativ trading update: inntekter under EUR 300m",
+        "forklaring": "Elopak meldte 20. mars 2026 kl. 17:46 CET at foreløpige tall per februar viste svakere inntekter og EBITDA enn ventet, med Q1-inntekter under EUR 300 millioner og EBITDA-margin rundt 14 prosent. Årsakene var tregere oppstart i Little Rock, svakere konsum i Europa, prispress i aseptisk juice og marginpress i India.",
+        "kilde_url": "https://live.euronext.com/en/products/equities/company-news/2026-03-20-elopak-asa-trading-update-first-quarter-2026"
+      },
+      {
+        "dato": "2026-04-02",
+        "tittel": "Aksjen ned 5,1 prosent etter nedjustert guiding",
+        "forklaring": "Etter at Elopak nedjusterte inntektsforventningen for første kvartal 2026 til under EUR 300 millioner, falt aksjen 5,1 prosent. Nedjusteringen reiste spørsmål om etterspørsel og operasjonelt momentum samtidig som selskapet investerer i kapasitet.",
+        "kilde_url": "https://simplywall.st/stocks/no/materials/ob-elo/elopak-shares/news/elopak-obelo-is-down-51-after-cutting-q1-2026-revenue-guidan"
+      },
+      {
+        "dato": "2026-05-05",
+        "tittel": "Q1-rapport bekreftet inntektsfall",
+        "forklaring": "Q1 2026-rapporten viste konsernomsetning på EUR 298,2 millioner, ned 3,9 prosent i EUR fra EUR 310,2 millioner året før, drevet av valutamotvind og lavere maskinsalg. Justert EBITDA endte på EUR 41,0 millioner.",
+        "kilde_url": "https://storage.mfn.se/509320f8-87fc-4bc0-9a1e-431e9aa30f1a/elopak-asa-q1-2026-presentation.pdf"
+      }
+    ]
+  },
+  "EQNR.OL": {
+    "sektor_eller_selskapsspesifikk": "sektor",
+    "hendelser": [
+      {
+        "dato": "2026-05-06",
+        "tittel": "Aksjen falt 8 prosent på svak kontantstrøm i Q1",
+        "forklaring": "Equinor slo forventningene med justert resultat før skatt på 9,77 milliarder dollar mot ventet 9,0 milliarder, men kontantstrømmen skuffet på grunn av økt handelskollateral. Aksjen falt rundt 8 prosent 6. mai 2026 og var en av de svakeste i Stoxx Europe 600.",
+        "kilde_url": "https://www.reuters.com/sustainability/climate-energy/equinor-first-quarter-profit-rises-more-than-expected-2026-05-06/"
+      },
+      {
+        "dato": "2026-06-12",
+        "tittel": "Oljepriskollaps på USA-Iran-optimisme sendte aksjen ned 7,8 prosent",
+        "forklaring": "Equinor falt 7,8 prosent til 336,9 kroner da brentprisen snudde kraftig ned på optimisme om en fredsavtale mellom USA og Iran og gjenåpning av Hormuzstredet. Samtidig nedjusterte OPEC etterspørselsveksten for 2026 for andre måned på rad, og Equinors planlagte tilbakekjøp for 2026 var redusert til 1,5 milliarder dollar fra 5 milliarder året før.",
+        "kilde_url": "https://id.investing.com/news/stock-market-news/mengapa-saham-equinor-turun-hari-ini-93CH-2991099"
+      },
+      {
+        "dato": "2026-06-15",
+        "tittel": "Brent falt fra 93 til under 84 dollar etter fredsavtale",
+        "forklaring": "Uken før 15. juni 2026 falt brentprisen 6,2 prosent fra USD 93,1 til USD 87,1 per fat, og mandag 15. juni falt den videre over 4 prosent til USD 83,8 – laveste nivå på to måneder – etter at USA og Iran nådde en avtale om å gjenåpne Hormuzstredet. Equinor falt 4,6 prosent i uken målt per 12. juni.",
+        "kilde_url": "https://pensumgroup.no/wp-content/uploads/2026/06/Ukentlig-investeringskommentar-15.06.2026-rev1.pdf"
+      },
+      {
+        "dato": "2026-06-22",
+        "tittel": "Berenberg kuttet kursmålet til 320 kroner",
+        "forklaring": "Berenberg senket kursmålet på Equinor til 320 kroner fra 365 kroner og gjentok hold-anbefalingen, kort tid før aksjen bunnet 25. juni 2026.",
+        "kilde_url": "https://www.marketscreener.com/news/berenberg-cuts-equinor-price-target-to-320-norwegian-kroner-365-reiterates-hold-bn-ce7f5cd3db88f526"
+      }
+    ]
+  },
+  "FLNG": {
+    "sektor_eller_selskapsspesifikk": "sektor",
+    "hendelser": [
+      {
+        "dato": "2024-10-22",
+        "tittel": "Det svakeste LNG-vintermarkedet noensinne",
+        "forklaring": "Spotratene for de største og mest moderne LNG-skipene falt til rundt 40.000 dollar per dag, ned fra over 70.000 dollar en måned tidligere. Flex LNG-sjef Øystein Kalleklev kalte vintermarkedet det dårligste selskapet noen gang hadde sett, ettersom flåten vokste 12 prosent mens eksportvolumene bare økte 1 prosent, og han ventet et relativt svakt marked frem til 2026/27.",
+        "kilde_url": "https://www.finansavisen.no/shipping/2024/10/22/8195532/darligste-vintermarkedet-noensinne"
+      },
+      {
+        "dato": "2025-02-04",
+        "tittel": "Q4 2024: historisk svakt spotmarked og flat 2025-guiding",
+        "forklaring": "Flex LNG rapporterte driftsinntekter på 90,9 millioner dollar i Q4 2024 mot 97,2 millioner året før, og pekte på et historisk svakt spotmarked for LNG-frakt. Selskapet guidet at 2025-resultatet ville bli omtrent på linje med 2024, uten vekst, med 12 av 13 skip på langsiktige kontrakter.",
+        "kilde_url": "https://www.finansavisen.no/shipping/2025/02/04/8238535/vi-har-en-meget-stor-krigskasse"
+      },
+      {
+        "dato": "2025-04-04",
+        "tittel": "Tollkrig og fallende gasspriser i bredt shippingfall",
+        "forklaring": "Etter Trumps tollpakke 2. april og Kinas 34 prosent mottoll 4. april falt hovedindeksen på Oslo Børs opp mot 4,5 prosent – det største fallet siden mars 2020 – med brede kursfall i shipping. Europeiske gasspriser (Dutch TTF) falt 7,1 prosent til EUR 36,44 per MWh, noe som svekket utsiktene for LNG-frakt inn mot bunnen 8. april 2025.",
+        "kilde_url": "https://www.finansavisen.no/finans/2025/04/04/8255449/kraftig-fall-pa-oslo-bors-olje-og-shipping-faller-tungt-etter-kinas-trump-svar"
+      },
+      {
+        "dato": "2025-05-21",
+        "tittel": "Q1 2025 bekreftet lavere spotrater",
+        "forklaring": "Inntektene på 88,4 millioner dollar i Q1 2025 var ned fra 90,9 millioner i kvartalet før og 90,2 millioner i Q1 2024, og fallet ble forklart med lavere spotrater. Utbyttet ble holdt uendret på 0,75 dollar per aksje.",
+        "kilde_url": "https://www.finansavisen.no/shipping/2025/05/21/8264915/utbyttemaskinen-flex-lng-leverer-igjen"
+      }
+    ]
+  },
+  "FRO.OL": {
+    "sektor_eller_selskapsspesifikk": "sektor",
+    "hendelser": [
+      {
+        "dato": "2025-02-28",
+        "tittel": "Uvanlig svakt Q4 og lavere utbytte enn ventet",
+        "forklaring": "Frontline rapporterte resultat etter skatt på 67 millioner dollar i fjerde kvartal 2024 mot 118 millioner året før, og betalte et lavere utbytte enn ventet på 0,20 dollar per aksje. Justert EPS falt til 20 cent fra 46 cent, og selskapet omtalte kvartalet som «unusually soft» med lavere sjøbårne oljeeksportvolumer.",
+        "kilde_url": "https://www.benzinga.com/25/02/44040578/frontline-sees-softer-q4-as-oil-exports-slow-eyes-2025-sanctions-impact-on-tanker-market"
+      },
+      {
+        "dato": "2025-04-04",
+        "tittel": "Frontline ned 8,3 prosent i tollkrig-krakket",
+        "forklaring": "Fredag 4. april 2025 falt Frontline 8,3 prosent da Oslo Børs var ned opp mot 4,5 prosent etter Trumps nye tollsatser og Kinas mottoll på 34 prosent. Brent falt 6,8 prosent til rundt 65,40 dollar per fat, og hele shipping- og oljesegmentet ble kraftig rammet. Aksjen bunnet samme dag på 134,9 kroner.",
+        "kilde_url": "https://www.finansavisen.no/finans/2025/04/04/8255449/kraftig-fall-pa-oslo-bors-olje-og-shipping-faller-tungt-etter-kinas-trump-svar"
+      },
+      {
+        "dato": "2025-04-07",
+        "tittel": "Shippingindeksen hadde falt 17 prosent på tre dager",
+        "forklaring": "Mandag 7. april 2025 var Oslo Børs fortsatt betydelig ned etter at USA ikke ga utsikter til lettelser i tollsatsene gjennom helgen, men shippingindeksen snudde opp 1,2 prosent etter en nedgang på 17 prosent de tre foregående handelsdagene.",
+        "kilde_url": "https://www.finansavisen.no/tdn/2025/04/07/06451114/kommentar-bred-nedgang-pa-oslo-bors-mandag-shipping-snur-opp"
+      },
+      {
+        "dato": "2025-02-28",
+        "tittel": "Nær 40 prosent fall fra toppen og premien forsvant",
+        "forklaring": "Frontline-aksjen hadde per slutten av februar 2025 falt nærmere 40 prosent justert for utbytte siden toppen på 310 kroner i mai 2024, og på kursnivå rundt 172 kroner var den vanlige premien til underliggende verdier forduftet.",
+        "kilde_url": "https://www.finansavisen.no/shipping/2025/02/28/8246124/frontline-pa-billigsalg"
+      }
+    ]
+  },
+  "GJF.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2026-03-26",
+        "tittel": "Generalforsamlingen vedtok samlet utbytte på 14,50 kroner per aksje",
+        "forklaring": "Ordinær generalforsamling 26. mars 2026 vedtok et samlet utbytte for 2025 på 7 250 millioner kroner, tilsvarende 14,50 kroner per aksje – 10,00 kroner i regulært utbytte og 4,50 kroner i utbetaling av overskuddskapital. Eks-dato var 27. mars 2026, som er nøyaktig bunndatoen, så mesteparten av kursfallet på de siste dagene er en mekanisk utbyttejustering.",
+        "kilde_url": "https://www.gjensidige.com/news?releaseid=5332443"
+      },
+      {
+        "dato": "2026-03-27",
+        "tittel": "Eks-utbyttedato med rebalansering av derivater",
+        "forklaring": "NASDAQ Derivatives Markets bekreftet at ekstraordinært utbytte på NOK 4,50 og ordinært utbytte på NOK 10,00 per aksje ga eks-dato 27. mars 2026, og at opsjoner samt forwards/futures i GJF/GJFN ble reberegnet som følge av utdelingen.",
+        "kilde_url": "https://view.news.eu.nasdaq.com/view?id=bf1d57a91738e8167a30825242ecc5a78&lang=en&src=rss"
+      },
+      {
+        "dato": "2026-04-30",
+        "tittel": "Q1 2026 bommet på inntjening",
+        "forklaring": "I kvartalet etter bunnen rapporterte Gjensidige EPS på 3,01 mot ventet 3,16, en negativ overraskelse på 4,75 prosent, selv om inntektene var marginalt bedre enn ventet. Dette illustrerer at inntjeningsmomentet også var svakt i perioden.",
+        "kilde_url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-gjensidige-forsikring-l-misses-eps-expectations-in-q1-2026-93CH-4641931"
+      }
+    ]
+  },
+  "GSF.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2026-02-25",
+        "tittel": "Styret besluttet å dele ut 4 milliarder kroner",
+        "forklaring": "I forbindelse med Q4 2025-rapporten 25. februar 2026 besluttet styret prinsipielt å dele ut NOK 4 milliarder til aksjonærene etter salget av virksomhetene i Finnmark og Canada til Cermaq. Det tilsvarte NOK 35,63715 per aksje, basert på revidert delbalanse per 31. januar 2026.",
+        "kilde_url": "https://www.inderes.dk/en/releases/grieg-seafood-asa-notice-of-extraordinary-general-meeting-1"
+      },
+      {
+        "dato": "2026-04-20",
+        "tittel": "Eks-dato for ekstraordinært utbytte på 35,64 kroner per aksje",
+        "forklaring": "Aksjen gikk eks-utbytte NOK 35,63715 per aksje 20. april 2026 og ble handlet til 34,28 kroner samme dag. Denne utdelingen forklarer størstedelen av kursfallet fra 77,85 kroner (30. desember 2025) og er ikke et reelt verditap for aksjonærene.",
+        "kilde_url": "https://mfn.se/all/a/grieg-seafood"
+      },
+      {
+        "dato": "2026-04-08",
+        "tittel": "Negativt resultatvarsel etter lakselus og kaldt vann",
+        "forklaring": "Grieg Seafood varslet at høye sjøtemperaturer høsten 2025 ga økt lakselustrykk og lavere overlevelse, og at mekanisk avlusing kombinert med en uventet lang kuldeperiode i Q1 2026 senket superiorandelen til 60 prosent. Det ga lavere prisrealisering og høyere oppdrettskostnader, med estimert EBIT-effekt på 50–75 millioner kroner for 2026.",
+        "kilde_url": "https://ilaks.no/negativt-resultatvarsel-fra-grieg-seafood/"
+      },
+      {
+        "dato": "2026-08-27",
+        "tittel": "Tap på 408,7 millioner kroner i første halvår",
+        "forklaring": "Grieg Seafood tapte 408,7 millioner kroner før skatt i første halvår 2026 og fikk et operasjonelt driftsresultat på minus 30 millioner kroner, tilsvarende minus 2,1 kroner per kilo, med slaktevolum ned til 13.788 tonn fra 16.269 tonn. Selskapet oppgav at aksjen hadde falt over 60 prosent hittil i år.",
+        "kilde_url": "https://e24.no/hav-og-sjoemat/i/2pXQpy/grieg-seafood-fortsatt-i-minus"
+      }
+    ]
+  },
+  "HPUR.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2024-11-18",
+        "tittel": "Rettet emisjon på 1 milliard kroner og avlyst reparasjonsemisjon",
+        "forklaring": "Hexagon Purus hentet i slutten av oktober 2024 rundt 1 milliard kroner i en rettet emisjon til kurs 6,90 kroner per aksje. Da kursen falt til 5,55 kroner droppet selskapet reparasjonsemisjonen, ettersom det var billigere å kjøpe aksjer i markedet, og emisjonsdeltakerne hadde tapt nesten 200 millioner kroner.",
+        "kilde_url": "https://nett.no/nyheter/b%C3%B8rsdagen-hexagon-purus-dropper-reparasjonsemisjon"
+      },
+      {
+        "dato": "2025-02-13",
+        "tittel": "Aksjen stupte 28,5 prosent på svak guiding",
+        "forklaring": "Da Hexagon Purus la frem kvartalstall i uken før 13. februar 2025, stupte aksjen 28,5 prosent på svake utsikter, og dro også hovedaksjonæren Hexagon Composites ned over 10 prosent.",
+        "kilde_url": "https://www.finansavisen.no/industri/2025/02/13/8242069/borsfavoritt-kollapser-etter-elendig-guiding"
+      },
+      {
+        "dato": "2025-03-21",
+        "tittel": "Sparebank 1 Markets kuttet kursmålet til 0,75 kroner",
+        "forklaring": "Aksjen falt rundt 8 prosent til 1,62 kroner etter at Sparebank 1 Markets senket kursmålet til 0,75 kroner og pekte på høy refinansieringsrisiko, behov for å hente flere milliarder for å tilbakebetale konvertible obligasjoner, og at egenkapitalverdien i flere scenarier er null uten kostnadskutt på minst 500 millioner kroner innen 2027. Aksjen var da ned over 70 prosent i 2025.",
+        "kilde_url": "https://e24.no/bors/nyheter/a/300311"
+      },
+      {
+        "dato": "2026-05-18",
+        "tittel": "Omvendt aksjesplitt 10:1 gjennomført",
+        "forklaring": "Hexagon Purus gjennomførte 18. mai 2026 en omvendt aksjesplitt der ti gamle aksjer ble til én ny aksje, med ny pålydende NOK 1 og ny ISIN NO0013751966. Splitten forklarer at kursserien ikke er direkte sammenlignbar over hele perioden, men den underliggende verdiutviklingen var dypt negativ.",
+        "kilde_url": "https://www.globenewswire.com/news-release/2026/05/18/3296300/0/en/hexagon-purus-asa-ex-reverse-share-split-and-change-of-isin-today.html"
+      },
+      {
+        "dato": "2026-07-16",
+        "tittel": "Q2 2026: inntekter ned 25 prosent og egenkapitalandel på 1 prosent",
+        "forklaring": "Hexagon Purus rapporterte inntekter på NOK 146 millioner i Q2 2026, ned 25 prosent fra året før, og EBITDA på minus NOK 102 millioner inkludert NOK 17 millioner i restruktureringskostnader. Selskapet gjennomførte et av bransjens mest aggressive restruktureringsprogrammer med rundt 50 prosent bemanningskutt og hadde en egenkapitalandel på bare 1 prosent.",
+        "kilde_url": "https://www.investing.com/news/company-news/hexagon-purus-q2-2026-slides-hydrogen-pivot-amid-50-workforce-cut-93CH-4794765"
+      }
+    ]
+  },
+  "HUNT.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2024-11-21",
+        "tittel": "Q3-tap og halvert kurs på VLCC-satsingen",
+        "forklaring": "Hunter Group la 21. november 2024 frem tredjekvartalstall med driftsresultat på minus 5,9 millioner dollar og et tap på 3,4 millioner dollar i stortanksatsingen, mens kontantbeholdningen falt til 10,5 millioner dollar. Aksjen falt ytterligere 9,5 prosent i løpet av dagen og børsverdien var nede i 184 millioner kroner, ned 36,2 prosent hittil i året.",
+        "kilde_url": "https://www.finansavisen.no/shipping/2024/11/21/8208962/hunter-group-tror-det-verste-er-over"
+      },
+      {
+        "dato": "2024-12-09",
+        "tittel": "Månedsrapport viste tap på 17.620 dollar per dag",
+        "forklaring": "For november 2024 oppnådde Hunter Group en spotlenket TC-out-rate på 34.130 dollar per dag mot en fast innleiet TC-in-rate på 51.750 dollar per dag, altså en negativ TC-margin på 17.620 dollar per dag og et netto TC-resultat på minus 1,09 millioner dollar. Selskapets innleide VLCC-posisjon tapte dermed penger hver dag i et svakt tankmarked.",
+        "kilde_url": "https://huntergroup.no/press_releases/press_release/?release=6C0514591EFBA22B"
+      },
+      {
+        "dato": "2024-12-16",
+        "tittel": "Storinvestor Arne Fredly gikk ut av selskapet",
+        "forklaring": "TradeWinds meldte 16. desember 2024 at investor Arne Fredly gikk ut av Hunter Group for andre gang, kort tid etter meldinger om at ratesvakheten etterlot selskapet 18.000 dollar per dag under break-even på charteravtalen. Aksjen bunnet på 0,44 kroner samme dag.",
+        "kilde_url": "https://www.tradewindsnews.com/tag/hunter_group"
+      }
+    ]
+  },
+  "KIT.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2026-07-10",
+        "tittel": "Rekordkvartal, men aksjen falt 8–11 prosent",
+        "forklaring": "Kitron rapporterte 10. juli 2026 rekordinntekter på EUR 295,7 millioner, opp 72 prosent, og EBIT på EUR 28,3 millioner, opp 89 prosent, drevet av tredoblet forsvarsomsetning. Aksjen falt likevel 7,8–8,5 prosent fordi ledelsen ikke løftet helårsguidingen på grunn av vedvarende leverandørkjedebegrensninger.",
+        "kilde_url": "https://www.investing.com/news/company-news/kitron-q2-2026-slides-defence-revenue-triples-shares-fall-78-93CH-4785421"
+      },
+      {
+        "dato": "2026-07-10",
+        "tittel": "Aksjen ned 11 prosent – verdsettelsen ble utfordret",
+        "forklaring": "Placera skrev at aksjen falt 11 prosent på Q2-rapporten 10. juli 2026 og stilte spørsmål om verdsettelsen holdt, med kurs 91,70 kroner etter rapporten. Omsetningen var EUR 296 millioner mot EUR 172 millioner året før.",
+        "kilde_url": "https://www.placera.se/analys/kitron-haller-varderingen-2026-07-14"
+      },
+      {
+        "dato": "2026-07-13",
+        "tittel": "Meglerhusene kuttet kursmål etter rapporten",
+        "forklaring": "DNB Carnegie kuttet kursmålet til 98 kroner fra 103 og gjentok hold, Pareto Securities kuttet til 100 kroner fra 103 med hold, og Nordea senket kursmålet til 115 kroner fra 120 med kjøp. Aksjen var ned rundt 10–13 prosent på fem dager og fortsatte ned til bunnen 17. juli 2026.",
+        "kilde_url": "https://www.marketscreener.com/news/dnb-carnegie-cuts-its-target-price-for-kitron-to-98-norwegian-kroner-103-reiterates-hold-ce7f5edfd88bf127"
+      }
+    ]
+  },
+  "KOG.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2025-07-09",
+        "tittel": "Aksjen ned 12 prosent etter Q2-rapporten",
+        "forklaring": "Kongsberg Gruppen falt 12,0 prosent til 324,75 kroner onsdag 9. juli 2025 etter kvartalsrapporten, med omsetning på cirka 1,25 milliarder kroner. Pareto Securities kuttet kursmålet fra 297 til 288 kroner og gjentok salgsanbefalingen, med henvisning til lavere forventet omsetning og marginer i Kongsberg Maritime.",
+        "kilde_url": "https://www.finansavisen.no/industri/2025/07/09/8277691/pareto-kutter-i-kongsberg-etter-kvartalsrapport"
+      },
+      {
+        "dato": "2025-07-09",
+        "tittel": "Økte kostnader og lavere kontantbeholdning skremte investorene",
+        "forklaring": "Til tross for solid omsetningsvekst og rekordhøy ordreinngang reagerte markedet negativt på økte driftskostnader, redusert kontantbeholdning og et blandet bilde av ordreinngangen på tvers av forretningsområdene. Aksjen falt 12 prosent på rapportdagen.",
+        "kilde_url": "https://www.xtb.com/int/market-analysis/news-and-research/defense-giant-kongsberg-gruppen-shares-crash-12-after-q2-earnings-report"
+      },
+      {
+        "dato": "2025-10-30",
+        "tittel": "Q3-bom og utskilling av Kongsberg Maritime ga 13–18 prosent fall",
+        "forklaring": "Kongsberg rapporterte inntekter på NOK 13,3 milliarder i Q3 2025, rundt 11 prosent under konsensus, og aksjen stupte 13,7 prosent 30. oktober 2025. Samtidig kunngjorde selskapet børsnotering av den maritime virksomheten og at konsernsjef Geir Håøy går av når restruktureringen er fullført.",
+        "kilde_url": "https://www.investing.com/news/earnings/kongsberg-shares-tumble-as-q3-sales-miss-estimates-4318178"
+      },
+      {
+        "dato": "2025-10-30",
+        "tittel": "Utskillelsen fjernet 47 milliarder kroner i markedsverdi",
+        "forklaring": "Aksjen falt 18,3 prosent til 241,20 kroner etter en svak tredjekvartalsrapport der EBITDA var 5–7 prosent under konsensus med avvik i både maritime- og forsvarsvirksomheten. Arctic Securities oppgav at utskillelsen av Kongsberg Maritime hadde fjernet om lag 47 milliarder kroner av markedsverdien, og flere meglerhus oppgraderte etter fallet.",
+        "kilde_url": "https://www.investornytt.no/analyse/les-hva-de-ulike-meglerhusene-gjor-i-kongsberg-aksjen/191249"
+      },
+      {
+        "dato": "2025-06-25",
+        "tittel": "Pareto tok bort kjøpsanbefalingen ved toppen",
+        "forklaring": "Kort etter toppen 20. juni 2025 kom Kongsberg-aksjen under press da Pareto ikke lenger så verdi i å holde aksjen etter en kraftig oppgang drevet av høyere NATO-forsvarsbudsjetter og krig i Midtøsten og Ukraina.",
+        "kilde_url": "https://www.daytrader.dk/norsk-forsvarsaktie-sendes-ned-af-salgsanbefaling/"
+      }
+    ]
+  },
+  "LSG.OL": {
+    "sektor_eller_selskapsspesifikk": "sektor",
+    "hendelser": [
+      {
+        "dato": "2025-06-04",
+        "tittel": "Rekordstort lakseprisfall i mai 2025",
+        "forklaring": "Gjennomsnittsprisen for fersk hel laks falt til 75,78 kr/kg i mai 2025, et fall på 35 prosent fra samme måned året før og det største prisfallet som noensinne er registrert. Rekordstort eksportvolum som følge av bedre produksjonsforhold presset prisene og inntjeningen i hele oppdrettssektoren.",
+        "kilde_url": "https://www.finansavisen.no/tdn/2025/06/04/06468219/laks-norge-eksporterte-laks-for-9-8-mrd-i-mai-norges-sjomatrad"
+      },
+      {
+        "dato": "2025-10-28",
+        "tittel": "Danske Bank nedgraderer Lerøy etter høye lusenivåer",
+        "forklaring": "Flere av Lerøys lokaliteter på Vestlandet overskred grensen på 0,5 voksne hunnlus per fisk, og Danske Bank nedgraderte aksjen til hold fra kjøp og kuttet kursmålet til 54 fra 60 kroner på grunn av økte kostnadsutsikter for fjerde kvartal og inn i 2026. Ingen lakseaksje hadde gjort det svakere enn Lerøy den siste måneden.",
+        "kilde_url": "https://ilaks.no/lusetrobbel-svekker-leroy-en-stresstest-mener-danske-bank/"
+      },
+      {
+        "dato": "2026-04-27",
+        "tittel": "Fearnley nedgraderer Lerøy og kutter estimatene",
+        "forklaring": "Fearnley Securities nedjusterte spotprisbanen for 2026–2027 til 82–87 kr/kg fra 86–90 kr/kg, kuttet EPS-estimatene med 11–12 prosent og nedgraderte anbefalingen på Lerøy Seafood, begrunnet med lavere laksepriser og høyere fôrkostnader.",
+        "kilde_url": "https://ilaks.no/lavere-laksepriser-og-hoyere-forkostnader-fearnley-hovler-ned-estimatene/"
+      },
+      {
+        "dato": "2026-05-12",
+        "tittel": "Q1 2026: lavere laksepriser dro ned resultatet",
+        "forklaring": "Operasjonelt driftsresultat falt til 858 mill. kroner i første kvartal 2026 fra 1 049 mill. kroner året før, der havbrukssegmentet falt til 555 mill. fra 789 mill. kroner. Selskapet forklarte nedgangen først og fremst med lavere priser på laks og ørret, samt marginpress i VAP S&D.",
+        "kilde_url": "https://www.globenewswire.com/news-release/2026/05/12/3292468/0/no/ler%C3%B8y-seafood-group-asa-resultat-for-f%C3%B8rste-kvartal-2026.html"
+      }
+    ]
+  },
+  "MOWI.OL": {
+    "sektor_eller_selskapsspesifikk": "sektor",
+    "hendelser": [
+      {
+        "dato": "2026-01-16",
+        "tittel": "Pareto nedgraderer Mowi etter svak lakseprisstart på året",
+        "forklaring": "Mowi-aksjen falt 4,3 prosent til 222 kroner etter at lakseprisen falt tilbake fra julenivåene, og Pareto Securities nedgraderte til hold fra kjøp med kursmål 230 kroner. Meglerhuset pekte på nedsiderisiko i prisestimatene for første kvartal og 2026, samt svake priser i Amerika.",
+        "kilde_url": "https://ilaks.no/kan-mote-nedsiderisiko-etter-en-treg-start/"
+      },
+      {
+        "dato": "2026-01-21",
+        "tittel": "Svakere Q4-oppdatering og nedsiderisiko for Q1-estimater",
+        "forklaring": "Mowis fjerdekvartalsoppdatering var svakere enn analytikerne ventet, med Consumer Products på 46 mill. euro mot ventet 54 mill. euro. Fearnley pekte på rundt 12 prosent nedsiderisiko mot konsensus for driftsresultatet i Q1 2026, og aksjen falt 3,4 prosent samme dag.",
+        "kilde_url": "https://ilaks.no/ser-nedsiderisko-for-estimatene-for-forste-kvartal/"
+      },
+      {
+        "dato": "2026-05-13",
+        "tittel": "Q1 2026: rekordvolumer, men kraftig tilbudsvekst i bransjen",
+        "forklaring": "Mowi leverte sitt nest beste førstekvartal med operasjonelt resultat på 221 mill. euro og rekordvolum på 136 000 tonn, men kvartalet var preget av en bransjetilbudsvekst på 14 prosent som presset lakseprisene. Kraftig volumvekst i hele bransjen var hovedårsaken til prisfallet gjennom våren 2026.",
+        "kilde_url": "https://mowi.com/news/second-best-operational-profit-for-a-first-quarter-for-mowi-on-seasonally-record-high-revenues-and-volumes/"
+      },
+      {
+        "dato": "2026-06-30",
+        "tittel": "Sjømatindeksen falt 13,2 prosent i juni 2026",
+        "forklaring": "Sjømatselskapene på Oslo Børs lå bak markedet gjennom hele 2026, og sjømatindeksen falt hele 13,2 prosent i juni før den hentet inn mye av fallet i juli. Estimatene ble kuttet dag for dag samtidig som kostnadsinflasjonen ble mer bekymringsfull.",
+        "kilde_url": "https://norskfisk.no/2026/08/18/laks-pa-bors-vartorken-over/"
+      }
+    ]
+  },
+  "NEL.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2024-10-10",
+        "tittel": "Kursmålkutt sendte Nel-aksjen kraftig ned",
+        "forklaring": "Nel-aksjen falt 6,76 prosent til 4,20 kroner etter at SpareBank 1 Markets kuttet kursmålet fra 3 til 2 kroner med salgsanbefaling, og barberte inntektsprognosene for 2025 og 2026 med 25 og 45 prosent på grunn av svak ordreinngang og et svakt hydrogenmarked.",
+        "kilde_url": "https://e24.no/boers-og-finans/i/73R689/kraftig-nel-fall-paa-oslo-boers"
+      },
+      {
+        "dato": "2025-01-13",
+        "tittel": "Nedbemanning og produksjonsstans på Herøya – aksjen ned over 25 prosent",
+        "forklaring": "Nel varslet nedbemanning og midlertidig produksjonsstans ved Alkaline-fabrikken på Herøya fordi markedet for fornybar hydrogenteknologi utviklet seg langt saktere enn ventet, ordreinngangen i 2023 og 2024 var lavere enn forventet, og flere kundeprosjekter var kraftig forsinket eller i fare for kansellering. Aksjen falt mer enn 25 prosent samme dag.",
+        "kilde_url": "https://www.finansavisen.no/borsmeldinger/2025/01/13/49388c18-beba-5a72-8606-709e4865fb28/nel-asa-adjusts-capacity-to-market-demand"
+      },
+      {
+        "dato": "2025-01-13",
+        "tittel": "Børskollaps etter kuttvarselet",
+        "forklaring": "En allerede hardt prøvet Nel-aksje falt mer enn 25 prosent på ukens første handelsdag etter meldingen om kutt i ansatte og produksjonsjustering, mens hovedindeksen på Oslo Børs samtidig hadde steget 3,8 prosent hittil i året.",
+        "kilde_url": "https://www.dn.no/bors/oslo-bors/norwegian/hydro/borskollaps-etter-kuttvarsel-nel-aksjen-falt-mer-enn-25-prosent/2-1-1763368"
+      },
+      {
+        "dato": "2025-02-26",
+        "tittel": "Q4 2024: svak ordreinngang og fallende ordrereserve",
+        "forklaring": "Nel rapporterte inntekter fra kundekontrakter på 416 mill. kroner og EBITDA på -36 mill. kroner i fjerde kvartal 2024, men ordreinngangen var kun 148 mill. kroner og ordrereserven 1 614 mill. kroner. PEM-divisjonen leverte negativ EBITDA på -22 mill. kroner, noe som bekreftet den svake etterspørselen.",
+        "kilde_url": "https://nelhydrogen.com/press-release/nel-asa-fourth-quarter-2024-financial-results/"
+      }
+    ]
+  },
+  "NHY.OL": {
+    "sektor_eller_selskapsspesifikk": "sektor",
+    "hendelser": [
+      {
+        "dato": "2026-06-11",
+        "tittel": "Aluminiumsprisen falt fra fireårstopp",
+        "forklaring": "LME-aluminium (cash) falt til 3 498,50 dollar per tonn 11. juni 2026, kraftig ned fra fireårstoppen på 3 795,50 dollar satt 1. juni 2026 – et fall på 297 dollar (rundt 7,8 prosent) på åtte handelsdager. Fallet ble drevet av usikkerhet rundt en mulig de-eskalering i USAs konflikt med Iran, som hadde løftet prisene under Gulf-krisen.",
+        "kilde_url": "https://www.lmeinsight.com/lme-aluminium-prices-come-off-4-year-highs-amid-uncertainty-surrounding-possibility-of-us-iran-deal/"
+      },
+      {
+        "dato": "2026-06-18",
+        "tittel": "LME-aluminium ned 12 prosent på drøyt to uker etter USA-Iran-avtale",
+        "forklaring": "LME cash-oppgjørsprisen for aluminium falt 12 prosent mellom 2. og 18. juni 2026 etter å ha nådd 3 855 dollar per tonn 2. juni, det høyeste nivået siden mars 2022. Nedgangen kom etter meldinger om en avtale mellom USA og Iran og signaler om at trafikken gjennom Hormuzstredet kunne gjenopptas, samtidig som US Midwest-premien falt fra rekordnivåer.",
+        "kilde_url": "https://www.steelmarketupdate.com/2026/06/26/amu-lme-checkpoint-prices-retreat-while-warehouse-stocks-remain-low/"
+      },
+      {
+        "dato": "2026-06-30",
+        "tittel": "Morgan Stanley kutter kursmålet på Norsk Hydro",
+        "forklaring": "Morgan Stanley kuttet kursmålet på Norsk Hydro til 99 kroner fra 101 kroner og gjentok Equal Weight. Analytikerkonsensus var på dette tidspunktet Hold med et gjennomsnittlig kursmål på 99,94 kroner.",
+        "kilde_url": "https://www.marketscreener.com/news/morgan-stanley-cuts-norsk-hydro-price-target-to-99-norwegian-kroner-101-reiterates-equal-weight--ce7f5fdfd181f62d"
+      },
+      {
+        "dato": "2026-07-06",
+        "tittel": "JP Morgan kutter kursmålet fra 137 til 116 kroner",
+        "forklaring": "JP Morgan senket kursmålet på Norsk Hydro til 116 kroner fra 137 kroner, men gjentok Overweight. Aksjen hadde da falt 5,75 prosent på fem dager, med sist oppgitte sluttkurs på 82,70 kroner – nær bunnpunktet i nedgangsperioden.",
+        "kilde_url": "https://www.marketscreener.com/news/jp-morgan-cuts-norsk-hydro-price-target-to-116-norwegian-kroner-137-reiterates-overweight-bn-ce7f5edadf8ff720"
+      }
+    ]
+  },
+  "NOD.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2024-09-26",
+        "tittel": "Skuffende utsikter på kapitalmarkedsdagen sendte aksjen kraftig ned",
+        "forklaring": "Nordic Semiconductor la fram nye mål med 20 prosent gjennomsnittlig årlig topplinjevekst ut tiåret, men varslet «moderat vekst» og «begrenset effekt» fra nRF54-brikken i 2025, med økende vekst først fra 2026. Investorene reagerte negativt, og analytikere pekte på at estimatene måtte ned – konsensus hadde ventet 35 prosent vekst år-over-år.",
+        "kilde_url": "https://www.finansavisen.no/teknologi/2024/09/26/8184482/nordic-semiconductor-raser-etter-skuffende-utsikter"
+      },
+      {
+        "dato": "2024-10-24",
+        "tittel": "Q3 2024 med svak guiding for fjerde kvartal",
+        "forklaring": "Selskapet rapporterte omsetning på 159 mill. dollar og EBITDA på 16,17 mill. dollar i tredje kvartal 2024, men guidet et fall i fjerdekvartalsomsetningen til 130–150 mill. dollar. Usikkerheten rundt 2025-veksten og cellular IoT ble ikke avklart, og aksjen svingte kraftig rundt rapporten.",
+        "kilde_url": "https://www.finansavisen.no/teknologi/2024/10/24/8196388/analytiker-om-nordic-usikkerheten-er-ikke-avklart"
+      }
+    ]
+  },
+  "NOHAL.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2025-01-22",
+        "tittel": "Rettet emisjon på 285 mill. kroner til kurs 20 kroner",
+        "forklaring": "Nordic Halibut hentet 285 mill. kroner brutto i en rettet emisjon der det ble utstedt 14,25 millioner nye aksjer til 20 kroner per aksje – en kraftig utvanning for eksisterende aksjonærer. Pengene skulle dekke 100 mill. kroner i økte investeringer på Tingvoll-anlegget og rundt 45 mill. kroner i høyere driftskostnader, hovedsakelig fôr, samt arbeidskapital.",
+        "kilde_url": "https://www.finansavisen.no/sjomat/2025/01/22/8233132/kveiteselskap-hentet-285-millioner"
+      },
+      {
+        "dato": "2025-03-05",
+        "tittel": "Q4 2024: fortsatt negativ EBITDA og tap",
+        "forklaring": "Selskapet rapporterte totale inntekter på 31,7 mill. kroner (opp 24 prosent), men EBITDA på -6,3 mill. kroner og nettoresultat på -24,1 mill. kroner i fjerde kvartal 2024. Til tross for vekst i biomasse og en snittpris på 183 kr/kg HOG er selskapet fortsatt i en kapitalintensiv oppbyggingsfase mot 4 500 tonn HOG i 2027.",
+        "kilde_url": "https://www.inderes.dk/en/releases/nordic-halibut-as-interim-report-q4-2024"
+      },
+      {
+        "dato": "2025-03-28",
+        "tittel": "Etterfølgende reparasjonsemisjon fullført",
+        "forklaring": "Nordic Halibut kunngjorde endelig resultat i den etterfølgende reparasjonsemisjonen og vedtok ny kapitalforhøyelse, som følge av den rettede emisjonen fra 22. januar 2025. Ytterligere aksjeutstedelse til lav kurs bidro til presset på aksjekursen gjennom våren 2025.",
+        "kilde_url": "https://www.finansavisen.no/borsmeldinger/2025/03/28/a86c598f-33c2-51dc-9bc1-c4bea3efe32b/nordic-halibut-as-final-results-in-the-subsequent-offering-and-resolution-on-share-capital-increase"
+      }
+    ]
+  },
+  "ODL.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2026-04-20",
+        "tittel": "BOP falt til havbunnen på Deepsea Atlantic",
+        "forklaring": "Under kjøring av utblåsningssikringen (BOP) 18. april 2026 falt utstyret til havbunnen på cirka 1 100 meters dyp på riggen Deepsea Atlantic. Ingen personer ble skadet, men operasjonene ble suspendert mens BOP-en ble hentet opp og reparasjoner gjennomført.",
+        "kilde_url": "https://www.odfjelldrilling.com/disclosure/odfjell-drilling-ltd-equipment-handling-incident-on-deepsea-atlantic/"
+      },
+      {
+        "dato": "2026-05-12",
+        "tittel": "Deepsea Atlantic ute av drift i tre til fire måneder",
+        "forklaring": "I forbindelse med Q1-rapporten opplyste Odfjell Drilling at Deepsea Atlantic ville være ute av drift i cirka tre til fire måneder etter BOP-hendelsen, og at riggen hadde vært off-hire siden 18. april. Inntektstapet fra en av selskapets viktigste rigger rammet inntjeningsestimatene selv om forsikring var ventet å dekke reparasjon og utskifting.",
+        "kilde_url": "https://www.ocean24.no/2026/05/12/deepsea-atlantic-utenfor-drift-i-tre-til-fire-maneder-etter-bop-tap/"
+      },
+      {
+        "dato": "2026-06-12",
+        "tittel": "Tilsynsvurdering: sikkerhetsbrudd ga «betydelig risiko for skade»",
+        "forklaring": "Det ble kjent at sikkerhetsbruddet ved BOP-hendelsen på Deepsea Atlantic 18. april innebar betydelig risiko for personskade, noe som økte den regulatoriske usikkerheten rundt når riggen kunne komme tilbake i drift.",
+        "kilde_url": "https://www.bbc.com/news/articles/cj4g9lljryxo"
+      }
+    ]
+  },
+  "ORK.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2026-05-20",
+        "tittel": "Q1 2026: fallende konsern-EBIT og svakere Jotun-bidrag",
+        "forklaring": "Orkla økte driftsinntektene 1,3 prosent til 17,4 mrd. kroner med 4,9 prosent organisk vekst, men EBIT (adj.) for konsernet falt 1,3 prosent til 1,7 mrd. kroner og resultatandelen fra Jotun falt 5,8 prosent til 617 mill. kroner. Ledelsen pekte på økt usikkerhet fra den geopolitiske situasjonen, særlig på innsatskostnader.",
+        "kilde_url": "https://www.orkla.com/investors/reports-presentations/2026/orkla-med-organisk-vekst-i-forste-kvartal/"
+      },
+      {
+        "dato": "2026-08-20",
+        "tittel": "Q2 2026: flat organisk vekst og fallende inntekter",
+        "forklaring": "Rapporterte driftsinntekter falt 5,4 prosent til 16,7 mrd. kroner og den organiske omsetningsveksten var flat for de konsoliderte porteføljeselskapene, mens konsernets EBIT (adj.) falt 5,3 prosent til 1,8 mrd. kroner, hovedsakelig på grunn av negative valutaomregningseffekter.",
+        "kilde_url": "https://www.orkla.com/media/press-releases/2026/orkla-med-moderat-underliggende-resultatvekst-for-andre-kvartal/"
+      },
+      {
+        "dato": "2026-08-20",
+        "tittel": "Orkla-aksjen falt 6 prosent etter kvartalstallene",
+        "forklaring": "Orkla-aksjen stupte 6 prosent på Oslo Børs etter Q2-rapporten, der justert driftsresultat på 1 774 mill. kroner var klart svakere enn analytikernes forventning på 1 888 mill. kroner og ned 5,3 prosent fra året før.",
+        "kilde_url": "https://www.nettavisen.no/okonomi/oslo-bors-faller-orkla-og-h-egh-autoliners-stuper-etter-kvartalstall/s/5-95-3206898"
+      }
+    ]
+  },
+  "PLT.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2025-02-18",
+        "tittel": "Q4 2024: lav omsetning og forsinkede/kansellerte kundeprosjekter",
+        "forklaring": "poLight rapporterte nok et kvartal med lav omsetning, og opplyste at enkelte kundeprosjekter innen AR/MR ble forsinket eller kansellert på grunn av manglende markedsmodenhet eller endringer i kundenes strategier. Manglende kommersielt gjennombrudd for TLens holdt aksjen under press.",
+        "kilde_url": "https://www.finansavisen.no/borsmeldinger/2025/02/18/2736f04a-d274-54c6-9f94-faa128cfb82a/polight-asa-q4-shows-low-revenue-but-a-promising-long-term-outlook"
+      },
+      {
+        "dato": "2025-04-09",
+        "tittel": "Trumps tollsatser trådte i kraft – bredt fall på Oslo Børs",
+        "forklaring": "Da Trumps «gjengjeldelsestoll» trådte i kraft, falt Oslo Børs rundt 3 prosent ved åpning, med 15 prosent toll på Norge og høye satser mot asiatiske land. Den generelle risikoaversjonen rammet små, ulønnsomme teknologiaksjer som poLight ekstra hardt, og aksjen bunnet ut samme dag.",
+        "kilde_url": "https://borsen.dagbladet.no/nyheter/oslo-bors-faller-kraftig/82943811"
+      },
+      {
+        "dato": "2025-04-15",
+        "tittel": "Rettet emisjon til Q Tech på kurs 2,69 kroner",
+        "forklaring": "Rett etter bunnpunktet inngikk poLight en strategisk investeringsavtale med Q Technology Group om en rettet emisjon på om lag 171,5 mill. kroner til kurs 2,69 kroner per aksje – et nivå som illustrerer hvor lav verdsettelsen var etter kursfallet, og som medførte betydelig utvanning.",
+        "kilde_url": "https://www.finansavisen.no/tdn/2025/04/16/06453416/polight-q-tech-investerer-ca-171-5m-i-rettet-emisjon-kurs-2-69"
+      }
+    ]
+  },
+  "PROT.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2026-01-29",
+        "tittel": "Q4 2025-rapport ga kursfall tross sterke tall",
+        "forklaring": "Protector rapporterte combined ratio på 84,7 prosent og resultat per aksje på 31,7 kroner for 2025, men aksjen falt 1,48 prosent til 533 kroner etter presentasjonen – startpunktet for en jevn kursnedgang gjennom våren 2026 fra toppen på 556 kroner.",
+        "kilde_url": "https://www.investing.com/news/company-news/protector-forsikring-q4-2025-slides-14-premium-growth-and-847-combined-ratio-93CH-4472254"
+      },
+      {
+        "dato": "2026-04-23",
+        "tittel": "Q1 2026: motorsegment og investeringstap halverte resultatet",
+        "forklaring": "Resultat etter skatt falt til 165 mill. kroner fra 748 mill. kroner i første kvartal 2025, selv om brutto premieinntekter steg 21 prosent til 6 339 mill. kroner og combined ratio bedret seg til 84,9 prosent. Negativ avkastning i investeringsporteføljen var hovedårsaken, i tillegg til fortsatt svak lønnsomhet i motorsegmentet i Norge og Danmark og økt inflasjonsusikkerhet. Aksjen falt over 4 prosent på nyheten.",
+        "kilde_url": "https://www.investing.com/news/company-news/protector-q1-2026-slides-21-growth-offset-by-motor-segment-woes-93CH-4631501"
+      }
+    ]
+  },
+  "SALM.OL": {
+    "sektor_eller_selskapsspesifikk": "sektor",
+    "hendelser": [
+      {
+        "dato": "2025-02-21",
+        "tittel": "Berenberg: sterk lakseforsyning presser prisene",
+        "forklaring": "Berenberg gjentok Hold på SalMar og pekte på at uventet sterk lakseforsyning hadde presset prisene ned, med forventning om at den negative prisutviklingen ville vedvare gjennom første halvår 2025. Meglerhuset estimerte en gjennomsnittlig laksepris på 88,4 kr/kg for 2025 og lå rundt 8 prosent under konsensus på EBIT.",
+        "kilde_url": "https://www.finansavisen.no/sjomat/2025/02/21/8244242/berenberg-hold-salmar-rask-bedring-svake-laksepriser-tynger"
+      },
+      {
+        "dato": "2025-04-25",
+        "tittel": "Sjeldent stort lakseprisfall hamret ned lakseaksjene",
+        "forklaring": "Lakseaksjene falt kraftig fredag 25. april 2025 etter et sjeldent stort fall i lakseprisen; SalMar falt 5,1 prosent og Mowi 4,2 prosent til 184,80 kroner. Spotprisene falt kraftig mot slutten av april som følge av høye sjøtemperaturer, rekordhøy slakteaktivitet og økt biologisk risiko.",
+        "kilde_url": "https://www.finansavisen.no/finans/2025/04/25/8260044/oppgang-pa-oslo-bors-lakseaksjer-hamret-ned-rally-i-shipping-og-tveitereid-favoritt"
+      },
+      {
+        "dato": "2025-05-20",
+        "tittel": "Q1 2025 langt svakere enn ventet",
+        "forklaring": "SalMar fikk et operasjonelt driftsresultat på 798 mill. kroner i første kvartal 2025, ned fra 1 521 mill. kroner året før og langt under Infront-konsensus på litt over 1 mrd. kroner. Resultat før skatt var -623 mill. kroner, forklart med lavt slaktevolum, sen slakting, lav snittvekt og høy andel nedgradert fisk som svekket prisoppnåelsen.",
+        "kilde_url": "https://www.finansavisen.no/sjomat/2025/05/20/8264903/svakere-enn-ventet-fra-salmar"
+      },
+      {
+        "dato": "2025-06-04",
+        "tittel": "Rekordstort prisfall for laks i mai 2025",
+        "forklaring": "Snittprisen for fersk hel laks falt til 75,78 kr/kg i mai 2025, ned 35 prosent fra samme måned året før – det største prisfallet som noensinne er registrert – drevet av rekordstort eksportvolum og bedre produksjonsforhold. Dette holdt presset på SalMar-aksjen fram til bunnen i juli 2025.",
+        "kilde_url": "https://www.finansavisen.no/tdn/2025/06/04/06468219/laks-norge-eksporterte-laks-for-9-8-mrd-i-mai-norges-sjomatrad"
+      }
+    ]
+  },
+  "SCATC.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2026-05-06",
+        "tittel": "Scatec falt 7,4 % etter svak Q1 2026 og kuttet guiding",
+        "forklaring": "Scatec la fram Q1 2026 med proporsjonale inntekter på NOK 1 640 mill (mot NOK 2 387 mill i Q1 2025) og EBITDA NOK 774 mill (mot NOK 1 379 mill), i hovedsak fordi fjoråret inneholdt NOK 426 mill i salgsgevinster fra Uganda og Vietnam. Aksjen falt 7,39 % til NOK 106,30, og guidingen for Power Production-EBITDA for 2026 ble satt ned.",
+        "kilde_url": "https://www.investing.com/news/company-news/scatec-q1-2026-slides-strong-execution-amid-financial-headwinds-93CH-4661900"
+      },
+      {
+        "dato": "2026-05-06",
+        "tittel": "Resultatbom på både topplinje og EBITDA",
+        "forklaring": "Konsolidert omsetning falt til NOK 1,0 mrd fra NOK 1,8 mrd og konsolidert EBITDA til NOK 729 mill fra NOK 1,5 mrd år over år. Aksjen falt 7,39 % i førhandelen og nærmet seg 52-ukers bunn, som viser at nedgangen var drevet av selskapets egne tall og ikke av markedsuro.",
+        "kilde_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-scatec-solar-q1-2026-results-see-stock-dip-739-93CH-4661867"
+      }
+    ]
+  },
+  "STB.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2025-02-12",
+        "tittel": "Storebrand-aksjen stupte 8,5 % etter svak Q4 2024",
+        "forklaring": "Dagen etter kurstoppen falt Storebrand 8,46 % ved åpning. Konsernresultatet ble NOK 1,07 mrd mot analytikerforventning NOK 1,22 mrd, og driftsresultatet var 16 % under estimatene. Danske Bank pekte på svak kapitalforvaltning og svake forsikringsresultater, og utbyttet ble sett på som svakt gitt en solvensmargin på 200 %.",
+        "kilde_url": "https://e24.no/boers-og-finans/i/wgJ6bM/oslo-boers-aapner-ned-storebrand-raser"
+      },
+      {
+        "dato": "2025-02-12",
+        "tittel": "Bred bom mot forventningene i fjerde kvartal",
+        "forklaring": "Aksjen falt rundt 8 % etter at kontantbasert driftsresultat kom inn 15,6 % under forventningene i Q4 og 4,3 % under for hele 2024. Forsikringsresultatet var 13,2 % under estimatene, pensjonsresultatet 27,3 % under, og utbyttet per aksje 8,7 % under forventning.",
+        "kilde_url": "https://ca.investing.com/news/stock-market-news/storebrand-shares-tumble-on-missed-fourth-quarter-targets-93CH-3839175"
+      },
+      {
+        "dato": "2025-04-07",
+        "tittel": "Tollkaos ga bred nedgang på Oslo Børs frem mot bunnen 11. april",
+        "forklaring": "Etter Trumps tollpakke 2. april falt hovedindeksen 5 % fredag 4. april, det største fallet siden mars 2020, og videre 2,8 prosent mandag 7. april da samtlige sektorer falt flere prosent. Denne generelle markedsuroen og resesjonsfrykten forlenget Storebrands nedgang inn i april.",
+        "kilde_url": "https://www.finansavisen.no/finans/2025/04/07/8256096/shippingaksjer-stiger-pa-blodrod-bors"
+      }
+    ]
+  },
+  "SUBC.OL": {
+    "sektor_eller_selskapsspesifikk": "sektor",
+    "hendelser": [
+      {
+        "dato": "2025-04-09",
+        "tittel": "Tollkrig sendte oljepris og offshore-serviceaksjer i kjelleren",
+        "forklaring": "9. april 2025 falt Brent intradag til USD 58,46 pr. fat, ned 22 % siden 2. april, og et utvalg børsnoterte offshore-olje- og serviceselskaper falt mellom 15 % og 31 % i perioden 2.–8. april. Nedgangen i Subsea7 sammenfaller med dette sektorsalget utløst av Trumps eskalerende tollkrig.",
+        "kilde_url": "https://www.rivieramm.com/news-content-hub/news-content-hub/trump-tariff-war-sends-crude-shares-of-offshore-oil-companies-tumbling-84498"
+      },
+      {
+        "dato": "2025-04-09",
+        "tittel": "Oljeprisen under 60 dollar for første gang siden februar 2021",
+        "forklaring": "Nordsjøoljen falt under 60 dollar fatet onsdag 9. april, ned 18 % på én uke, drevet av Trumps tollsatser (104 % varslet toll på kinesiske varer) og at OPEC 2. april kunngjorde en produksjonsøkning i mai på over 400.000 fat pr. dag – tre ganger mer enn tidligere planlagt. Lavere oljepris rammer etterspørselsutsiktene for oljeservice.",
+        "kilde_url": "https://energiwatch.no/nyheter/olje_gass/article18079540.ece"
+      },
+      {
+        "dato": "2025-04-09",
+        "tittel": "Energiaksjer fikk juling på Oslo Børs",
+        "forklaring": "Hovedindeksen stupte 2,8 % til 1.362,84 poeng da Trumps gjengjeldelsestoll trådte i kraft og Kina svarte med 84 % toll. Nordsjøoljen endte på 60,41 dollar, ned 3,8 %, og energisektoren falt bredt – samme dag som Subsea7 og andre oljerelaterte aksjer bunnet ut.",
+        "kilde_url": "https://www.finansavisen.no/finans/2025/04/09/8256993/energiaksjer-fikk-juling-pa-oslo-bors"
+      }
+    ]
+  },
+  "TEL.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2026-04-28",
+        "tittel": "Telenor falt 7 % etter Q1-bom og nedjustert 2026-guiding",
+        "forklaring": "Justert EBITDA i Q1 2026 var svakere enn konsensus på NOK 8,25 mrd, og selskapet nedjusterte 2026-guidingen til flat eller svakt organisk vekst på grunn av inntektsusikkerhet i Finland (priskrig for DNA) og krevende makro i Bangladesh. Aksjen falt 7 % og var blant de svakeste i Stoxx 600.",
+        "kilde_url": "https://www.reuters.com/business/norways-telenor-lags-core-profit-forecast-first-quarter-2026-04-28/"
+      },
+      {
+        "dato": "2026-07-16",
+        "tittel": "Telenor kuttet 2026-utsiktene etter Q2-miss – verste dag siden 2008",
+        "forklaring": "Justert EBITDA falt 9 % til NOK 7,99 mrd mot forventet NOK 8,30 mrd. Telenor kuttet EBITDA-guidingen til flat til svakt negativ organisk vekst og fri kontantstrøm til rundt NOK 10 mrd, med svakere inntektsvekst i Norge og Finland, høyere kostnader, mva-avsetning og makroproblemer i Bangladesh. Aksjen falt 12 % – verste dag siden oktober 2008.",
+        "kilde_url": "https://www.reuters.com/business/telenor-cuts-2026-outlook-after-q2-earnings-miss-2026-07-16/"
+      },
+      {
+        "dato": "2026-07-16",
+        "tittel": "Kursfall på 13 prosent på Oslo Børs",
+        "forklaring": "Telenor-aksjen falt 13 prosent torsdag 16. juli etter et resultat før skatt på drøyt 4 milliarder kroner, det største fallet siden 2008. Konsernsjef Benedicte Schilbred Fasmer omtalte 2026 som et overgangsår påvirket av flere kortsiktige faktorer.",
+        "kilde_url": "https://www.nrk.no/nyheter/telenor-aksjen-stuper-1.17959851"
+      }
+    ]
+  },
+  "TGS.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2025-06-03",
+        "tittel": "SpareBank 1 Markets nedgraderte TGS til selg med seismikk-advarsel",
+        "forklaring": "Analytiker Erik Aspen Fosså nedgraderte TGS til selg og advarte mot seismikkmarkedet, med begrunnelse i at TGS er ekstremt korrelert med oljeprisen og at det er vanskelig å slåss mot en lavere oljepris.",
+        "kilde_url": "https://www.finansavisen.no/energi/2025/06/03/8268696/kommer-med-kraftig-seismikk-advarsel"
+      },
+      {
+        "dato": "2025-07-08",
+        "tittel": "Driftsoppdatering ble omtalt som profit warning",
+        "forklaring": "TGS' oppdatering for andre kvartal viste inntekter 24 % under konsensus; ABG kalte det en «profit warning» og ventet 10–15 % kutt i 2025-EBITDA-estimatene, mens DNB Carnegie ventet et kursfall på 5–10 %. Årsakene var utsatte lisensavtaler, lavere lisensinntekter, krevende operasjonelle forhold og lavere JV-deltakelse.",
+        "kilde_url": "https://www.finansavisen.no/energi/2025/07/08/8277204/tgs-med-kjempebom-ventes-massivt-kursfall"
+      },
+      {
+        "dato": "2025-07-17",
+        "tittel": "Q2-rapport: laveste ordrereserve siden covid",
+        "forklaring": "TGS falt 3,7 % til 75,80 kroner etter Q2-rapporten. ABG Sundal Collier pekte på at ordrereserven var den laveste siden covid-kvartalene, kuttet EBITDA-estimatene for 2025 og 2026 med 7 % og 3 %, satte kursmålet ned fra 90 til 85 kroner og stilte spørsmål ved utbyttekapasiteten på rundt 120 mill. dollar.",
+        "kilde_url": "https://www.finansavisen.no/tdn/2025/07/17/06479547/kommentar-tomra-tgs-og-hexagon-purus-faller-etter-kvartalsrapporter"
+      },
+      {
+        "dato": "2025-09-19",
+        "tittel": "ABG kuttet kursmålet før Q3 og spådde enda verre marked",
+        "forklaring": "Rett før kursbunnen 22. september kuttet ABG Sundal Collier kursmålet på TGS til 78 kroner. John Olaisen anslo at inntektene ville falle 27 % år over år i tredje kvartal og at seismikkmarkedet kunne bli enda svakere neste år.",
+        "kilde_url": "https://www.finansavisen.no/energi/2025/09/19/8294420/abg-kutter-for-kvartalsrapport-spar-enda-verre-marked"
+      }
+    ]
+  },
+  "TOM.OL": {
+    "sektor_eller_selskapsspesifikk": "selskapsspesifikk",
+    "hendelser": [
+      {
+        "dato": "2025-05-07",
+        "tittel": "Tomra falt over 9 % etter Q1-bom i 2025",
+        "forklaring": "Justert EBITA på EUR 26 mill kom inn 21 % under konsensus og omsetningen på EUR 306 mill var 2 % under. Ordrebackloggen i Recycling falt 2 %, noe som reflekterte fortsatt svakt marked for europeisk plastresirkulering. Aksjen falt mer enn 9 % og satte kurs mot svakeste dag siden oktober 2023.",
+        "kilde_url": "https://www.tradingview.com/news/reuters.com,2025:newsml_L8N3RF0OA:0-tomra-eyes-worst-day-in-17-months-after-earnings-miss/"
+      },
+      {
+        "dato": "2025-07-17",
+        "tittel": "Svak topplinje og ordrekollaps i Recycling",
+        "forklaring": "Tomra falt 8,9 % etter Q2 2025: bedre bunnlinje, men svakere omsetning enn ventet og ordreinngang i Recycling på EUR 41 mill, ned 37 % år over år. Meglerhusene ventet estimatkutt på grunn av svake Recycling-ordrer og usikre utsikter.",
+        "kilde_url": "https://www.finansavisen.no/tdn/2025/07/17/06479547/kommentar-tomra-tgs-og-hexagon-purus-faller-etter-kvartalsrapporter"
+      },
+      {
+        "dato": "2026-02-13",
+        "tittel": "Aksjen falt 7,5 % tross bedre resultat i Q4 2025",
+        "forklaring": "Resultat før skatt på EUR 57 mill slo forventningene på EUR 49,8 mill, men omsetningen på EUR 382 mill var EUR 11 mill under forventning, og usikre markedsforhold sendte aksjen ned 7,5 % på Oslo Børs. Selskapet lanserte samtidig et kostnadsprogram i Recycling med mål om EUR 16 mill i årlige besparelser.",
+        "kilde_url": "https://efn.se/latouragda-tomra-rasar-trots-starkt-kvartal"
+      },
+      {
+        "dato": "2026-04-24",
+        "tittel": "Tomra raste 17 % på kursbunnen etter tap i Recycling",
+        "forklaring": "Justert EBITA i Q1 2026 var EUR 26 mill, rundt 35 % under konsensus, og Recycling gikk med EUR 5 mill i tap (EUR 18 mill inkludert EUR 13 mill restruktureringskostnader). Ordreinngangen i Recycling falt til EUR 41 mill fra EUR 61 mill og backloggen var ned 20 %, med fortsatt svakt sentiment i nordamerikansk avfall og europeisk plastgjenvinning.",
+        "kilde_url": "https://www.investing.com/news/earnings/tomra-shares-tumble-17-after-q1-profit-misses-estimates-on-recycling-loss-4634788"
+      }
+    ]
+  },
+  "VAR.OL": {
+    "sektor_eller_selskapsspesifikk": "sektor",
+    "hendelser": [
+      {
+        "dato": "2025-04-04",
+        "tittel": "Oljeaksjene falt på tollskred og økt OPEC-produksjon",
+        "forklaring": "Equinor, Aker BP og Vår Energi falt mellom 3 og 5 % fredag 4. april da oljeprisen falt 6 % på dagen til 65,32 dollar fatet. Drivkreftene var USAs tollskred, generell markedsuro og OPECs oppjustering av oljeproduksjonen; Vår Energi var da ned 15,5 % hittil i 2025.",
+        "kilde_url": "https://e24.no/bors/nyheter/a/300465"
+      },
+      {
+        "dato": "2025-04-09",
+        "tittel": "Vår Energi bunnet på 27,28 kroner da oljen falt under 60 dollar",
+        "forklaring": "På kursbunnen 9. april falt Vår Energi 5,8 % til 27,28 kroner mens hovedindeksen stupte 2,8 % og nordsjøoljen endte på 60,41 dollar, ned 3,8 %. Trumps gjengjeldelsestoll trådte i kraft og Kina svarte med 84 % toll på amerikanske varer.",
+        "kilde_url": "https://www.finansavisen.no/finans/2025/04/09/8256993/energiaksjer-fikk-juling-pa-oslo-bors"
+      },
+      {
+        "dato": "2025-04-09",
+        "tittel": "Oljeprisfall på 18 % i én uke – toll og OPEC-økning",
+        "forklaring": "Oljeprisen falt under 60 dollar fatet for første gang siden februar 2021, ned 18 % på en uke, drevet av Trumps tollsatser, frykt for lavere oljeetterspørsel og OPECs kunngjøring 2. april om å øke produksjonen med over 400.000 fat pr. dag i mai. Vår Energi falt 5,94 % samme dag.",
+        "kilde_url": "https://energiwatch.no/nyheter/olje_gass/article18079540.ece"
+      }
+    ]
+  },
+  "WAWI.OL": {
+    "sektor_eller_selskapsspesifikk": "sektor",
+    "hendelser": [
+      {
+        "dato": "2025-03-27",
+        "tittel": "25 % amerikansk biltoll sendte Wallenius Wilhelmsen ned rundt 9 %",
+        "forklaring": "Etter at USAs president kunngjorde 25 % toll på alle importerte kjøretøy og bildeler fra 2. april, falt Wallenius Wilhelmsen rundt 9 % og Höegh Autoliners 4,9 %. DNB mente tollen kan redusere volumene av biler som fraktes, og SEB pekte på svakere markedsbalanse og risiko for kontraktsbackloggen.",
+        "kilde_url": "https://www.tradingview.com/news/reuters.com,2025:newsml_L5N3QA1L7:0-us-vehicle-tariffs-weigh-on-norwegian-roro-operators/"
+      },
+      {
+        "dato": "2025-04-04",
+        "tittel": "Shippingaksjene raste etter Trumps tollpakke",
+        "forklaring": "Wallenius Wilhelmsen falt 8,33 % fredag 4. april i et bredt fall for shipping (BW LPG −12,22 %, Golden Ocean −11,4 %, Höegh Autoliners −7,2 %) som følge av markedsuro i kjølvannet av USAs varslede tollskred mot land over hele verden.",
+        "kilde_url": "https://e24.no/bors/nyheter/a/300466?pinnedEntry=300466"
+      },
+      {
+        "dato": "2025-04-04",
+        "tittel": "Største børsfall siden mars 2020 rett før kursbunnen",
+        "forklaring": "Hovedindeksen på Oslo Børs falt 5 % fredag 4. april, det største fallet siden mars 2020, etter at Trump 2. april innførte omfattende tollsatser og Kina svarte med 34 % toll på alle amerikanske varer. Denne makroutløste uroen traff bilfraktrederiene ekstra hardt og kursbunnen for WAWI kom 4. april.",
+        "kilde_url": "https://www.dagsavisen.no/nyheter/innenriks/2025/04/04/oslo-bors-ned-5-prosent-fredag-storste-fall-siden-mars-2020/"
+      }
+    ]
+  },
+  "YAR.OL": {
+    "sektor_eller_selskapsspesifikk": "sektor",
+    "hendelser": [
+      {
+        "dato": "2026-05-12",
+        "tittel": "Citi nedgraderte Yara – gjødselprisene har toppet ut",
+        "forklaring": "Citi nedgraderte Yara fra kjøp til nøytral med kurs NOK 529, og mente risiko/avkastning var mer balansert etter kraftig oppgang i gjødselprisene. Citi skrev at prisene så ut til å ha toppet ut og begynt å falle i flere regioner, og la til grunn at ureaprisene i Midtøsten faller til lave 400 dollar/tonn mot slutten av året fra nær 800 dollar/tonn.",
+        "kilde_url": "https://www.investing.com/news/stock-market-news/citi-downgrades-yara-to-neutral-as-fertilizer-prices-peak-sets-nok530-target-4679449"
+      },
+      {
+        "dato": "2026-06-23",
+        "tittel": "Jefferies nedgraderte Yara og kuttet kursmålet til 470 kroner",
+        "forklaring": "Jefferies gikk fra kjøp til hold og kuttet kursmålet fra NOK 610 til NOK 470 med henvisning til svakere landbruksøkonomi, lavere gjødselpriser (estimater i snitt 7 % under konsensus for 2026–2028) og høyere gassprisforutsetninger. Meglerhuset venter negative bondeinntekter i både 2026 og 2027.",
+        "kilde_url": "https://www.investing.com/news/stock-market-news/jefferies-trims-yara-pt-to-470-crowns-as-farmer-incomes-turn-negative-4754648"
+      },
+      {
+        "dato": "2026-07-17",
+        "tittel": "Q2-resultat 20 % under konsensus da bønder utsatte kjøp",
+        "forklaring": "Justert EBITDA ble 906 mill. dollar, opp 39 % år over år, men rundt 20 % under konsensus på 1,13 mrd. dollar. Høye nitrogenpriser løftet marginene (+520 mill. dollar), men volum og produktmiks trakk EBITDA ned 240 mill. dollar med 17 % fall i leveranser, og kontantstrømmen falt til 682 mill. dollar. Aksjen falt 5,7 % i tidlig handel.",
+        "kilde_url": "https://www.reuters.com/business/yara-says-higher-fertiliser-prices-boosted-margins-hurt-volumes-2026-07-17/"
+      }
+    ]
+  }
+}
