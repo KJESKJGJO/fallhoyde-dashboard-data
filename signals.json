@@ -1,9 +1,9 @@
 {
   "disclaimer": "Alle signaler under er regelbaserte, systematiske tekniske/kvantitative beregninger basert på historiske kursdata og offentlige nøkkeltall. Dette er IKKE personlig eller lisensiert investeringsrådgivning, og skal ikke tolkes som en anbefaling om å kjøpe eller selge konkrete verdipapirer. Historisk avkastning er ingen garanti for fremtidig avkastning.",
-  "generated_at": "2026-09-08T04:56:53Z",
+  "generated_at": "2026-09-09T04:56:58Z",
   "momentum": {
     "methodology": "Tidsserie- og tverrsnittsmomentum: rangerer alle aksjer i universet etter kursutvikling de siste 63 handelsdagene (~3 måneder). Topp kvartil med positiv avkastning = Kjøp, bunn kvartil = Selg, resten = Hold. Samme lookback-periode og rangeringslogikk som ble brukt i de tidligere backtestede momentum-demoene for norske vekst- og bredt-univers-aksjer.",
-    "generated_at": "2026-09-08T04:56:53Z",
+    "generated_at": "2026-09-09T04:56:58Z",
     "signals": [
       {
         "ticker": "PLT.OL",
@@ -387,7 +387,7 @@
   },
   "kontrarian": {
     "methodology": "Kontrarian/bunnfangst: bruker eksisterende drawdown-tall fra Fallhøyde-beregningen. Aksjer med betydelig fall fra toppen (≤ -40%) som nå handles over sitt 20-dagers glidende snitt og ikke lenger setter nye bunner, flagges som Kjøp-kandidater (tegn til reversering). Aksjer som fortsatt setter nye bunner eller handles under glidende snitt får Vent. Aksjer uten stort fall får ingen signal fra denne strategien.",
-    "generated_at": "2026-09-08T04:56:53Z",
+    "generated_at": "2026-09-09T04:56:58Z",
     "signals": [
       {
         "ticker": "HUNT.OL",
@@ -771,7 +771,7 @@
   },
   "teknisk_nyheter": {
     "methodology": "Kombinerer et enkelt teknisk trendsignal (20-dagers glidende snitt vs. 50-dagers - samme SMA-krysningslogikk som i strategies.py) med nyhetsdata fra hendelseslisten. Selskapsspesifikke negative nyheter demper et positivt teknisk signal til Hold; sektordrevne negative bevegelser demper et negativt signal fra Selg til Hold, siden slike fall ofte normaliserer med resten av sektoren.",
-    "generated_at": "2026-09-08T04:56:53Z",
+    "generated_at": "2026-09-09T04:56:58Z",
     "signals": [
       {
         "ticker": "HUNT.OL",
@@ -1197,24 +1197,24 @@
   },
   "fundamental": {
     "methodology": "Enkel verdi- og lønnsomhetsscreen basert på nøkkeltall (P/E, resultat per aksje og dividendeavkastning) hentet direkte fra markedsdata. Selskaper med negativt resultat (EPS ≤ 0) flagges Selg uavhengig av kurs. Blant lønnsomme selskaper rangeres de laveste 30% på P/E som Kjøp (billigst), de høyeste 30% som Selg (dyrest), resten Hold. NB: fulle lønnsomhets- og gjeldsnøkkeltall (margin, ROE, D/E) har begrenset historikk-dekning for enkelte Oslo Børs-noterte selskaper i datakilden, så denne strategien bruker kun P/E, EPS-tegn og dividendeavkastning - en forenklet fundamental-screen, ikke en full kvalitetsanalyse.",
-    "generated_at": "2026-09-08T04:56:53Z",
+    "generated_at": "2026-09-09T04:56:58Z",
     "signals": [
       {
         "ticker": "HUNT.OL",
         "navn": "Hunter Group",
         "sektor": "Shipping",
         "label": "Kjøp",
-        "pe": 1.8785288414929713,
+        "pe": 1.8570571982549682,
         "eps": 7.90745,
-        "dividend_yield_pct": 17.62,
-        "rationale": "Lønnsomt selskap (EPS 7.91) med lav prising: P/E 1.9 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 17.6% dividendeavkastning."
+        "dividend_yield_pct": 17.92,
+        "rationale": "Lønnsomt selskap (EPS 7.91) med lav prising: P/E 1.9 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 17.9% dividendeavkastning."
       },
       {
         "ticker": "AKER.OL",
         "navn": "Aker ASA",
         "sektor": "Holding",
         "label": "Kjøp",
-        "pe": 4.3192288232631215,
+        "pe": 4.324554629457034,
         "eps": 375.53,
         "dividend_yield_pct": 3.42,
         "rationale": "Lønnsomt selskap (EPS 375.53) med lav prising: P/E 4.3 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 3.4% dividendeavkastning."
@@ -1224,57 +1224,57 @@
         "navn": "Aker Solutions",
         "sektor": "Oljeservice",
         "label": "Kjøp",
-        "pe": 6.292537313432835,
+        "pe": 6.244776119402985,
         "eps": 5.42,
-        "dividend_yield_pct": 20.4,
-        "rationale": "Lønnsomt selskap (EPS 5.42) med lav prising: P/E 6.3 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 20.4% dividendeavkastning."
+        "dividend_yield_pct": 20.55,
+        "rationale": "Lønnsomt selskap (EPS 5.42) med lav prising: P/E 6.2 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 20.6% dividendeavkastning."
       },
       {
         "ticker": "ECO",
         "navn": "Okeanis Eco Tankers",
         "sektor": "Shipping",
         "label": "Kjøp",
-        "pe": 6.555545708955224,
+        "pe": 6.591982276119403,
         "eps": 10.79,
-        "dividend_yield_pct": 13.67,
-        "rationale": "Lønnsomt selskap (EPS 10.79) med lav prising: P/E 6.6 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 13.7% dividendeavkastning."
+        "dividend_yield_pct": 13.81,
+        "rationale": "Lønnsomt selskap (EPS 10.79) med lav prising: P/E 6.6 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 13.8% dividendeavkastning."
       },
       {
         "ticker": "FRO.OL",
         "navn": "Frontline",
         "sektor": "Shipping",
         "label": "Kjøp",
-        "pe": 6.914542728635682,
+        "pe": 6.989505247376312,
         "eps": 65.76,
-        "dividend_yield_pct": 6.79,
-        "rationale": "Lønnsomt selskap (EPS 65.76) med lav prising: P/E 6.9 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 6.8% dividendeavkastning."
-      },
-      {
-        "ticker": "YAR.OL",
-        "navn": "Yara International",
-        "sektor": "Industri",
-        "label": "Kjøp",
-        "pe": 8.202767827529023,
-        "eps": 58.44,
-        "dividend_yield_pct": 4.8,
-        "rationale": "Lønnsomt selskap (EPS 58.44) med lav prising: P/E 8.2 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 4.8% dividendeavkastning."
+        "dividend_yield_pct": 6.71,
+        "rationale": "Lønnsomt selskap (EPS 65.76) med lav prising: P/E 7.0 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 6.7% dividendeavkastning."
       },
       {
         "ticker": "BWLPG.OL",
         "navn": "BW LPG",
         "sektor": "Shipping",
         "label": "Kjøp",
-        "pe": 8.542955326460481,
+        "pe": 8.216494845360824,
         "eps": 21.39,
-        "dividend_yield_pct": 10.42,
-        "rationale": "Lønnsomt selskap (EPS 21.39) med lav prising: P/E 8.5 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 10.4% dividendeavkastning."
+        "dividend_yield_pct": 10.83,
+        "rationale": "Lønnsomt selskap (EPS 21.39) med lav prising: P/E 8.2 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 10.8% dividendeavkastning."
+      },
+      {
+        "ticker": "YAR.OL",
+        "navn": "Yara International",
+        "sektor": "Industri",
+        "label": "Kjøp",
+        "pe": 8.4402,
+        "eps": 58.44,
+        "dividend_yield_pct": 4.69,
+        "rationale": "Lønnsomt selskap (EPS 58.44) med lav prising: P/E 8.4 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 4.7% dividendeavkastning."
       },
       {
         "ticker": "CDLR",
         "navn": "Cadeler",
         "sektor": "Shipping/offshore vind",
         "label": "Kjøp",
-        "pe": 10.067869835185185,
+        "pe": 10.109521499999998,
         "eps": 2.51,
         "dividend_yield_pct": 0,
         "rationale": "Lønnsomt selskap (EPS 2.51) med lav prising: P/E 10.1 er blant de 10 laveste av 35 lønnsomme aksjer i universet."
@@ -1284,37 +1284,37 @@
         "navn": "Vår Energi",
         "sektor": "Energi",
         "label": "Kjøp",
-        "pe": 10.35501421800948,
+        "pe": 10.59581990521327,
         "eps": 2.70266,
-        "dividend_yield_pct": 9.65,
-        "rationale": "Lønnsomt selskap (EPS 2.70) med lav prising: P/E 10.4 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 9.7% dividendeavkastning."
-      },
-      {
-        "ticker": "ODL.OL",
-        "navn": "Odfjell Drilling",
-        "sektor": "Oljeservice",
-        "label": "Kjøp",
-        "pe": 10.68136842105263,
-        "eps": 9.39,
-        "dividend_yield_pct": 9.46,
-        "rationale": "Lønnsomt selskap (EPS 9.39) med lav prising: P/E 10.7 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 9.5% dividendeavkastning."
+        "dividend_yield_pct": 9.49,
+        "rationale": "Lønnsomt selskap (EPS 2.70) med lav prising: P/E 10.6 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 9.5% dividendeavkastning."
       },
       {
         "ticker": "WAWI.OL",
         "navn": "Wallenius Wilhelmsen",
         "sektor": "Shipping",
-        "label": "Hold",
-        "pe": 10.920064024390244,
+        "label": "Kjøp",
+        "pe": 10.99399695121951,
         "eps": 17.06,
-        "dividend_yield_pct": 9.25,
-        "rationale": "Lønnsomt selskap (EPS 17.06) med P/E 10.9 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 9.24,
+        "rationale": "Lønnsomt selskap (EPS 17.06) med lav prising: P/E 11.0 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 9.2% dividendeavkastning."
+      },
+      {
+        "ticker": "ODL.OL",
+        "navn": "Odfjell Drilling",
+        "sektor": "Oljeservice",
+        "label": "Hold",
+        "pe": 11.117805263157893,
+        "eps": 9.39,
+        "dividend_yield_pct": 9.14,
+        "rationale": "Lønnsomt selskap (EPS 9.39) med P/E 11.1 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "DNB.OL",
         "navn": "DNB",
         "sektor": "Finans",
         "label": "Hold",
-        "pe": 11.606948968512487,
+        "pe": 11.603329714078901,
         "eps": 26.96,
         "dividend_yield_pct": 5.61,
         "rationale": "Lønnsomt selskap (EPS 26.96) med P/E 11.6 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
@@ -1324,29 +1324,29 @@
         "navn": "Equinor",
         "sektor": "Energi",
         "label": "Hold",
-        "pe": 11.706839237057222,
+        "pe": 11.786696185286104,
         "eps": 31.71,
-        "dividend_yield_pct": 3.66,
-        "rationale": "Lønnsomt selskap (EPS 31.71) med P/E 11.7 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 3.65,
+        "rationale": "Lønnsomt selskap (EPS 31.71) med P/E 11.8 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "ORK.OL",
         "navn": "Orkla",
         "sektor": "Forbruksvarer",
         "label": "Hold",
-        "pe": 13.43522561863173,
+        "pe": 13.493449781659388,
         "eps": 6.84,
-        "dividend_yield_pct": 6.5,
-        "rationale": "Lønnsomt selskap (EPS 6.84) med P/E 13.4 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 6.47,
+        "rationale": "Lønnsomt selskap (EPS 6.84) med P/E 13.5 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "ELO.OL",
         "navn": "Elopak",
         "sektor": "Industri",
         "label": "Hold",
-        "pe": 13.697783022044087,
+        "pe": 13.74593759519038,
         "eps": 2.882,
-        "dividend_yield_pct": 5.53,
+        "dividend_yield_pct": 5.54,
         "rationale": "Lønnsomt selskap (EPS 2.88) med P/E 13.7 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
@@ -1354,127 +1354,127 @@
         "navn": "Telenor",
         "sektor": "Telekom",
         "label": "Hold",
-        "pe": 13.94736842105263,
+        "pe": 14.136842105263158,
         "eps": 8.35,
-        "dividend_yield_pct": 7.25,
-        "rationale": "Lønnsomt selskap (EPS 8.35) med P/E 13.9 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 7.15,
+        "rationale": "Lønnsomt selskap (EPS 8.35) med P/E 14.1 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "MOWI.OL",
         "navn": "Mowi",
         "sektor": "Sjømat",
         "label": "Hold",
-        "pe": 15.176232097560977,
+        "pe": 15.614491063414635,
         "eps": 10.49,
-        "dividend_yield_pct": 3.78,
-        "rationale": "Lønnsomt selskap (EPS 10.49) med P/E 15.2 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 3.69,
+        "rationale": "Lønnsomt selskap (EPS 10.49) med P/E 15.6 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "FLNG",
         "navn": "Flex LNG",
         "sektor": "Shipping",
         "label": "Hold",
-        "pe": 16.58421052631579,
+        "pe": 16.305263157894736,
         "eps": 1.96,
-        "dividend_yield_pct": 9.52,
-        "rationale": "Lønnsomt selskap (EPS 1.96) med P/E 16.6 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 9.68,
+        "rationale": "Lønnsomt selskap (EPS 1.96) med P/E 16.3 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "SUBC.OL",
         "navn": "Subsea7",
         "sektor": "Oljeservice",
         "label": "Hold",
-        "pe": 16.926140776699032,
+        "pe": 17.093990291262134,
         "eps": 20.2,
-        "dividend_yield_pct": 6.04,
-        "rationale": "Lønnsomt selskap (EPS 20.20) med P/E 16.9 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 6.01,
+        "rationale": "Lønnsomt selskap (EPS 20.20) med P/E 17.1 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "AKRBP.OL",
         "navn": "Aker BP",
         "sektor": "Energi",
         "label": "Hold",
-        "pe": 17.008122222222223,
+        "pe": 17.39212222222222,
         "eps": 21.20112,
-        "dividend_yield_pct": 7.1,
-        "rationale": "Lønnsomt selskap (EPS 21.20) med P/E 17.0 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 6.98,
+        "rationale": "Lønnsomt selskap (EPS 21.20) med P/E 17.4 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "STB.OL",
         "navn": "Storebrand",
         "sektor": "Finans",
         "label": "Hold",
-        "pe": 17.8965819456617,
+        "pe": 17.651183172655568,
         "eps": 11.31,
-        "dividend_yield_pct": 2.64,
-        "rationale": "Lønnsomt selskap (EPS 11.31) med P/E 17.9 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 2.68,
+        "rationale": "Lønnsomt selskap (EPS 11.31) med P/E 17.7 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "PROT.OL",
         "navn": "Protector Forsikring",
         "sektor": "Finans",
         "label": "Hold",
-        "pe": 18.923694779116467,
+        "pe": 18.682730923694777,
         "eps": 24.79,
-        "dividend_yield_pct": 4.24,
-        "rationale": "Lønnsomt selskap (EPS 24.79) med P/E 18.9 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 4.3,
+        "rationale": "Lønnsomt selskap (EPS 24.79) med P/E 18.7 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "NHY.OL",
         "navn": "Norsk Hydro",
         "sektor": "Industri",
         "label": "Hold",
-        "pe": 18.959839357429715,
+        "pe": 18.875502008032125,
         "eps": 5.449,
-        "dividend_yield_pct": 3.18,
-        "rationale": "Lønnsomt selskap (EPS 5.45) med P/E 19.0 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 3.19,
+        "rationale": "Lønnsomt selskap (EPS 5.45) med P/E 18.9 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "GJF.OL",
         "navn": "Gjensidige",
         "sektor": "Finans",
         "label": "Hold",
-        "pe": 20.590841949778437,
+        "pe": 20.51698670605613,
         "eps": 12.85,
-        "dividend_yield_pct": 5.2,
-        "rationale": "Lønnsomt selskap (EPS 12.85) med P/E 20.6 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 5.22,
+        "rationale": "Lønnsomt selskap (EPS 12.85) med P/E 20.5 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "BAKKA.OL",
         "navn": "Bakkafrost",
         "sektor": "Sjømat",
         "label": "Hold",
-        "pe": 22.632709725315518,
+        "pe": 23.285077951002226,
         "eps": 9.95178,
-        "dividend_yield_pct": 1.15,
-        "rationale": "Lønnsomt selskap (EPS 9.95) med P/E 22.6 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 1.12,
+        "rationale": "Lønnsomt selskap (EPS 9.95) med P/E 23.3 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "SCATC.OL",
         "navn": "Scatec",
         "sektor": "Fornybar energi",
         "label": "Hold",
-        "pe": -76.81980906921243,
+        "pe": -78.01312649164679,
         "eps": 1.68112,
         "dividend_yield_pct": 0,
-        "rationale": "Lønnsomt selskap (EPS 1.68) med P/E -76.8 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "rationale": "Lønnsomt selskap (EPS 1.68) med P/E -78.0 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "KIT.OL",
         "navn": "Kitron",
         "sektor": "Teknologi",
         "label": "Hold",
-        "pe": -14.504789447619046,
+        "pe": -14.094699387301587,
         "eps": 3.581,
-        "dividend_yield_pct": 0.71,
-        "rationale": "Lønnsomt selskap (EPS 3.58) med P/E -14.5 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 0.74,
+        "rationale": "Lønnsomt selskap (EPS 3.58) med P/E -14.1 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "ELMRA.OL",
         "navn": "Elmera Group",
         "sektor": "Energi/kraft",
         "label": "Selg",
-        "pe": 25.815744280095288,
+        "pe": 25.843443576533158,
         "eps": 1.89512,
         "dividend_yield_pct": 4.29,
         "rationale": "Lønnsomt (EPS 1.90), men høyt priset: P/E 25.8 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
@@ -1484,97 +1484,97 @@
         "navn": "DNO",
         "sektor": "Energi",
         "label": "Selg",
-        "pe": 26.618006711409397,
+        "pe": 26.95536912751678,
         "eps": 0.17977,
-        "dividend_yield_pct": 8.17,
-        "rationale": "Lønnsomt (EPS 0.18), men høyt priset: P/E 26.6 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
+        "dividend_yield_pct": 8.11,
+        "rationale": "Lønnsomt (EPS 0.18), men høyt priset: P/E 27.0 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "TGS.OL",
         "navn": "TGS",
         "sektor": "Oljeservice",
         "label": "Selg",
-        "pe": 30.111003203844618,
+        "pe": 30.40878053664397,
         "eps": 1.04185,
-        "dividend_yield_pct": 4.28,
-        "rationale": "Lønnsomt (EPS 1.04), men høyt priset: P/E 30.1 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
+        "dividend_yield_pct": 4.26,
+        "rationale": "Lønnsomt (EPS 1.04), men høyt priset: P/E 30.4 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "TOM.OL",
         "navn": "Tomra Systems",
         "sektor": "Industri",
         "label": "Selg",
-        "pe": 31.311203152777775,
+        "pe": 31.916845555555554,
         "eps": 2.13248,
-        "dividend_yield_pct": 2.21,
-        "rationale": "Lønnsomt (EPS 2.13), men høyt priset: P/E 31.3 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
+        "dividend_yield_pct": 2.18,
+        "rationale": "Lønnsomt (EPS 2.13), men høyt priset: P/E 31.9 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "SALM.OL",
         "navn": "SalMar",
         "sektor": "Sjømat",
         "label": "Selg",
-        "pe": 33.78378378378378,
+        "pe": 34.520884520884515,
         "eps": 17.27,
-        "dividend_yield_pct": 1.82,
-        "rationale": "Lønnsomt (EPS 17.27), men høyt priset: P/E 33.8 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
+        "dividend_yield_pct": 1.78,
+        "rationale": "Lønnsomt (EPS 17.27), men høyt priset: P/E 34.5 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "KOG.OL",
         "navn": "Kongsberg Gruppen",
         "sektor": "Forsvar/industri",
         "label": "Selg",
-        "pe": 35.73141486810552,
+        "pe": 36.115107913669064,
         "eps": 7.13,
-        "dividend_yield_pct": 2.72,
-        "rationale": "Lønnsomt (EPS 7.13), men høyt priset: P/E 35.7 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
+        "dividend_yield_pct": 2.69,
+        "rationale": "Lønnsomt (EPS 7.13), men høyt priset: P/E 36.1 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "AUTO.OL",
         "navn": "AutoStore",
         "sektor": "Teknologi",
         "label": "Selg",
-        "pe": 36.131108829568795,
+        "pe": 37.24580082135524,
         "eps": 0.37524,
         "dividend_yield_pct": 0,
-        "rationale": "Lønnsomt (EPS 0.38), men høyt priset: P/E 36.1 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
+        "rationale": "Lønnsomt (EPS 0.38), men høyt priset: P/E 37.2 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "LSG.OL",
         "navn": "Lerøy Seafood",
         "sektor": "Sjømat",
         "label": "Selg",
-        "pe": 36.91525423728814,
+        "pe": 37.355932203389834,
         "eps": 1.9,
-        "dividend_yield_pct": 5.74,
-        "rationale": "Lønnsomt (EPS 1.90), men høyt priset: P/E 36.9 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
+        "dividend_yield_pct": 5.67,
+        "rationale": "Lønnsomt (EPS 1.90), men høyt priset: P/E 37.4 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "BRG.OL",
         "navn": "Borregaard",
         "sektor": "Industri",
         "label": "Selg",
-        "pe": 89.88235294117648,
+        "pe": 90.0,
         "eps": 1.71649,
-        "dividend_yield_pct": 3.11,
-        "rationale": "Lønnsomt (EPS 1.72), men høyt priset: P/E 89.9 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
+        "dividend_yield_pct": 3.1,
+        "rationale": "Lønnsomt (EPS 1.72), men høyt priset: P/E 90.0 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "NOD.OL",
         "navn": "Nordic Semiconductor",
         "sektor": "Teknologi",
         "label": "Selg",
-        "pe": 118.49010848755584,
+        "pe": 118.66378430121253,
         "eps": 1.25517,
         "dividend_yield_pct": 0,
-        "rationale": "Lønnsomt (EPS 1.26), men høyt priset: P/E 118.5 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
+        "rationale": "Lønnsomt (EPS 1.26), men høyt priset: P/E 118.7 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "HPUR.OL",
         "navn": "Hexagon Purus",
         "sektor": "Teknologi",
         "label": "Selg",
-        "pe": -0.21993833504624874,
+        "pe": -0.20760534429599178,
         "eps": -6.095,
         "dividend_yield_pct": 0,
         "rationale": "Negativt resultat per aksje (EPS -6.09) - selskapet er ikke lønnsomt på nåværende tall, uavhengig av kurs."
@@ -1584,9 +1584,9 @@
         "navn": "Grieg Seafood",
         "sektor": "Sjømat",
         "label": "Selg",
-        "pe": -27.38144329896908,
+        "pe": -27.83505154639176,
         "eps": -5.62931,
-        "dividend_yield_pct": 134.18,
+        "dividend_yield_pct": 131.99,
         "rationale": "Negativt resultat per aksje (EPS -5.63) - selskapet er ikke lønnsomt på nåværende tall, uavhengig av kurs."
       },
       {
@@ -1594,7 +1594,7 @@
         "navn": "Nel",
         "sektor": "Fornybar energi",
         "label": "Selg",
-        "pe": -2.9886216332997266,
+        "pe": -3.0246291228575544,
         "eps": -0.66719,
         "dividend_yield_pct": 0,
         "rationale": "Negativt resultat per aksje (EPS -0.67) - selskapet er ikke lønnsomt på nåværende tall, uavhengig av kurs."
@@ -1604,7 +1604,7 @@
         "navn": "poLight",
         "sektor": "Teknologi",
         "label": "Selg",
-        "pe": -26.679245283018865,
+        "pe": -27.32075471698113,
         "eps": -0.52784,
         "dividend_yield_pct": 0,
         "rationale": "Negativt resultat per aksje (EPS -0.53) - selskapet er ikke lønnsomt på nåværende tall, uavhengig av kurs."
