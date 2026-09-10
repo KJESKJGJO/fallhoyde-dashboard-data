@@ -1,9 +1,9 @@
 {
   "disclaimer": "Alle signaler under er regelbaserte, systematiske tekniske/kvantitative beregninger basert på historiske kursdata og offentlige nøkkeltall. Dette er IKKE personlig eller lisensiert investeringsrådgivning, og skal ikke tolkes som en anbefaling om å kjøpe eller selge konkrete verdipapirer. Historisk avkastning er ingen garanti for fremtidig avkastning.",
-  "generated_at": "2026-09-10T16:40:06Z",
+  "generated_at": "2026-09-10T17:28:38Z",
   "momentum": {
     "methodology": "Tidsserie- og tverrsnittsmomentum: rangerer alle aksjer i universet etter kursutvikling de siste 63 handelsdagene (~3 måneder). Topp kvartil med positiv avkastning = Kjøp, bunn kvartil = Selg, resten = Hold. Samme lookback-periode og rangeringslogikk som ble brukt i de tidligere backtestede momentum-demoene for norske vekst- og bredt-univers-aksjer.",
-    "generated_at": "2026-09-10T16:40:06Z",
+    "generated_at": "2026-09-10T17:28:38Z",
     "signals": [
       {
         "ticker": "PLT.OL",
@@ -387,7 +387,7 @@
   },
   "kontrarian": {
     "methodology": "Kontrarian/bunnfangst: bruker eksisterende drawdown-tall fra Fallhøyde-beregningen. Aksjer med betydelig fall fra toppen (≤ -40%) som nå handles over sitt 20-dagers glidende snitt og ikke lenger setter nye bunner, flagges som Kjøp-kandidater (tegn til reversering). Aksjer som fortsatt setter nye bunner eller handles under glidende snitt får Vent. Aksjer uten stort fall får ingen signal fra denne strategien.",
-    "generated_at": "2026-09-10T16:40:06Z",
+    "generated_at": "2026-09-10T17:28:38Z",
     "signals": [
       {
         "ticker": "HUNT.OL",
@@ -771,7 +771,7 @@
   },
   "teknisk_nyheter": {
     "methodology": "Kombinerer et enkelt teknisk trendsignal (20-dagers glidende snitt vs. 50-dagers - samme SMA-krysningslogikk som i strategies.py) med nyhetsdata fra hendelseslisten. Selskapsspesifikke negative nyheter demper et positivt teknisk signal til Hold; sektordrevne negative bevegelser demper et negativt signal fra Selg til Hold, siden slike fall ofte normaliserer med resten av sektoren.",
-    "generated_at": "2026-09-10T16:40:06Z",
+    "generated_at": "2026-09-10T17:28:38Z",
     "signals": [
       {
         "ticker": "HUNT.OL",
@@ -1197,7 +1197,7 @@
   },
   "fundamental": {
     "methodology": "Enkel verdi- og lønnsomhetsscreen basert på nøkkeltall (P/E, resultat per aksje og dividendeavkastning) hentet direkte fra markedsdata. Selskaper med negativt resultat (EPS ≤ 0) flagges Selg uavhengig av kurs. Blant lønnsomme selskaper rangeres de laveste 30% på P/E som Kjøp (billigst), de høyeste 30% som Selg (dyrest), resten Hold. NB: fulle lønnsomhets- og gjeldsnøkkeltall (margin, ROE, D/E) har begrenset historikk-dekning for enkelte Oslo Børs-noterte selskaper i datakilden, så denne strategien bruker kun P/E, EPS-tegn og dividendeavkastning - en forenklet fundamental-screen, ikke en full kvalitetsanalyse.",
-    "generated_at": "2026-09-10T16:40:06Z",
+    "generated_at": "2026-09-10T17:28:38Z",
     "signals": [
       {
         "ticker": "HUNT.OL",
@@ -1623,7 +1623,7 @@
   },
   "risikofilter": {
     "methodology": "Strategi-Match med Risiko-filter: strategi-score summerer +25 poeng for hver av de 4 strategiene (momentum, kontrarian, teknisk+nyheter, fundamental) som gir Kjøp-signal (0-100). Risiko-score summerer +25 poeng per utløst risikofaktor (0-100): (a) teknisk strekk - kurs >15% over 20- eller 50-dagers glidende snitt (fanger momentum-/teknisk-overreaksjon); (b) syklisk/spekulativ risiko - P/E under 4 kombinert med >40% avkastning siste 3 måneder (fanger P/E-blindhet der ekstremt lav P/E skyldes forbigående marginer, ikke sunn verdsettelse); (c) likviditetsrisiko - likviditetsgrad (omløpsmidler/kortsiktig gjeld) under 1.2, ekskludert for bank/forsikring der målet ikke er meningsfullt; (d) juridisk/nyhetsflagg - nøkkelordsøk ('rettssak', 'disputt', 'krangel' m.fl.) i nyheter og hendelser (fanger positiv-sentiment-skjevheten i ren RSS-basert nyhetsscoring). En høy strategi-score kombinert med en høy risiko-score betyr at aksjen utløser kjøpssignaler i modellene, men har underliggende risikofaktorer som modellene isolert sett ikke fanger opp - IKKE personlig eller lisensiert investeringsrådgivning.",
-    "generated_at": "2026-09-10T16:40:06Z",
+    "generated_at": "2026-09-10T17:28:38Z",
     "signals": [
       {
         "ticker": "HUNT.OL",
@@ -1631,7 +1631,7 @@
         "sektor": "Shipping",
         "siste_kurs": 14.38,
         "strategi_score": 100,
-        "risiko_score": 50,
+        "risiko_score": 75,
         "status": "STRATEGI_MATCH_MED_HOY_RISIKO",
         "strategier_med_kjop": [
           "momentum",
@@ -1650,10 +1650,10 @@
           {
             "faktor": "syklisk_pe",
             "navn": "Syklisk/spekulativ lav P/E",
-            "utlost": false,
-            "forklaring": "Svært lav P/E (1.9), men uten den kraftige kursoppgangen (>40% siste 3 mnd) som ville indikert syklisk overreaksjon.",
+            "utlost": true,
+            "forklaring": "Ekstremt lav P/E (1.9) kombinert med kraftig kursoppgang siste 3 måneder (+62.5%) - typisk mønster for syklisk/spekulativ overreaksjon der lav P/E kan skyldes forbigående høye marginer, ikke varig inntjeningsevne.",
             "verdi_pe": 1.8956088221037324,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 62.49
           },
           {
             "faktor": "likviditet",
@@ -1672,7 +1672,7 @@
             "kilde_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYS1adnVhS2RaQkgtOGxqN0pyeHFKOFBtMW9CUlRubWNaNlBaLTJER2JQY0VyanpTR0NBVENmRUFxNmxjU1RMX2NKdl94ZXBPNklIdFE5MlU1YktwYmo4b3VkQVJKM0pndXE5LUFHTmZZVENNSWtnOU1rR252cWJQZndrSlkwR3FHRHg0cDdYSXRQNlRGMmdJTG0zV09NY1dyUGZ3NDhRM1VRVnJyUEwwb0d2bm5YdTVQMzdXR1U4c0c?oc=5"
           }
         ],
-        "automatisk_vurdering": "Aksjen utløser kjøpssignal i 4 av 4 modeller (strategi-score 100). Samtidig er risiko-scoren 50/100 pga.: Teknisk strekk (overopphetet), Juridisk/nyhetsflagg. Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
+        "automatisk_vurdering": "Aksjen utløser kjøpssignal i 4 av 4 modeller (strategi-score 100). Samtidig er risiko-scoren 75/100 pga.: Teknisk strekk (overopphetet), Syklisk/spekulativ lav P/E, Juridisk/nyhetsflagg. Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
       },
       {
         "ticker": "ECO",
@@ -1702,7 +1702,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 6.605949626865671,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 46.15
           },
           {
             "faktor": "likviditet",
@@ -1751,7 +1751,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 7.077961019490255,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 21.89
           },
           {
             "faktor": "likviditet",
@@ -1799,7 +1799,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 4.297925598487471,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 32.73
           },
           {
             "faktor": "likviditet",
@@ -1847,7 +1847,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 11.203013414634148,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 22.21
           },
           {
             "faktor": "likviditet",
@@ -1894,7 +1894,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": -26.905660377358487,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 72.85
           },
           {
             "faktor": "likviditet",
@@ -1941,7 +1941,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 10.94192758293839,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 12.85
           },
           {
             "faktor": "likviditet",
@@ -1988,7 +1988,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 12.31259182561308,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 19.23
           },
           {
             "faktor": "likviditet",
@@ -2035,7 +2035,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 11.09046,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 10.24
           },
           {
             "faktor": "likviditet",
@@ -2082,7 +2082,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 8.40893470790378,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 10.45
           },
           {
             "faktor": "likviditet",
@@ -2129,7 +2129,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 10.359708041666666,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 12.67
           },
           {
             "faktor": "likviditet",
@@ -2176,7 +2176,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": -52.222222222222214,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 20.51
           },
           {
             "faktor": "likviditet",
@@ -2223,7 +2223,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 8.509374129353235,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 0.34
           },
           {
             "faktor": "likviditet",
@@ -2269,7 +2269,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 6.26865671641791,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": -7.45
           },
           {
             "faktor": "likviditet",
@@ -2315,7 +2315,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 31.12667601121346,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": -4.48
           },
           {
             "faktor": "likviditet",
@@ -2361,7 +2361,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 35.875299760191844,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 1.7
           },
           {
             "faktor": "likviditet",
@@ -2407,7 +2407,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 17.278066019417476,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": -5.21
           },
           {
             "faktor": "likviditet",
@@ -2453,7 +2453,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 18.63453815261044,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": -15.48
           },
           {
             "faktor": "likviditet",
@@ -2499,7 +2499,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 25.843443576533158,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 57.07
           },
           {
             "faktor": "likviditet",
@@ -2545,7 +2545,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 27.713347651006714,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 1.44
           },
           {
             "faktor": "likviditet",
@@ -2591,7 +2591,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 34.666644763860376,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 36.62
           },
           {
             "faktor": "likviditet",
@@ -2637,7 +2637,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 35.22727272727273,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 6.6
           },
           {
             "faktor": "likviditet",
@@ -2683,7 +2683,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 37.8813559322034,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 7.25
           },
           {
             "faktor": "likviditet",
@@ -2729,7 +2729,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 15.882746000000001,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 6.96
           },
           {
             "faktor": "likviditet",
@@ -2775,7 +2775,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 16.389473684210525,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 4.78
           },
           {
             "faktor": "likviditet",
@@ -2821,7 +2821,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 20.413589364844903,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 6.88
           },
           {
             "faktor": "likviditet",
@@ -2867,7 +2867,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 17.607855999999998,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 6.06
           },
           {
             "faktor": "likviditet",
@@ -2913,7 +2913,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 11.541802388707927,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 9.59
           },
           {
             "faktor": "likviditet",
@@ -2957,7 +2957,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": -77.49105011933176,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 5.0
           },
           {
             "faktor": "likviditet",
@@ -3001,7 +3001,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 13.282387190684133,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": -8.52
           },
           {
             "faktor": "likviditet",
@@ -3045,7 +3045,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": -0.21240150736553617,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": -49.18
           },
           {
             "faktor": "likviditet",
@@ -3089,7 +3089,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": -27.876288659793822,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": -9.32
           },
           {
             "faktor": "likviditet",
@@ -3133,7 +3133,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": -2.98142013538816,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": -21.89
           },
           {
             "faktor": "likviditet",
@@ -3177,7 +3177,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 31.968038194444443,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 3.03
           },
           {
             "faktor": "likviditet",
@@ -3221,7 +3221,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 23.584335560504826,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 7.51
           },
           {
             "faktor": "likviditet",
@@ -3265,7 +3265,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 13.861386372745491,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 5.71
           },
           {
             "faktor": "likviditet",
@@ -3309,7 +3309,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 121.26432035737078,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": -6.73
           },
           {
             "faktor": "likviditet",
@@ -3353,7 +3353,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 89.05882352941177,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 8.3
           },
           {
             "faktor": "likviditet",
@@ -3397,7 +3397,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": -14.154134571428571,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": -12.15
           },
           {
             "faktor": "likviditet",
@@ -3441,7 +3441,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 14.147368421052631,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": -11.35
           },
           {
             "faktor": "likviditet",
@@ -3485,7 +3485,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 18.666666666666668,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": -1.9
           },
           {
             "faktor": "likviditet",
@@ -3529,7 +3529,7 @@
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
             "verdi_pe": 17.721297107800176,
-            "verdi_avkastning_3m_pct": null
+            "verdi_avkastning_3m_pct": 16.88
           },
           {
             "faktor": "likviditet",
