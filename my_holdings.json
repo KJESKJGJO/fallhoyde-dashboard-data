@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T05:03:58Z",
+  "generated_at": "2026-09-14T05:04:29Z",
   "holdinger": [
     {
       "ticker": "HUNT.OL",
@@ -16,9 +16,9 @@
         {
           "faktor": "vlcc_ais",
           "navn": "VLCC AIS-avvik (DHT Puma / Eagle Victoria)",
-          "utlost": false,
-          "forklaring": "DHT Puma: AIS-signal 37 t gammelt, underveis (ikke til anker). Eagle Victoria: AIS-signal 0 t gammelt, til anker i ~0 t.",
-          "sist_sjekket_utc": "2026-09-13T05:03:56Z"
+          "utlost": true,
+          "forklaring": "DHT Puma: AIS-signal 72 t gammelt (over 48t-grense), underveis (ikke til anker). Eagle Victoria: AIS-signal 0 t gammelt, til anker i ~24 t.",
+          "sist_sjekket_utc": "2026-09-14T05:04:28Z"
         }
       ]
     }
