@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T05:04:29Z",
+  "generated_at": "2026-09-15T05:09:49Z",
   "holdinger": [
     {
       "ticker": "HUNT.OL",
@@ -9,16 +9,16 @@
           "faktor": "kursvarsel",
           "navn": "Kurs under 12,50 NOK",
           "utlost": false,
-          "forklaring": "Siste kjente kurs 16,64 NOK er over varselgrensen på 12,50 NOK.",
-          "siste_kurs": 16.64,
-          "sist_sjekket_utc": "2026-09-11T14:23:15.883981Z"
+          "forklaring": "Siste kjente kurs 17,48 NOK er over varselgrensen på 12,50 NOK.",
+          "siste_kurs": 17.48,
+          "sist_sjekket_utc": "2026-09-14T14:31:07.970729Z"
         },
         {
           "faktor": "vlcc_ais",
           "navn": "VLCC AIS-avvik (DHT Puma / Eagle Victoria)",
           "utlost": true,
-          "forklaring": "DHT Puma: AIS-signal 72 t gammelt (over 48t-grense), underveis (ikke til anker). Eagle Victoria: AIS-signal 0 t gammelt, til anker i ~24 t.",
-          "sist_sjekket_utc": "2026-09-14T05:04:28Z"
+          "forklaring": "DHT Puma: AIS-signal 96 t gammelt (over 48t-grense), underveis (ikke til anker). Eagle Victoria: AIS-signal 0 t gammelt, til anker i ~48 t.",
+          "sist_sjekket_utc": "2026-09-15T05:09:47Z"
         }
       ]
     }
