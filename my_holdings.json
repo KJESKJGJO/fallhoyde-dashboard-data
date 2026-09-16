@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T08:49:35Z",
+  "generated_at": "2026-09-16T04:58:30Z",
   "holdinger": [
     {
       "ticker": "HUNT.OL",
@@ -9,16 +9,16 @@
           "faktor": "kursvarsel",
           "navn": "Kurs under 12,50 NOK",
           "utlost": false,
-          "forklaring": "Siste kjente kurs 17,10 NOK er over varselgrensen på 12,50 NOK.",
-          "siste_kurs": 17.1,
-          "sist_sjekket_utc": "2026-09-15T08:24:06.521914Z"
+          "forklaring": "Siste kjente kurs 17,14 NOK er over varselgrensen på 12,50 NOK.",
+          "siste_kurs": 17.14,
+          "sist_sjekket_utc": "2026-09-15T14:22:57.987273Z"
         },
         {
           "faktor": "vlcc_ais",
           "navn": "VLCC AIS-avvik (DHT Puma / Eagle Victoria)",
           "utlost": true,
-          "forklaring": "DHT Puma: AIS-signal 96 t gammelt (over 48t-grense), underveis (ikke til anker). Eagle Victoria: AIS-signal 0 t gammelt, til anker i ~52 t.",
-          "sist_sjekket_utc": "2026-09-15T08:49:32Z"
+          "forklaring": "DHT Puma: AIS-signal 120 t gammelt (over 48t-grense), underveis (ikke til anker). Eagle Victoria: underveis (ikke til anker).",
+          "sist_sjekket_utc": "2026-09-16T04:58:00Z"
         },
         {
           "faktor": "shortsalg",
@@ -27,19 +27,19 @@
           "forklaring": "Ingen aktive, meldepliktige shortposisjoner (≥ 0,5%) registrert i Hunter Group akkurat nå (siste registrerte hendelse i registeret: 2026-07-21).",
           "akkumulert_short_pct": 0.0,
           "kilde": "https://ssr.finanstilsynet.no/Home/Details/NO0012953720",
-          "sist_sjekket_utc": "2026-09-15T08:49:33Z"
+          "sist_sjekket_utc": "2026-09-16T04:58:29Z"
         },
         {
           "faktor": "volumavvik",
           "navn": "Unormalt handelsvolum",
           "utlost": false,
-          "forklaring": "2026-09-14: volumet var 2,3x 20-dagers snitt (kursendring +3,0%) - ikke over terskelen for unormalt salgsvolum.",
-          "dato": "2026-09-14",
-          "volum_siste_dag": 9874994.0,
-          "snittvolum_20d": 4202682.0,
-          "multiplikator": 2.35,
-          "kursendring_pct": 2.98,
-          "sist_sjekket_utc": "2026-09-15T08:49:35Z"
+          "forklaring": "2026-09-15: volumet var 1,1x 20-dagers snitt (kursendring -1,3%) - ikke over terskelen for unormalt salgsvolum.",
+          "dato": "2026-09-15",
+          "volum_siste_dag": 4835590.0,
+          "snittvolum_20d": 4601030.0,
+          "multiplikator": 1.05,
+          "kursendring_pct": -1.27,
+          "sist_sjekket_utc": "2026-09-16T04:58:30Z"
         }
       ]
     }
