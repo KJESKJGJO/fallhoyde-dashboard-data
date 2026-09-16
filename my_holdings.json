@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T04:58:30Z",
+  "generated_at": "2026-09-16T13:49:49Z",
   "holdinger": [
     {
       "ticker": "HUNT.OL",
@@ -9,16 +9,16 @@
           "faktor": "kursvarsel",
           "navn": "Kurs under 12,50 NOK",
           "utlost": false,
-          "forklaring": "Siste kjente kurs 17,14 NOK er over varselgrensen på 12,50 NOK.",
-          "siste_kurs": 17.14,
-          "sist_sjekket_utc": "2026-09-15T14:22:57.987273Z"
+          "forklaring": "Siste kjente kurs 17,10 NOK er over varselgrensen på 12,50 NOK.",
+          "siste_kurs": 17.1,
+          "sist_sjekket_utc": "2026-09-16T13:36:59.618693Z"
         },
         {
           "faktor": "vlcc_ais",
           "navn": "VLCC AIS-avvik (DHT Puma / Eagle Victoria)",
           "utlost": true,
-          "forklaring": "DHT Puma: AIS-signal 120 t gammelt (over 48t-grense), underveis (ikke til anker). Eagle Victoria: underveis (ikke til anker).",
-          "sist_sjekket_utc": "2026-09-16T04:58:00Z"
+          "forklaring": "DHT Puma: AIS-signal 120 t gammelt (over 48t-grense), underveis (ikke til anker). Eagle Victoria: AIS-signal 0 t gammelt, til anker i ~0 t.",
+          "sist_sjekket_utc": "2026-09-16T13:49:35Z"
         },
         {
           "faktor": "shortsalg",
@@ -27,7 +27,7 @@
           "forklaring": "Ingen aktive, meldepliktige shortposisjoner (≥ 0,5%) registrert i Hunter Group akkurat nå (siste registrerte hendelse i registeret: 2026-07-21).",
           "akkumulert_short_pct": 0.0,
           "kilde": "https://ssr.finanstilsynet.no/Home/Details/NO0012953720",
-          "sist_sjekket_utc": "2026-09-16T04:58:29Z"
+          "sist_sjekket_utc": "2026-09-16T13:49:36Z"
         },
         {
           "faktor": "volumavvik",
@@ -39,7 +39,15 @@
           "snittvolum_20d": 4601030.0,
           "multiplikator": 1.05,
           "kursendring_pct": -1.27,
-          "sist_sjekket_utc": "2026-09-16T04:58:30Z"
+          "sist_sjekket_utc": "2026-09-16T13:49:48Z"
+        },
+        {
+          "faktor": "flaggemelding",
+          "navn": "Flaggemelding (større eierandel - Oslo Børs Newsweb)",
+          "sist_sjekket_utc": "2026-09-16T13:49:48Z",
+          "utlost": true,
+          "forklaring": "The Goldman Sachs Group, Inc. sendte flaggemelding 14/09/2026: eierandelen gikk ned fra 5,10% til 4,40% av stemmene i Hunter Group.",
+          "kilde": "https://newsweb.oslobors.no/message/682414"
         }
       ]
     }
