@@ -1,9 +1,9 @@
 {
   "disclaimer": "Alle signaler under er regelbaserte, systematiske tekniske/kvantitative beregninger basert på historiske kursdata og offentlige nøkkeltall. Dette er IKKE personlig eller lisensiert investeringsrådgivning, og skal ikke tolkes som en anbefaling om å kjøpe eller selge konkrete verdipapirer. Historisk avkastning er ingen garanti for fremtidig avkastning.",
-  "generated_at": "2026-09-16T04:57:46Z",
+  "generated_at": "2026-09-17T06:15:04Z",
   "momentum": {
     "methodology": "Tidsserie- og tverrsnittsmomentum: rangerer alle aksjer i universet etter kursutvikling de siste 63 handelsdagene (~3 måneder). Topp kvartil med positiv avkastning = Kjøp, bunn kvartil = Selg, resten = Hold. Samme lookback-periode og rangeringslogikk som ble brukt i de tidligere backtestede momentum-demoene for norske vekst- og bredt-univers-aksjer.",
-    "generated_at": "2026-09-16T04:57:46Z",
+    "generated_at": "2026-09-17T06:15:04Z",
     "signals": [
       {
         "ticker": "HUNT.OL",
@@ -387,7 +387,7 @@
   },
   "kontrarian": {
     "methodology": "Kontrarian/bunnfangst: bruker eksisterende drawdown-tall fra Fallhøyde-beregningen. Aksjer med betydelig fall fra toppen (≤ -40%) som nå handles over sitt 20-dagers glidende snitt og ikke lenger setter nye bunner, flagges som Kjøp-kandidater (tegn til reversering). Aksjer som fortsatt setter nye bunner eller handles under glidende snitt får Vent. Aksjer uten stort fall får ingen signal fra denne strategien.",
-    "generated_at": "2026-09-16T04:57:46Z",
+    "generated_at": "2026-09-17T06:15:04Z",
     "signals": [
       {
         "ticker": "HUNT.OL",
@@ -771,7 +771,7 @@
   },
   "teknisk_nyheter": {
     "methodology": "Kombinerer et enkelt teknisk trendsignal (20-dagers glidende snitt vs. 50-dagers - samme SMA-krysningslogikk som i strategies.py) med nyhetsdata fra hendelseslisten. Selskapsspesifikke negative nyheter demper et positivt teknisk signal til Hold; sektordrevne negative bevegelser demper et negativt signal fra Selg til Hold, siden slike fall ofte normaliserer med resten av sektoren.",
-    "generated_at": "2026-09-16T04:57:46Z",
+    "generated_at": "2026-09-17T06:15:04Z",
     "signals": [
       {
         "ticker": "HUNT.OL",
@@ -1197,76 +1197,76 @@
   },
   "fundamental": {
     "methodology": "Enkel verdi- og lønnsomhetsscreen basert på nøkkeltall (P/E, resultat per aksje og dividendeavkastning) hentet direkte fra markedsdata. Selskaper med negativt resultat (EPS ≤ 0) flagges Selg uavhengig av kurs. Blant lønnsomme selskaper rangeres de laveste 30% på P/E som Kjøp (billigst), de høyeste 30% som Selg (dyrest), resten Hold. NB: fulle lønnsomhets- og gjeldsnøkkeltall (margin, ROE, D/E) har begrenset historikk-dekning for enkelte Oslo Børs-noterte selskaper i datakilden, så denne strategien bruker kun P/E, EPS-tegn og dividendeavkastning - en forenklet fundamental-screen, ikke en full kvalitetsanalyse.",
-    "generated_at": "2026-09-16T04:57:46Z",
+    "generated_at": "2026-09-17T06:15:04Z",
     "signals": [
       {
         "ticker": "HUNT.OL",
         "navn": "Hunter Group",
         "sektor": "Shipping",
         "label": "Kjøp",
-        "pe": 2.2169641299079004,
+        "pe": 2.263771206980126,
         "eps": 7.90745,
-        "dividend_yield_pct": 14.81,
-        "rationale": "Lønnsomt selskap (EPS 7.91) med lav prising: P/E 2.2 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 14.8% dividendeavkastning."
+        "dividend_yield_pct": 14.37,
+        "rationale": "Lønnsomt selskap (EPS 7.91) med lav prising: P/E 2.3 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 14.4% dividendeavkastning."
       },
       {
         "ticker": "AKER.OL",
         "navn": "Aker ASA",
         "sektor": "Holding",
         "label": "Kjøp",
-        "pe": 4.074241738343142,
+        "pe": 4.207386893190957,
         "eps": 375.53,
-        "dividend_yield_pct": 3.63,
-        "rationale": "Lønnsomt selskap (EPS 375.53) med lav prising: P/E 4.1 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 3.6% dividendeavkastning."
+        "dividend_yield_pct": 3.51,
+        "rationale": "Lønnsomt selskap (EPS 375.53) med lav prising: P/E 4.2 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 3.5% dividendeavkastning."
       },
       {
         "ticker": "AKSO.OL",
         "navn": "Aker Solutions",
         "sektor": "Oljeservice",
         "label": "Kjøp",
-        "pe": 6.095522388059702,
+        "pe": 6.322388059701492,
         "eps": 5.42,
-        "dividend_yield_pct": 21.06,
-        "rationale": "Lønnsomt selskap (EPS 5.42) med lav prising: P/E 6.1 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 21.1% dividendeavkastning."
+        "dividend_yield_pct": 20.3,
+        "rationale": "Lønnsomt selskap (EPS 5.42) med lav prising: P/E 6.3 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 20.3% dividendeavkastning."
       },
       {
         "ticker": "ECO",
         "navn": "Okeanis Eco Tankers",
         "sektor": "Shipping",
         "label": "Kjøp",
-        "pe": 7.654283582089552,
+        "pe": 7.949849813432835,
         "eps": 10.79,
-        "dividend_yield_pct": 11.69,
-        "rationale": "Lønnsomt selskap (EPS 10.79) med lav prising: P/E 7.7 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 11.7% dividendeavkastning."
-      },
-      {
-        "ticker": "FRO.OL",
-        "navn": "Frontline",
-        "sektor": "Shipping",
-        "label": "Kjøp",
-        "pe": 7.734632683658171,
-        "eps": 65.76,
-        "dividend_yield_pct": 6.07,
-        "rationale": "Lønnsomt selskap (EPS 65.76) med lav prising: P/E 7.7 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 6.1% dividendeavkastning."
+        "dividend_yield_pct": 11.23,
+        "rationale": "Lønnsomt selskap (EPS 10.79) med lav prising: P/E 7.9 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 11.2% dividendeavkastning."
       },
       {
         "ticker": "YAR.OL",
         "navn": "Yara International",
         "sektor": "Industri",
         "label": "Kjøp",
-        "pe": 7.985147595356552,
+        "pe": 7.987783084577115,
         "eps": 58.44,
-        "dividend_yield_pct": 4.89,
-        "rationale": "Lønnsomt selskap (EPS 58.44) med lav prising: P/E 8.0 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 4.9% dividendeavkastning."
+        "dividend_yield_pct": 4.85,
+        "rationale": "Lønnsomt selskap (EPS 58.44) med lav prising: P/E 8.0 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 4.8% dividendeavkastning."
+      },
+      {
+        "ticker": "FRO.OL",
+        "navn": "Frontline",
+        "sektor": "Shipping",
+        "label": "Kjøp",
+        "pe": 8.046476761619191,
+        "eps": 65.76,
+        "dividend_yield_pct": 5.83,
+        "rationale": "Lønnsomt selskap (EPS 65.76) med lav prising: P/E 8.0 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 5.8% dividendeavkastning."
       },
       {
         "ticker": "BWLPG.OL",
         "navn": "BW LPG",
         "sektor": "Shipping",
         "label": "Kjøp",
-        "pe": 8.872852233676976,
+        "pe": 8.879725085910653,
         "eps": 21.39,
-        "dividend_yield_pct": 10.03,
+        "dividend_yield_pct": 10.02,
         "rationale": "Lønnsomt selskap (EPS 21.39) med lav prising: P/E 8.9 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 10.0% dividendeavkastning."
       },
       {
@@ -1274,139 +1274,139 @@
         "navn": "Cadeler",
         "sektor": "Shipping/offshore vind",
         "label": "Kjøp",
-        "pe": 9.923304416666664,
+        "pe": 10.076389399999998,
         "eps": 2.51,
         "dividend_yield_pct": 0,
-        "rationale": "Lønnsomt selskap (EPS 2.51) med lav prising: P/E 9.9 er blant de 10 laveste av 35 lønnsomme aksjer i universet."
+        "rationale": "Lønnsomt selskap (EPS 2.51) med lav prising: P/E 10.1 er blant de 10 laveste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "VAR.OL",
         "navn": "Vår Energi",
         "sektor": "Energi",
         "label": "Kjøp",
-        "pe": 11.06228018957346,
+        "pe": 10.928875071090047,
         "eps": 2.70266,
-        "dividend_yield_pct": 8.97,
-        "rationale": "Lønnsomt selskap (EPS 2.70) med lav prising: P/E 11.1 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 9.0% dividendeavkastning."
+        "dividend_yield_pct": 8.99,
+        "rationale": "Lønnsomt selskap (EPS 2.70) med lav prising: P/E 10.9 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 9.0% dividendeavkastning."
       },
       {
         "ticker": "DNB.OL",
         "navn": "DNB",
         "sektor": "Finans",
         "label": "Kjøp",
-        "pe": 11.400651465798047,
+        "pe": 11.39703221136446,
         "eps": 26.96,
-        "dividend_yield_pct": 5.71,
+        "dividend_yield_pct": 5.72,
         "rationale": "Lønnsomt selskap (EPS 26.96) med lav prising: P/E 11.4 er blant de 10 laveste av 35 lønnsomme aksjer i universet, pluss 5.7% dividendeavkastning."
-      },
-      {
-        "ticker": "ODL.OL",
-        "navn": "Odfjell Drilling",
-        "sektor": "Oljeservice",
-        "label": "Hold",
-        "pe": 11.456202105263158,
-        "eps": 9.39,
-        "dividend_yield_pct": 8.75,
-        "rationale": "Lønnsomt selskap (EPS 9.39) med P/E 11.5 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "WAWI.OL",
         "navn": "Wallenius Wilhelmsen",
         "sektor": "Shipping",
         "label": "Hold",
-        "pe": 11.717882926829269,
+        "pe": 11.668928048780488,
         "eps": 17.06,
-        "dividend_yield_pct": 8.58,
+        "dividend_yield_pct": 8.57,
         "rationale": "Lønnsomt selskap (EPS 17.06) med P/E 11.7 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+      },
+      {
+        "ticker": "ODL.OL",
+        "navn": "Odfjell Drilling",
+        "sektor": "Oljeservice",
+        "label": "Hold",
+        "pe": 11.796075789473685,
+        "eps": 9.39,
+        "dividend_yield_pct": 8.42,
+        "rationale": "Lønnsomt selskap (EPS 9.39) med P/E 11.8 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "EQNR.OL",
         "navn": "Equinor",
         "sektor": "Energi",
         "label": "Hold",
-        "pe": 12.368724250681199,
+        "pe": 12.181517166212537,
         "eps": 31.71,
-        "dividend_yield_pct": 3.43,
-        "rationale": "Lønnsomt selskap (EPS 31.71) med P/E 12.4 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 3.45,
+        "rationale": "Lønnsomt selskap (EPS 31.71) med P/E 12.2 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "ORK.OL",
         "navn": "Orkla",
         "sektor": "Forbruksvarer",
         "label": "Hold",
-        "pe": 13.202328966521106,
+        "pe": 13.26783114992722,
         "eps": 6.84,
-        "dividend_yield_pct": 6.62,
-        "rationale": "Lønnsomt selskap (EPS 6.84) med P/E 13.2 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 6.58,
+        "rationale": "Lønnsomt selskap (EPS 6.84) med P/E 13.3 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "ELO.OL",
         "navn": "Elopak",
         "sektor": "Industri",
         "label": "Hold",
-        "pe": 13.48080400801603,
+        "pe": 13.631698857715431,
         "eps": 2.882,
-        "dividend_yield_pct": 5.62,
-        "rationale": "Lønnsomt selskap (EPS 2.88) med P/E 13.5 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 5.54,
+        "rationale": "Lønnsomt selskap (EPS 2.88) med P/E 13.6 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "TEL.OL",
         "navn": "Telenor",
         "sektor": "Telekom",
         "label": "Hold",
-        "pe": 14.326315789473682,
+        "pe": 14.23157894736842,
         "eps": 8.35,
-        "dividend_yield_pct": 7.05,
-        "rationale": "Lønnsomt selskap (EPS 8.35) med P/E 14.3 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 7.1,
+        "rationale": "Lønnsomt selskap (EPS 8.35) med P/E 14.2 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "MOWI.OL",
         "navn": "Mowi",
         "sektor": "Sjømat",
         "label": "Hold",
-        "pe": 15.298768692682925,
+        "pe": 15.19752419512195,
         "eps": 10.49,
-        "dividend_yield_pct": 3.75,
-        "rationale": "Lønnsomt selskap (EPS 10.49) med P/E 15.3 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 3.76,
+        "rationale": "Lønnsomt selskap (EPS 10.49) med P/E 15.2 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "SUBC.OL",
         "navn": "Subsea7",
         "sektor": "Oljeservice",
         "label": "Hold",
-        "pe": 16.596850485436892,
+        "pe": 16.601120388349514,
         "eps": 20.2,
-        "dividend_yield_pct": 6.11,
+        "dividend_yield_pct": 6.05,
         "rationale": "Lønnsomt selskap (EPS 20.20) med P/E 16.6 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
-      },
-      {
-        "ticker": "NHY.OL",
-        "navn": "Norsk Hydro",
-        "sektor": "Industri",
-        "label": "Hold",
-        "pe": 16.96787148594377,
-        "eps": 5.449,
-        "dividend_yield_pct": 3.55,
-        "rationale": "Lønnsomt selskap (EPS 5.45) med P/E 17.0 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "FLNG",
         "navn": "Flex LNG",
         "sektor": "Shipping",
         "label": "Hold",
-        "pe": 17.04736842105263,
+        "pe": 16.957894736842103,
         "eps": 1.96,
-        "dividend_yield_pct": 9.26,
+        "dividend_yield_pct": 9.31,
         "rationale": "Lønnsomt selskap (EPS 1.96) med P/E 17.0 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+      },
+      {
+        "ticker": "NHY.OL",
+        "navn": "Norsk Hydro",
+        "sektor": "Industri",
+        "label": "Hold",
+        "pe": 17.03614457831325,
+        "eps": 5.449,
+        "dividend_yield_pct": 3.54,
+        "rationale": "Lønnsomt selskap (EPS 5.45) med P/E 17.0 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "STB.OL",
         "navn": "Storebrand",
         "sektor": "Finans",
         "label": "Hold",
-        "pe": 17.458369851007888,
+        "pe": 17.54601226993865,
         "eps": 11.31,
-        "dividend_yield_pct": 2.71,
+        "dividend_yield_pct": 2.7,
         "rationale": "Lønnsomt selskap (EPS 11.31) med P/E 17.5 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
@@ -1414,9 +1414,9 @@
         "navn": "Aker BP",
         "sektor": "Energi",
         "label": "Hold",
-        "pe": 17.62004977777778,
+        "pe": 17.647544,
         "eps": 21.20112,
-        "dividend_yield_pct": 6.8,
+        "dividend_yield_pct": 6.73,
         "rationale": "Lønnsomt selskap (EPS 21.20) med P/E 17.6 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
@@ -1424,19 +1424,19 @@
         "navn": "Protector Forsikring",
         "sektor": "Finans",
         "label": "Hold",
-        "pe": 18.160642570281123,
+        "pe": 18.11244979919679,
         "eps": 24.79,
-        "dividend_yield_pct": 4.42,
-        "rationale": "Lønnsomt selskap (EPS 24.79) med P/E 18.2 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 4.43,
+        "rationale": "Lønnsomt selskap (EPS 24.79) med P/E 18.1 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "GJF.OL",
         "navn": "Gjensidige",
         "sektor": "Finans",
         "label": "Hold",
-        "pe": 20.443131462333827,
+        "pe": 20.413589364844903,
         "eps": 12.85,
-        "dividend_yield_pct": 5.24,
+        "dividend_yield_pct": 5.25,
         "rationale": "Lønnsomt selskap (EPS 12.85) med P/E 20.4 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
@@ -1444,37 +1444,37 @@
         "navn": "Bakkafrost",
         "sektor": "Sjømat",
         "label": "Hold",
-        "pe": 22.222645879732738,
+        "pe": 22.31134075723831,
         "eps": 9.95178,
-        "dividend_yield_pct": 1.17,
-        "rationale": "Lønnsomt selskap (EPS 9.95) med P/E 22.2 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 1.16,
+        "rationale": "Lønnsomt selskap (EPS 9.95) med P/E 22.3 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "KIT.OL",
         "navn": "Kitron",
         "sektor": "Teknologi",
         "label": "Hold",
-        "pe": -13.807848214285713,
+        "pe": -14.014287257142858,
         "eps": 3.581,
-        "dividend_yield_pct": 0.75,
-        "rationale": "Lønnsomt selskap (EPS 3.58) med P/E -13.8 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "dividend_yield_pct": 0.73,
+        "rationale": "Lønnsomt selskap (EPS 3.58) med P/E -14.0 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "SCATC.OL",
         "navn": "Scatec",
         "sektor": "Fornybar energi",
         "label": "Hold",
-        "pe": -72.38215990453462,
+        "pe": -71.33800715990455,
         "eps": 1.68112,
         "dividend_yield_pct": 0,
-        "rationale": "Lønnsomt selskap (EPS 1.68) med P/E -72.4 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "rationale": "Lønnsomt selskap (EPS 1.68) med P/E -71.3 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "ELMRA.OL",
         "navn": "Elmera Group",
         "sektor": "Energi/kraft",
         "label": "Selg",
-        "pe": 25.732646390781678,
+        "pe": 25.73264639078168,
         "eps": 1.89512,
         "dividend_yield_pct": 4.31,
         "rationale": "Lønnsomt (EPS 1.90), men høyt priset: P/E 25.7 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
@@ -1484,99 +1484,99 @@
         "navn": "DNO",
         "sektor": "Energi",
         "label": "Selg",
-        "pe": 28.052499328859067,
+        "pe": 28.13778523489933,
         "eps": 0.17977,
-        "dividend_yield_pct": 7.69,
+        "dividend_yield_pct": 7.59,
         "rationale": "Lønnsomt (EPS 0.18), men høyt priset: P/E 28.1 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
-      },
-      {
-        "ticker": "TGS.OL",
-        "navn": "TGS",
-        "sektor": "Oljeservice",
-        "label": "Selg",
-        "pe": 29.55498197837405,
-        "eps": 1.04185,
-        "dividend_yield_pct": 4.33,
-        "rationale": "Lønnsomt (EPS 1.04), men høyt priset: P/E 29.6 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "TOM.OL",
         "navn": "Tomra Systems",
         "sektor": "Industri",
         "label": "Selg",
-        "pe": 30.33401850694445,
+        "pe": 29.0173970625,
         "eps": 2.13248,
-        "dividend_yield_pct": 2.28,
-        "rationale": "Lønnsomt (EPS 2.13), men høyt priset: P/E 30.3 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
+        "dividend_yield_pct": 2.38,
+        "rationale": "Lønnsomt (EPS 2.13), men høyt priset: P/E 29.0 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
+      },
+      {
+        "ticker": "TGS.OL",
+        "navn": "TGS",
+        "sektor": "Oljeservice",
+        "label": "Selg",
+        "pe": 31.49175810973168,
+        "eps": 1.04185,
+        "dividend_yield_pct": 4.02,
+        "rationale": "Lønnsomt (EPS 1.04), men høyt priset: P/E 31.5 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "AUTO.OL",
         "navn": "AutoStore",
         "sektor": "Teknologi",
         "label": "Selg",
-        "pe": 33.05674127310061,
+        "pe": 33.54198357289528,
         "eps": 0.37524,
         "dividend_yield_pct": 0,
-        "rationale": "Lønnsomt (EPS 0.38), men høyt priset: P/E 33.1 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
+        "rationale": "Lønnsomt (EPS 0.38), men høyt priset: P/E 33.5 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "SALM.OL",
         "navn": "SalMar",
         "sektor": "Sjømat",
         "label": "Selg",
-        "pe": 34.45945945945946,
+        "pe": 34.3058968058968,
         "eps": 17.27,
-        "dividend_yield_pct": 1.78,
-        "rationale": "Lønnsomt (EPS 17.27), men høyt priset: P/E 34.5 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
+        "dividend_yield_pct": 1.79,
+        "rationale": "Lønnsomt (EPS 17.27), men høyt priset: P/E 34.3 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "LSG.OL",
         "navn": "Lerøy Seafood",
         "sektor": "Sjømat",
         "label": "Selg",
-        "pe": 36.2542372881356,
+        "pe": 36.08474576271187,
         "eps": 1.9,
-        "dividend_yield_pct": 5.84,
-        "rationale": "Lønnsomt (EPS 1.90), men høyt priset: P/E 36.3 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
+        "dividend_yield_pct": 5.87,
+        "rationale": "Lønnsomt (EPS 1.90), men høyt priset: P/E 36.1 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "KOG.OL",
         "navn": "Kongsberg Gruppen",
         "sektor": "Forsvar/industri",
         "label": "Selg",
-        "pe": 36.8705035971223,
+        "pe": 37.98561151079137,
         "eps": 7.13,
-        "dividend_yield_pct": 2.63,
-        "rationale": "Lønnsomt (EPS 7.13), men høyt priset: P/E 36.9 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
+        "dividend_yield_pct": 2.56,
+        "rationale": "Lønnsomt (EPS 7.13), men høyt priset: P/E 38.0 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "BRG.OL",
         "navn": "Borregaard",
         "sektor": "Industri",
         "label": "Selg",
-        "pe": 85.76470588235296,
+        "pe": 86.47058823529412,
         "eps": 1.71649,
-        "dividend_yield_pct": 3.26,
-        "rationale": "Lønnsomt (EPS 1.72), men høyt priset: P/E 85.8 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
+        "dividend_yield_pct": 3.23,
+        "rationale": "Lønnsomt (EPS 1.72), men høyt priset: P/E 86.5 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "NOD.OL",
         "navn": "Nordic Semiconductor",
         "sektor": "Teknologi",
         "label": "Selg",
-        "pe": 116.88455647734524,
+        "pe": 115.8151244416082,
         "eps": 1.25517,
         "dividend_yield_pct": 0,
-        "rationale": "Lønnsomt (EPS 1.26), men høyt priset: P/E 116.9 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
+        "rationale": "Lønnsomt (EPS 1.26), men høyt priset: P/E 115.8 er blant de 10 høyeste av 35 lønnsomme aksjer i universet."
       },
       {
         "ticker": "GSF.OL",
         "navn": "Grieg Seafood",
         "sektor": "Sjømat",
         "label": "Selg",
-        "pe": -26.824742268041245,
+        "pe": -26.45360824742269,
         "eps": -5.62931,
-        "dividend_yield_pct": 136.96,
+        "dividend_yield_pct": 138.88,
         "rationale": "Negativt resultat per aksje (EPS -5.63) - selskapet er ikke lønnsomt på nåværende tall, uavhengig av kurs."
       },
       {
@@ -1584,7 +1584,7 @@
         "navn": "Hexagon Purus",
         "sektor": "Teknologi",
         "label": "Selg",
-        "pe": -0.16957862281603292,
+        "pe": -0.1685508735868448,
         "eps": -6.095,
         "dividend_yield_pct": 0,
         "rationale": "Negativt resultat per aksje (EPS -6.09) - selskapet er ikke lønnsomt på nåværende tall, uavhengig av kurs."
@@ -1594,7 +1594,7 @@
         "navn": "Nel",
         "sektor": "Fornybar energi",
         "label": "Selg",
-        "pe": -2.880599164626242,
+        "pe": -2.9238081520956354,
         "eps": -0.66719,
         "dividend_yield_pct": 0,
         "rationale": "Negativt resultat per aksje (EPS -0.67) - selskapet er ikke lønnsomt på nåværende tall, uavhengig av kurs."
@@ -1604,7 +1604,7 @@
         "navn": "Nordic Halibut",
         "sektor": "Sjømat",
         "label": "Selg",
-        "pe": -51.85185185185185,
+        "pe": -51.481481481481474,
         "eps": -1.0486,
         "dividend_yield_pct": 0,
         "rationale": "Negativt resultat per aksje (EPS -1.05) - selskapet er ikke lønnsomt på nåværende tall, uavhengig av kurs."
@@ -1614,7 +1614,7 @@
         "navn": "poLight",
         "sektor": "Teknologi",
         "label": "Selg",
-        "pe": -24.830188679245282,
+        "pe": -25.169811320754715,
         "eps": -0.52784,
         "dividend_yield_pct": 0,
         "rationale": "Negativt resultat per aksje (EPS -0.53) - selskapet er ikke lønnsomt på nåværende tall, uavhengig av kurs."
@@ -1623,13 +1623,13 @@
   },
   "risikofilter": {
     "methodology": "Strategi-Match med Risiko-filter: strategi-score summerer +25 poeng for hver av de 4 strategiene (momentum, kontrarian, teknisk+nyheter, fundamental) som gir Kjøp-signal (0-100). Risiko-score summerer +25 poeng per utløst risikofaktor (0-100): (a) teknisk strekk - kurs >15% over 20- eller 50-dagers glidende snitt (fanger momentum-/teknisk-overreaksjon); (b) syklisk/spekulativ risiko - P/E under 4 kombinert med >40% avkastning siste 3 måneder (fanger P/E-blindhet der ekstremt lav P/E skyldes forbigående marginer, ikke sunn verdsettelse); (c) likviditetsrisiko - likviditetsgrad (omløpsmidler/kortsiktig gjeld) under 1.2, ekskludert for bank/forsikring der målet ikke er meningsfullt; (d) juridisk/nyhetsflagg - nøkkelordsøk ('rettssak', 'disputt', 'krangel' m.fl.) i nyheter og hendelser (fanger positiv-sentiment-skjevheten i ren RSS-basert nyhetsscoring). En høy strategi-score kombinert med en høy risiko-score betyr at aksjen utløser kjøpssignaler i modellene, men har underliggende risikofaktorer som modellene isolert sett ikke fanger opp - IKKE personlig eller lisensiert investeringsrådgivning. To supplerende faktorer vises i tillegg for alle aksjer, men teller ikke i risiko-scoren over (den forblir 0-100 basert på de 4 faktorene over): (e) shortsalg - minst én aktiv, meldepliktig shortposisjon (≥0,5%) registrert i Finanstilsynets offentlige shortregister (SSR) akkurat nå; (f) volumavvik - siste handelsdags volum ≥2,5x 20-dagers snittvolum kombinert med kursfall samme dag.",
-    "generated_at": "2026-09-16T04:57:46Z",
+    "generated_at": "2026-09-17T06:15:04Z",
     "signals": [
       {
         "ticker": "HUNT.OL",
         "navn": "Hunter Group",
         "sektor": "Shipping",
-        "siste_kurs": 17.08,
+        "siste_kurs": 17.6,
         "strategi_score": 100,
         "risiko_score": 75,
         "status": "STRATEGI_MATCH_MED_HOY_RISIKO",
@@ -1652,8 +1652,8 @@
             "faktor": "syklisk_pe",
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": true,
-            "forklaring": "Ekstremt lav P/E (2.2) kombinert med kraftig kursoppgang siste 3 måneder (+88.3%) - typisk mønster for syklisk/spekulativ overreaksjon der lav P/E kan skyldes forbigående høye marginer, ikke varig inntjeningsevne.",
-            "verdi_pe": 2.2169641299079004,
+            "forklaring": "Ekstremt lav P/E (2.3) kombinert med kraftig kursoppgang siste 3 måneder (+88.3%) - typisk mønster for syklisk/spekulativ overreaksjon der lav P/E kan skyldes forbigående høye marginer, ikke varig inntjeningsevne.",
+            "verdi_pe": 2.263771206980126,
             "verdi_avkastning_3m_pct": 88.34,
             "telles_i_score": true
           },
@@ -1689,9 +1689,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,1x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.05,
-            "kursendring_pct": -1.3
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 1,4x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 1.37,
+            "kursendring_pct": 3.0
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 4 av 4 modeller (strategi-score 100). Samtidig er risiko-scoren 75/100 pga.: Teknisk strekk (overopphetet), Syklisk/spekulativ lav P/E, Juridisk/nyhetsflagg. Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -1700,7 +1700,7 @@
         "ticker": "ECO",
         "navn": "Okeanis Eco Tankers",
         "sektor": "Shipping",
-        "siste_kurs": 82.73,
+        "siste_kurs": 84.74,
         "strategi_score": 100,
         "risiko_score": 25,
         "status": "STRATEGI_MATCH_LAV_RISIKO",
@@ -1724,7 +1724,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 7.654283582089552,
+            "verdi_pe": 7.949849813432835,
             "verdi_avkastning_3m_pct": 53.03,
             "telles_i_score": true
           },
@@ -1760,9 +1760,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 2,1x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 2.09,
-            "kursendring_pct": 3.8
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 1,9x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 1.93,
+            "kursendring_pct": 2.4
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 4 av 4 modeller (strategi-score 100). Samtidig er risiko-scoren 25/100 pga.: Teknisk strekk (overopphetet). Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -1771,7 +1771,7 @@
         "ticker": "BWLPG.OL",
         "navn": "BW LPG",
         "sektor": "Shipping",
-        "siste_kurs": 238.6,
+        "siste_kurs": 241.4,
         "strategi_score": 100,
         "risiko_score": 0,
         "status": "STRATEGI_MATCH_LAV_RISIKO",
@@ -1795,7 +1795,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 8.872852233676976,
+            "verdi_pe": 8.879725085910653,
             "verdi_avkastning_3m_pct": 26.31,
             "telles_i_score": true
           },
@@ -1831,9 +1831,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 0,5x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.52,
-            "kursendring_pct": 2.8
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,5x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.55,
+            "kursendring_pct": 1.2
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 4 av 4 modeller (strategi-score 100) uten at noen av de 4 risikofaktorene slår ut (risiko-score 0) - et relativt rent signal."
@@ -1842,7 +1842,7 @@
         "ticker": "FRO.OL",
         "navn": "Frontline",
         "sektor": "Shipping",
-        "siste_kurs": 492.0,
+        "siste_kurs": 505.8,
         "strategi_score": 75,
         "risiko_score": 25,
         "status": "STRATEGI_MATCH_LAV_RISIKO",
@@ -1865,7 +1865,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 7.734632683658171,
+            "verdi_pe": 8.046476761619191,
             "verdi_avkastning_3m_pct": 23.76,
             "telles_i_score": true
           },
@@ -1901,9 +1901,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,2x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.25,
-            "kursendring_pct": 5.0
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 1,4x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 1.4,
+            "kursendring_pct": 2.8
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 3 av 4 modeller (strategi-score 75). Samtidig er risiko-scoren 25/100 pga.: Teknisk strekk (overopphetet). Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -1912,7 +1912,7 @@
         "ticker": "WAWI.OL",
         "navn": "Wallenius Wilhelmsen",
         "sektor": "Shipping",
-        "siste_kurs": 179.4,
+        "siste_kurs": 180.3,
         "strategi_score": 75,
         "risiko_score": 0,
         "status": "STRATEGI_MATCH_LAV_RISIKO",
@@ -1935,7 +1935,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 11.717882926829269,
+            "verdi_pe": 11.668928048780488,
             "verdi_avkastning_3m_pct": 28.97,
             "telles_i_score": true
           },
@@ -1971,9 +1971,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,0x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.02,
-            "kursendring_pct": 1.5
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,5x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.5,
+            "kursendring_pct": 0.5
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 3 av 4 modeller (strategi-score 75) uten at noen av de 4 risikofaktorene slår ut (risiko-score 0) - et relativt rent signal."
@@ -1982,7 +1982,7 @@
         "ticker": "AKER.OL",
         "navn": "Aker ASA",
         "sektor": "Holding",
-        "siste_kurs": 1530.0,
+        "siste_kurs": 1580.0,
         "strategi_score": 75,
         "risiko_score": 0,
         "status": "STRATEGI_MATCH_LAV_RISIKO",
@@ -2005,7 +2005,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 4.074241738343142,
+            "verdi_pe": 4.207386893190957,
             "verdi_avkastning_3m_pct": 37.41,
             "telles_i_score": true
           },
@@ -2052,7 +2052,7 @@
         "ticker": "PLT.OL",
         "navn": "poLight",
         "sektor": "Teknologi",
-        "siste_kurs": 13.16,
+        "siste_kurs": 13.34,
         "strategi_score": 50,
         "risiko_score": 25,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -2074,7 +2074,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": -24.830188679245282,
+            "verdi_pe": -25.169811320754715,
             "verdi_avkastning_3m_pct": 64.65,
             "telles_i_score": true
           },
@@ -2110,9 +2110,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,7x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.73,
-            "kursendring_pct": -6.0
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,7x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.69,
+            "kursendring_pct": 1.4
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 2 av 4 modeller (strategi-score 50). Samtidig er risiko-scoren 25/100 pga.: Teknisk strekk (overopphetet). Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -2121,7 +2121,7 @@
         "ticker": "VAR.OL",
         "navn": "Vår Energi",
         "sektor": "Energi",
-        "siste_kurs": 54.48,
+        "siste_kurs": 54.32,
         "strategi_score": 50,
         "risiko_score": 25,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -2143,7 +2143,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 11.06228018957346,
+            "verdi_pe": 10.928875071090047,
             "verdi_avkastning_3m_pct": 23.31,
             "telles_i_score": true
           },
@@ -2179,9 +2179,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 0,6x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.65,
-            "kursendring_pct": -0.5
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,7x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.69,
+            "kursendring_pct": -0.3
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 2 av 4 modeller (strategi-score 50). Samtidig er risiko-scoren 25/100 pga.: Likviditetsrisiko, Meldepliktig shortposisjon (Finanstilsynet). Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -2190,7 +2190,7 @@
         "ticker": "EQNR.OL",
         "navn": "Equinor",
         "sektor": "Energi",
-        "siste_kurs": 423.8,
+        "siste_kurs": 421.2,
         "strategi_score": 50,
         "risiko_score": 25,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -2212,7 +2212,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 12.368724250681199,
+            "verdi_pe": 12.181517166212537,
             "verdi_avkastning_3m_pct": 28.32,
             "telles_i_score": true
           },
@@ -2248,9 +2248,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,3x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.26,
-            "kursendring_pct": 0.0
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,9x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.88,
+            "kursendring_pct": -0.6
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 2 av 4 modeller (strategi-score 50). Samtidig er risiko-scoren 25/100 pga.: Likviditetsrisiko. Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -2259,7 +2259,7 @@
         "ticker": "CDLR",
         "navn": "Cadeler",
         "sektor": "Shipping/offshore vind",
-        "siste_kurs": 24.65,
+        "siste_kurs": 25.13,
         "strategi_score": 50,
         "risiko_score": 0,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -2281,7 +2281,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 9.923304416666664,
+            "verdi_pe": 10.076389399999998,
             "verdi_avkastning_3m_pct": 15.0,
             "telles_i_score": true
           },
@@ -2317,9 +2317,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 0,5x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.46,
-            "kursendring_pct": -2.0
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,7x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.69,
+            "kursendring_pct": 1.9
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 2 av 4 modeller (strategi-score 50). Samtidig er risiko-scoren 0/100 pga.: Meldepliktig shortposisjon (Finanstilsynet). Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -2328,7 +2328,7 @@
         "ticker": "NOHAL.OL",
         "navn": "Nordic Halibut",
         "sektor": "Sjømat",
-        "siste_kurs": 28.0,
+        "siste_kurs": 27.8,
         "strategi_score": 50,
         "risiko_score": 0,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -2350,7 +2350,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": -51.85185185185185,
+            "verdi_pe": -51.481481481481474,
             "verdi_avkastning_3m_pct": 26.09,
             "telles_i_score": true
           },
@@ -2386,9 +2386,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,8x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.76,
-            "kursendring_pct": -2.1
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 1,6x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 1.65,
+            "kursendring_pct": -0.7
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 2 av 4 modeller (strategi-score 50) uten at noen av de 4 risikofaktorene slår ut (risiko-score 0) - et relativt rent signal."
@@ -2397,7 +2397,7 @@
         "ticker": "YAR.OL",
         "navn": "Yara International",
         "sektor": "Industri",
-        "siste_kurs": 449.5,
+        "siste_kurs": 453.8,
         "strategi_score": 50,
         "risiko_score": 0,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -2419,7 +2419,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 7.985147595356552,
+            "verdi_pe": 7.987783084577115,
             "verdi_avkastning_3m_pct": -0.88,
             "telles_i_score": true
           },
@@ -2455,9 +2455,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 0,9x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.9,
-            "kursendring_pct": -2.5
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,9x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.86,
+            "kursendring_pct": 1.0
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 2 av 4 modeller (strategi-score 50). Samtidig er risiko-scoren 0/100 pga.: Meldepliktig shortposisjon (Finanstilsynet). Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -2466,7 +2466,7 @@
         "ticker": "DNB.OL",
         "navn": "DNB",
         "sektor": "Finans",
-        "siste_kurs": 315.0,
+        "siste_kurs": 314.9,
         "strategi_score": 50,
         "risiko_score": 0,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -2488,7 +2488,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 11.400651465798047,
+            "verdi_pe": 11.39703221136446,
             "verdi_avkastning_3m_pct": 9.44,
             "telles_i_score": true
           },
@@ -2524,9 +2524,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,6x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.57,
-            "kursendring_pct": 0.7
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,7x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.74,
+            "kursendring_pct": -0.0
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 2 av 4 modeller (strategi-score 50) uten at noen av de 4 risikofaktorene slår ut (risiko-score 0) - et relativt rent signal."
@@ -2535,7 +2535,7 @@
         "ticker": "AKSO.OL",
         "navn": "Aker Solutions",
         "sektor": "Oljeservice",
-        "siste_kurs": 40.84,
+        "siste_kurs": 42.36,
         "strategi_score": 25,
         "risiko_score": 25,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -2556,7 +2556,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 6.095522388059702,
+            "verdi_pe": 6.322388059701492,
             "verdi_avkastning_3m_pct": -9.55,
             "telles_i_score": true
           },
@@ -2592,9 +2592,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 0,7x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.75,
-            "kursendring_pct": 0.0
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 1,8x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 1.81,
+            "kursendring_pct": 3.7
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 1 av 4 modeller (strategi-score 25). Samtidig er risiko-scoren 25/100 pga.: Likviditetsrisiko, Meldepliktig shortposisjon (Finanstilsynet). Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -2603,7 +2603,7 @@
         "ticker": "TGS.OL",
         "navn": "TGS",
         "sektor": "Oljeservice",
-        "siste_kurs": 137.8,
+        "siste_kurs": 148.2,
         "strategi_score": 25,
         "risiko_score": 25,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -2624,7 +2624,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 29.55498197837405,
+            "verdi_pe": 31.49175810973168,
             "verdi_avkastning_3m_pct": -0.64,
             "telles_i_score": true
           },
@@ -2650,8 +2650,8 @@
             "faktor": "shortsalg",
             "navn": "Meldepliktig shortposisjon (Finanstilsynet)",
             "utlost": true,
-            "forklaring": "Finanstilsynet registrerer aktiv, meldepliktig shortposisjon i aksjen akkurat nå (1,69% akkumulert), meldt av: MARSHALL WACE LLP (0,89%), CAPITAL FUND MANAGEMENT (0,8%).",
-            "akkumulert_short_pct": 1.69,
+            "forklaring": "Finanstilsynet registrerer aktiv, meldepliktig shortposisjon i aksjen akkurat nå (1,81% akkumulert), meldt av: MARSHALL WACE LLP (0,89%), CAPITAL FUND MANAGEMENT (0,92%).",
+            "akkumulert_short_pct": 1.81,
             "kilde": "https://ssr.finanstilsynet.no/Home/Details/NO0003078800",
             "telles_i_score": false
           },
@@ -2660,9 +2660,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,0x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.98,
-            "kursendring_pct": -0.6
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 2,3x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 2.33,
+            "kursendring_pct": 7.5
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 1 av 4 modeller (strategi-score 25). Samtidig er risiko-scoren 25/100 pga.: Likviditetsrisiko, Meldepliktig shortposisjon (Finanstilsynet). Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -2671,7 +2671,7 @@
         "ticker": "KOG.OL",
         "navn": "Kongsberg Gruppen",
         "sektor": "Forsvar/industri",
-        "siste_kurs": 307.5,
+        "siste_kurs": 316.8,
         "strategi_score": 25,
         "risiko_score": 25,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -2692,7 +2692,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 36.8705035971223,
+            "verdi_pe": 37.98561151079137,
             "verdi_avkastning_3m_pct": 3.66,
             "telles_i_score": true
           },
@@ -2728,9 +2728,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,0x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.04,
-            "kursendring_pct": 0.9
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 1,2x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 1.22,
+            "kursendring_pct": 3.0
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 1 av 4 modeller (strategi-score 25). Samtidig er risiko-scoren 25/100 pga.: Likviditetsrisiko. Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -2739,7 +2739,7 @@
         "ticker": "SUBC.OL",
         "navn": "Subsea7",
         "sektor": "Oljeservice",
-        "siste_kurs": 319.2,
+        "siste_kurs": 322.2,
         "strategi_score": 25,
         "risiko_score": 25,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -2760,7 +2760,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 16.596850485436892,
+            "verdi_pe": 16.601120388349514,
             "verdi_avkastning_3m_pct": -6.12,
             "telles_i_score": true
           },
@@ -2796,9 +2796,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,2x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.21,
-            "kursendring_pct": 2.7
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 1,1x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 1.09,
+            "kursendring_pct": 0.9
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 1 av 4 modeller (strategi-score 25). Samtidig er risiko-scoren 25/100 pga.: Likviditetsrisiko. Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -2807,7 +2807,7 @@
         "ticker": "NHY.OL",
         "navn": "Norsk Hydro",
         "sektor": "Industri",
-        "siste_kurs": 84.5,
+        "siste_kurs": 84.84,
         "strategi_score": 25,
         "risiko_score": 25,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -2828,7 +2828,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 16.96787148594377,
+            "verdi_pe": 17.03614457831325,
             "verdi_avkastning_3m_pct": -15.01,
             "telles_i_score": true
           },
@@ -2864,9 +2864,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 0,8x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.81,
-            "kursendring_pct": -1.8
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 1,3x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 1.29,
+            "kursendring_pct": 0.4
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 1 av 4 modeller (strategi-score 25). Samtidig er risiko-scoren 25/100 pga.: Juridisk/nyhetsflagg. Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -2896,7 +2896,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 25.732646390781678,
+            "verdi_pe": 25.73264639078168,
             "verdi_avkastning_3m_pct": 56.9,
             "telles_i_score": true
           },
@@ -2932,9 +2932,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 0,4x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.44,
-            "kursendring_pct": -0.2
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,1x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.13,
+            "kursendring_pct": 0.0
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 1 av 4 modeller (strategi-score 25). Samtidig er risiko-scoren 25/100 pga.: Likviditetsrisiko. Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -2943,7 +2943,7 @@
         "ticker": "DNO.OL",
         "navn": "DNO",
         "sektor": "Energi",
-        "siste_kurs": 19.51,
+        "siste_kurs": 19.75,
         "strategi_score": 25,
         "risiko_score": 25,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -2964,7 +2964,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 28.052499328859067,
+            "verdi_pe": 28.13778523489933,
             "verdi_avkastning_3m_pct": 9.39,
             "telles_i_score": true
           },
@@ -3000,9 +3000,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,0x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.97,
-            "kursendring_pct": -0.7
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 1,1x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 1.11,
+            "kursendring_pct": 1.2
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 1 av 4 modeller (strategi-score 25). Samtidig er risiko-scoren 25/100 pga.: Likviditetsrisiko. Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -3011,7 +3011,7 @@
         "ticker": "ODL.OL",
         "navn": "Odfjell Drilling",
         "sektor": "Oljeservice",
-        "siste_kurs": 101.6,
+        "siste_kurs": 105.6,
         "strategi_score": 25,
         "risiko_score": 25,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -3032,7 +3032,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 11.456202105263158,
+            "verdi_pe": 11.796075789473685,
             "verdi_avkastning_3m_pct": 20.56,
             "telles_i_score": true
           },
@@ -3068,9 +3068,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,0x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.03,
-            "kursendring_pct": 0.8
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 1,3x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 1.3,
+            "kursendring_pct": 3.9
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 1 av 4 modeller (strategi-score 25). Samtidig er risiko-scoren 25/100 pga.: Likviditetsrisiko. Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -3079,7 +3079,7 @@
         "ticker": "AUTO.OL",
         "navn": "AutoStore",
         "sektor": "Teknologi",
-        "siste_kurs": 15.03,
+        "siste_kurs": 15.39,
         "strategi_score": 25,
         "risiko_score": 0,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -3100,7 +3100,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 33.05674127310061,
+            "verdi_pe": 33.54198357289528,
             "verdi_avkastning_3m_pct": 27.78,
             "telles_i_score": true
           },
@@ -3136,9 +3136,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 0,5x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.45,
-            "kursendring_pct": 1.0
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,4x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.36,
+            "kursendring_pct": 2.4
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 1 av 4 modeller (strategi-score 25). Samtidig er risiko-scoren 0/100 pga.: Meldepliktig shortposisjon (Finanstilsynet). Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -3147,7 +3147,7 @@
         "ticker": "SALM.OL",
         "navn": "SalMar",
         "sektor": "Sjømat",
-        "siste_kurs": 561.0,
+        "siste_kurs": 558.5,
         "strategi_score": 25,
         "risiko_score": 0,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -3168,7 +3168,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 34.45945945945946,
+            "verdi_pe": 34.3058968058968,
             "verdi_avkastning_3m_pct": 6.21,
             "telles_i_score": true
           },
@@ -3204,9 +3204,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 0,9x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.93,
-            "kursendring_pct": -1.9
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,8x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.84,
+            "kursendring_pct": -0.4
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 1 av 4 modeller (strategi-score 25). Samtidig er risiko-scoren 0/100 pga.: Meldepliktig shortposisjon (Finanstilsynet). Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -3215,7 +3215,7 @@
         "ticker": "LSG.OL",
         "navn": "Lerøy Seafood",
         "sektor": "Sjømat",
-        "siste_kurs": 42.78,
+        "siste_kurs": 42.58,
         "strategi_score": 25,
         "risiko_score": 0,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -3236,7 +3236,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 36.2542372881356,
+            "verdi_pe": 36.08474576271187,
             "verdi_avkastning_3m_pct": 4.53,
             "telles_i_score": true
           },
@@ -3272,9 +3272,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 0,5x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.54,
-            "kursendring_pct": -1.7
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,4x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.41,
+            "kursendring_pct": -0.5
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 1 av 4 modeller (strategi-score 25) uten at noen av de 4 risikofaktorene slår ut (risiko-score 0) - et relativt rent signal."
@@ -3283,7 +3283,7 @@
         "ticker": "MOWI.OL",
         "navn": "Mowi",
         "sektor": "Sjømat",
-        "siste_kurs": 202.8,
+        "siste_kurs": 202.0,
         "strategi_score": 25,
         "risiko_score": 0,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -3304,7 +3304,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 15.298768692682925,
+            "verdi_pe": 15.19752419512195,
             "verdi_avkastning_3m_pct": 5.21,
             "telles_i_score": true
           },
@@ -3340,9 +3340,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,0x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.0,
-            "kursendring_pct": -0.6
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 1,0x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.95,
+            "kursendring_pct": -0.4
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 1 av 4 modeller (strategi-score 25). Samtidig er risiko-scoren 0/100 pga.: Meldepliktig shortposisjon (Finanstilsynet). Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -3351,7 +3351,7 @@
         "ticker": "FLNG",
         "navn": "Flex LNG",
         "sektor": "Shipping",
-        "siste_kurs": 32.39,
+        "siste_kurs": 32.22,
         "strategi_score": 25,
         "risiko_score": 0,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -3372,7 +3372,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 17.04736842105263,
+            "verdi_pe": 16.957894736842103,
             "verdi_avkastning_3m_pct": 3.93,
             "telles_i_score": true
           },
@@ -3408,9 +3408,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,1x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.09,
-            "kursendring_pct": 1.5
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,9x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.92,
+            "kursendring_pct": -0.5
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 1 av 4 modeller (strategi-score 25) uten at noen av de 4 risikofaktorene slår ut (risiko-score 0) - et relativt rent signal."
@@ -3419,7 +3419,7 @@
         "ticker": "GJF.OL",
         "navn": "Gjensidige",
         "sektor": "Finans",
-        "siste_kurs": 276.8,
+        "siste_kurs": 276.4,
         "strategi_score": 25,
         "risiko_score": 0,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -3440,7 +3440,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 20.443131462333827,
+            "verdi_pe": 20.413589364844903,
             "verdi_avkastning_3m_pct": 5.38,
             "telles_i_score": true
           },
@@ -3476,8 +3476,8 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,0x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.97,
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,7x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.67,
             "kursendring_pct": -0.1
           }
         ],
@@ -3487,7 +3487,7 @@
         "ticker": "AKRBP.OL",
         "navn": "Aker BP",
         "sektor": "Energi",
-        "siste_kurs": 370.1,
+        "siste_kurs": 374.1,
         "strategi_score": 25,
         "risiko_score": 0,
         "status": "SVAKT_SIGNAL_LAV_RISIKO",
@@ -3508,7 +3508,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 17.62004977777778,
+            "verdi_pe": 17.647544,
             "verdi_avkastning_3m_pct": 13.3,
             "telles_i_score": true
           },
@@ -3544,9 +3544,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,1x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.08,
-            "kursendring_pct": 0.4
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 1,2x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 1.16,
+            "kursendring_pct": 1.1
           }
         ],
         "automatisk_vurdering": "Aksjen utløser kjøpssignal i 1 av 4 modeller (strategi-score 25). Samtidig er risiko-scoren 0/100 pga.: Meldepliktig shortposisjon (Finanstilsynet). Bør vurderes med forsiktighet og eventuelt kun som en kortsiktig trading-case."
@@ -3555,7 +3555,7 @@
         "ticker": "SCATC.OL",
         "navn": "Scatec",
         "sektor": "Fornybar energi",
-        "siste_kurs": 97.05,
+        "siste_kurs": 95.65,
         "strategi_score": 0,
         "risiko_score": 25,
         "status": "INGEN_MATCH",
@@ -3574,7 +3574,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": -72.38215990453462,
+            "verdi_pe": -71.33800715990455,
             "verdi_avkastning_3m_pct": 1.95,
             "telles_i_score": true
           },
@@ -3610,9 +3610,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 0,8x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.8,
-            "kursendring_pct": 0.2
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,7x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.72,
+            "kursendring_pct": -1.4
           }
         ],
         "automatisk_vurdering": "Ingen av de 4 strategiene gir kjøpssignal for SCATC.OL nå. Risikobildet viser i tillegg: Likviditetsrisiko, Meldepliktig shortposisjon (Finanstilsynet)."
@@ -3621,7 +3621,7 @@
         "ticker": "ORK.OL",
         "navn": "Orkla",
         "sektor": "Forbruksvarer",
-        "siste_kurs": 90.7,
+        "siste_kurs": 91.15,
         "strategi_score": 0,
         "risiko_score": 25,
         "status": "INGEN_MATCH",
@@ -3640,7 +3640,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 13.202328966521106,
+            "verdi_pe": 13.26783114992722,
             "verdi_avkastning_3m_pct": -8.99,
             "telles_i_score": true
           },
@@ -3676,18 +3676,84 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,2x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.17,
-            "kursendring_pct": -1.4
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 1,2x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 1.19,
+            "kursendring_pct": 0.5
           }
         ],
         "automatisk_vurdering": "Ingen av de 4 strategiene gir kjøpssignal for ORK.OL nå. Risikobildet viser i tillegg: Likviditetsrisiko."
       },
       {
+        "ticker": "TEL.OL",
+        "navn": "Telenor",
+        "sektor": "Telekom",
+        "siste_kurs": 135.2,
+        "strategi_score": 0,
+        "risiko_score": 25,
+        "status": "INGEN_MATCH",
+        "strategier_med_kjop": [],
+        "risikofaktorer": [
+          {
+            "faktor": "teknisk_strekk",
+            "navn": "Teknisk strekk (overopphetet)",
+            "utlost": false,
+            "forklaring": "Kursen ligger innenfor normal avstand (≤15%) til både 20- og 50-dagers glidende snitt.",
+            "verdi_pct": null,
+            "telles_i_score": true
+          },
+          {
+            "faktor": "syklisk_pe",
+            "navn": "Syklisk/spekulativ lav P/E",
+            "utlost": false,
+            "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
+            "verdi_pe": 14.23157894736842,
+            "verdi_avkastning_3m_pct": -10.5,
+            "telles_i_score": true
+          },
+          {
+            "faktor": "likviditet",
+            "navn": "Likviditetsrisiko",
+            "utlost": false,
+            "forklaring": "Likviditetsgrad på 1.32 er over 1.2 - grei kortsiktig betalingsevne.",
+            "verdi_current_ratio": 1.321,
+            "ekskludert_sektor": false,
+            "telles_i_score": true
+          },
+          {
+            "faktor": "juridisk_nyhet",
+            "navn": "Juridisk/nyhetsflagg",
+            "utlost": true,
+            "forklaring": "Nylig nyhet/hendelse med juridisk/tvist-relatert innhold funnet: 'Telenor under etterforskning: Aksjen stupte'.",
+            "kilde_tittel": "Telenor under etterforskning: Aksjen stupte",
+            "kilde_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOM1JxYWpRZVVVckhrTS1YM095b3hfT3dFcnBCLWtTWU5uWVcwaUxuR3N2WFN4MTM1QjZZa1Y3R2h6LU5kY0tlSHRiNVVHTGhKN2xmVW1ublZpb2FWSmFyNFBtTHVSQ2hYTEliOUJOZWdCRjhUdVNXTWxkSHlDUU0wSUE2eElwUQ?oc=5",
+            "telles_i_score": true
+          },
+          {
+            "faktor": "shortsalg",
+            "navn": "Meldepliktig shortposisjon (Finanstilsynet)",
+            "utlost": false,
+            "forklaring": "Aksjen er ikke registrert i Finanstilsynets offentlige shortregister (ingen historikk med meldepliktige shortposisjoner for dette selskapet).",
+            "akkumulert_short_pct": null,
+            "kilde": null,
+            "telles_i_score": false
+          },
+          {
+            "faktor": "volumavvik",
+            "navn": "Unormalt handelsvolum",
+            "telles_i_score": false,
+            "utlost": false,
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,9x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.91,
+            "kursendring_pct": -0.7
+          }
+        ],
+        "automatisk_vurdering": "Ingen av de 4 strategiene gir kjøpssignal for TEL.OL nå. Risikobildet viser i tillegg: Juridisk/nyhetsflagg."
+      },
+      {
         "ticker": "HPUR.OL",
         "navn": "Hexagon Purus",
         "sektor": "Teknologi",
-        "siste_kurs": 4.95,
+        "siste_kurs": 4.92,
         "strategi_score": 0,
         "risiko_score": 0,
         "status": "INGEN_MATCH",
@@ -3706,7 +3772,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": -0.16957862281603292,
+            "verdi_pe": -0.1685508735868448,
             "verdi_avkastning_3m_pct": -48.06,
             "telles_i_score": true
           },
@@ -3742,9 +3808,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,9x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.94,
-            "kursendring_pct": -12.5
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,6x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.62,
+            "kursendring_pct": -0.6
           }
         ],
         "automatisk_vurdering": "Ingen av de 4 strategiene gir kjøpssignal for HPUR.OL nå. Ingen forhøyede risikofaktorer registrert."
@@ -3753,7 +3819,7 @@
         "ticker": "GSF.OL",
         "navn": "Grieg Seafood",
         "sektor": "Sjømat",
-        "siste_kurs": 26.02,
+        "siste_kurs": 25.66,
         "strategi_score": 0,
         "risiko_score": 0,
         "status": "INGEN_MATCH",
@@ -3772,7 +3838,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": -26.824742268041245,
+            "verdi_pe": -26.45360824742269,
             "verdi_avkastning_3m_pct": -9.94,
             "telles_i_score": true
           },
@@ -3808,9 +3874,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 0,9x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.86,
-            "kursendring_pct": -1.8
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,7x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.67,
+            "kursendring_pct": -1.4
           }
         ],
         "automatisk_vurdering": "Ingen av de 4 strategiene gir kjøpssignal for GSF.OL nå. Risikobildet viser i tillegg: Meldepliktig shortposisjon (Finanstilsynet)."
@@ -3819,7 +3885,7 @@
         "ticker": "NEL.OL",
         "navn": "Nel",
         "sektor": "Fornybar energi",
-        "siste_kurs": 2.0,
+        "siste_kurs": 2.03,
         "strategi_score": 0,
         "risiko_score": 0,
         "status": "INGEN_MATCH",
@@ -3838,7 +3904,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": -2.880599164626242,
+            "verdi_pe": -2.9238081520956354,
             "verdi_avkastning_3m_pct": -12.61,
             "telles_i_score": true
           },
@@ -3874,9 +3940,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,2x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.24,
-            "kursendring_pct": -3.4
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 1,5x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 1.52,
+            "kursendring_pct": 1.5
           }
         ],
         "automatisk_vurdering": "Ingen av de 4 strategiene gir kjøpssignal for NEL.OL nå. Risikobildet viser i tillegg: Meldepliktig shortposisjon (Finanstilsynet)."
@@ -3885,7 +3951,7 @@
         "ticker": "TOM.OL",
         "navn": "Tomra Systems",
         "sektor": "Industri",
-        "siste_kurs": 94.15,
+        "siste_kurs": 90.3,
         "strategi_score": 0,
         "risiko_score": 0,
         "status": "INGEN_MATCH",
@@ -3904,7 +3970,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 30.33401850694445,
+            "verdi_pe": 29.0173970625,
             "verdi_avkastning_3m_pct": -2.32,
             "telles_i_score": true
           },
@@ -3940,9 +4006,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 0,9x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.87,
-            "kursendring_pct": 0.7
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 2,3x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 2.34,
+            "kursendring_pct": -4.1
           }
         ],
         "automatisk_vurdering": "Ingen av de 4 strategiene gir kjøpssignal for TOM.OL nå. Risikobildet viser i tillegg: Meldepliktig shortposisjon (Finanstilsynet)."
@@ -3951,7 +4017,7 @@
         "ticker": "BAKKA.OL",
         "navn": "Bakkafrost",
         "sektor": "Sjømat",
-        "siste_kurs": 431.2,
+        "siste_kurs": 434.8,
         "strategi_score": 0,
         "risiko_score": 0,
         "status": "INGEN_MATCH",
@@ -3970,7 +4036,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 22.222645879732738,
+            "verdi_pe": 22.31134075723831,
             "verdi_avkastning_3m_pct": 3.89,
             "telles_i_score": true
           },
@@ -4006,9 +4072,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,3x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.3,
-            "kursendring_pct": -2.6
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,9x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.95,
+            "kursendring_pct": 0.8
           }
         ],
         "automatisk_vurdering": "Ingen av de 4 strategiene gir kjøpssignal for BAKKA.OL nå. Risikobildet viser i tillegg: Meldepliktig shortposisjon (Finanstilsynet)."
@@ -4017,7 +4083,7 @@
         "ticker": "ELO.OL",
         "navn": "Elopak",
         "sektor": "Industri",
-        "siste_kurs": 36.25,
+        "siste_kurs": 36.75,
         "strategi_score": 0,
         "risiko_score": 0,
         "status": "INGEN_MATCH",
@@ -4036,7 +4102,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 13.48080400801603,
+            "verdi_pe": 13.631698857715431,
             "verdi_avkastning_3m_pct": 2.43,
             "telles_i_score": true
           },
@@ -4072,9 +4138,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,0x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.0,
-            "kursendring_pct": 2.0
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,3x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.31,
+            "kursendring_pct": 1.4
           }
         ],
         "automatisk_vurdering": "Ingen av de 4 strategiene gir kjøpssignal for ELO.OL nå. Ingen forhøyede risikofaktorer registrert."
@@ -4102,7 +4168,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 116.88455647734524,
+            "verdi_pe": 115.8151244416082,
             "verdi_avkastning_3m_pct": -8.13,
             "telles_i_score": true
           },
@@ -4138,9 +4204,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 0,8x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.79,
-            "kursendring_pct": 1.1
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,7x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.69,
+            "kursendring_pct": 0.0
           }
         ],
         "automatisk_vurdering": "Ingen av de 4 strategiene gir kjøpssignal for NOD.OL nå. Risikobildet viser i tillegg: Meldepliktig shortposisjon (Finanstilsynet)."
@@ -4149,7 +4215,7 @@
         "ticker": "BRG.OL",
         "navn": "Borregaard",
         "sektor": "Industri",
-        "siste_kurs": 145.8,
+        "siste_kurs": 147.0,
         "strategi_score": 0,
         "risiko_score": 0,
         "status": "INGEN_MATCH",
@@ -4168,7 +4234,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 85.76470588235296,
+            "verdi_pe": 86.47058823529412,
             "verdi_avkastning_3m_pct": 5.5,
             "telles_i_score": true
           },
@@ -4204,9 +4270,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,6x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.64,
-            "kursendring_pct": -0.1
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,9x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.91,
+            "kursendring_pct": 0.8
           }
         ],
         "automatisk_vurdering": "Ingen av de 4 strategiene gir kjøpssignal for BRG.OL nå. Risikobildet viser i tillegg: Meldepliktig shortposisjon (Finanstilsynet)."
@@ -4215,7 +4281,7 @@
         "ticker": "KIT.OL",
         "navn": "Kitron",
         "sektor": "Teknologi",
-        "siste_kurs": 93.75,
+        "siste_kurs": 95.4,
         "strategi_score": 0,
         "risiko_score": 0,
         "status": "INGEN_MATCH",
@@ -4234,7 +4300,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": -13.807848214285713,
+            "verdi_pe": -14.014287257142858,
             "verdi_avkastning_3m_pct": -12.35,
             "telles_i_score": true
           },
@@ -4259,9 +4325,9 @@
           {
             "faktor": "shortsalg",
             "navn": "Meldepliktig shortposisjon (Finanstilsynet)",
-            "utlost": false,
-            "forklaring": "Ingen aktive, meldepliktige shortposisjoner (≥ 0,5%) registrert akkurat nå (siste registrerte hendelse i registeret: 2025-06-12).",
-            "akkumulert_short_pct": 0.0,
+            "utlost": true,
+            "forklaring": "Finanstilsynet registrerer aktiv, meldepliktig shortposisjon i aksjen akkurat nå (0,50% akkumulert), meldt av: BLACKROCK FINANCIAL MANAGEMENT INC. (0,5%).",
+            "akkumulert_short_pct": 0.5,
             "kilde": "https://ssr.finanstilsynet.no/Home/Details/NO0003079709",
             "telles_i_score": false
           },
@@ -4270,84 +4336,18 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 0,6x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.62,
-            "kursendring_pct": 0.1
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 0,6x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 0.59,
+            "kursendring_pct": 1.8
           }
         ],
-        "automatisk_vurdering": "Ingen av de 4 strategiene gir kjøpssignal for KIT.OL nå. Ingen forhøyede risikofaktorer registrert."
-      },
-      {
-        "ticker": "TEL.OL",
-        "navn": "Telenor",
-        "sektor": "Telekom",
-        "siste_kurs": 136.1,
-        "strategi_score": 0,
-        "risiko_score": 0,
-        "status": "INGEN_MATCH",
-        "strategier_med_kjop": [],
-        "risikofaktorer": [
-          {
-            "faktor": "teknisk_strekk",
-            "navn": "Teknisk strekk (overopphetet)",
-            "utlost": false,
-            "forklaring": "Kursen ligger innenfor normal avstand (≤15%) til både 20- og 50-dagers glidende snitt.",
-            "verdi_pct": null,
-            "telles_i_score": true
-          },
-          {
-            "faktor": "syklisk_pe",
-            "navn": "Syklisk/spekulativ lav P/E",
-            "utlost": false,
-            "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 14.326315789473682,
-            "verdi_avkastning_3m_pct": -10.5,
-            "telles_i_score": true
-          },
-          {
-            "faktor": "likviditet",
-            "navn": "Likviditetsrisiko",
-            "utlost": false,
-            "forklaring": "Likviditetsgrad på 1.32 er over 1.2 - grei kortsiktig betalingsevne.",
-            "verdi_current_ratio": 1.321,
-            "ekskludert_sektor": false,
-            "telles_i_score": true
-          },
-          {
-            "faktor": "juridisk_nyhet",
-            "navn": "Juridisk/nyhetsflagg",
-            "utlost": false,
-            "forklaring": "Ingen juridisk/tvist-relaterte nøkkelord funnet i nyheter eller hendelser.",
-            "kilde_tittel": null,
-            "kilde_url": null,
-            "telles_i_score": true
-          },
-          {
-            "faktor": "shortsalg",
-            "navn": "Meldepliktig shortposisjon (Finanstilsynet)",
-            "utlost": false,
-            "forklaring": "Aksjen er ikke registrert i Finanstilsynets offentlige shortregister (ingen historikk med meldepliktige shortposisjoner for dette selskapet).",
-            "akkumulert_short_pct": null,
-            "kilde": null,
-            "telles_i_score": false
-          },
-          {
-            "faktor": "volumavvik",
-            "navn": "Unormalt handelsvolum",
-            "telles_i_score": false,
-            "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,3x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.29,
-            "kursendring_pct": 0.2
-          }
-        ],
-        "automatisk_vurdering": "Ingen av de 4 strategiene gir kjøpssignal for TEL.OL nå. Ingen forhøyede risikofaktorer registrert."
+        "automatisk_vurdering": "Ingen av de 4 strategiene gir kjøpssignal for KIT.OL nå. Risikobildet viser i tillegg: Meldepliktig shortposisjon (Finanstilsynet)."
       },
       {
         "ticker": "PROT.OL",
         "navn": "Protector Forsikring",
         "sektor": "Finans",
-        "siste_kurs": 452.2,
+        "siste_kurs": 451.0,
         "strategi_score": 0,
         "risiko_score": 0,
         "status": "INGEN_MATCH",
@@ -4366,7 +4366,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 18.160642570281123,
+            "verdi_pe": 18.11244979919679,
             "verdi_avkastning_3m_pct": -3.77,
             "telles_i_score": true
           },
@@ -4402,9 +4402,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,0x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 0.95,
-            "kursendring_pct": 0.5
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 1,5x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 1.5,
+            "kursendring_pct": -0.3
           }
         ],
         "automatisk_vurdering": "Ingen av de 4 strategiene gir kjøpssignal for PROT.OL nå. Ingen forhøyede risikofaktorer registrert."
@@ -4413,7 +4413,7 @@
         "ticker": "STB.OL",
         "navn": "Storebrand",
         "sektor": "Finans",
-        "siste_kurs": 199.2,
+        "siste_kurs": 200.2,
         "strategi_score": 0,
         "risiko_score": 0,
         "status": "INGEN_MATCH",
@@ -4432,7 +4432,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 17.458369851007888,
+            "verdi_pe": 17.54601226993865,
             "verdi_avkastning_3m_pct": 14.53,
             "telles_i_score": true
           },
@@ -4468,9 +4468,9 @@
             "navn": "Unormalt handelsvolum",
             "telles_i_score": false,
             "utlost": false,
-            "forklaring": "Siste handelsdag (2026-09-15) hadde 1,6x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
-            "volum_multiplikator": 1.61,
-            "kursendring_pct": -0.4
+            "forklaring": "Siste handelsdag (2026-09-16) hadde 1,0x normalt volum (20-dagers snitt) - ingen unormal kombinasjon av volum og kursfall registrert.",
+            "volum_multiplikator": 1.03,
+            "kursendring_pct": 0.5
           }
         ],
         "automatisk_vurdering": "Ingen av de 4 strategiene gir kjøpssignal for STB.OL nå. Ingen forhøyede risikofaktorer registrert."
