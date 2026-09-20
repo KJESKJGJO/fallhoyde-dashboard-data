@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T05:01:22Z",
+  "generated_at": "2026-09-20T04:53:43Z",
   "holdinger": [
     {
       "ticker": "HUNT.OL",
@@ -17,8 +17,8 @@
           "faktor": "vlcc_ais",
           "navn": "VLCC AIS-avvik (DHT Puma / Eagle Victoria)",
           "utlost": true,
-          "forklaring": "DHT Puma: AIS-signal 192 t gammelt (over 48t-grense), underveis (ikke til anker). Eagle Victoria: AIS-signal 1 t gammelt, underveis (ikke til anker).",
-          "sist_sjekket_utc": "2026-09-19T05:01:15Z"
+          "forklaring": "DHT Puma: AIS-signal 216 t gammelt (over 48t-grense), underveis (ikke til anker). Eagle Victoria: AIS-signal 18 t gammelt, underveis (ikke til anker).",
+          "sist_sjekket_utc": "2026-09-20T04:53:40Z"
         },
         {
           "faktor": "shortsalg",
@@ -27,7 +27,7 @@
           "forklaring": "Ingen aktive, meldepliktige shortposisjoner (≥ 0,5%) registrert i Hunter Group akkurat nå (siste registrerte hendelse i registeret: 2026-07-21).",
           "akkumulert_short_pct": 0.0,
           "kilde": "https://ssr.finanstilsynet.no/Home/Details/NO0012953720",
-          "sist_sjekket_utc": "2026-09-19T05:01:17Z"
+          "sist_sjekket_utc": "2026-09-20T04:53:42Z"
         },
         {
           "faktor": "volumavvik",
@@ -39,15 +39,15 @@
           "snittvolum_20d": 5141884.0,
           "multiplikator": 1.07,
           "kursendring_pct": 3.69,
-          "sist_sjekket_utc": "2026-09-19T05:01:18Z"
+          "sist_sjekket_utc": "2026-09-20T04:53:43Z"
         },
         {
           "faktor": "flaggemelding",
           "navn": "Flaggemelding (større eierandel - Oslo Børs Newsweb)",
-          "sist_sjekket_utc": "2026-09-19T05:01:18Z",
-          "utlost": true,
-          "forklaring": "The Goldman Sachs Group, Inc. sendte flaggemelding 14/09/2026: eierandelen gikk ned fra 5,10% til 4,40% av stemmene i Hunter Group.",
-          "kilde": "https://newsweb.oslobors.no/message/682414"
+          "sist_sjekket_utc": "2026-09-20T04:53:43Z",
+          "utlost": false,
+          "forklaring": "Ingen flaggemelding registrert for Hunter Group på Oslo Børs Newsweb de siste 3 dagene.",
+          "kilde": null
         }
       ]
     }

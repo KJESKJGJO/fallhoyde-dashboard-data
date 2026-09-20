@@ -151,7 +151,7 @@
     "trough_date": "2025-04-04",
     "trough_price": 18.54,
     "recovery_date": "2025-11-12",
-    "total_return_pct": 185.3
+    "total_return_pct": 180.8
   },
   {
     "ticker": "BWLPG.OL",
@@ -263,7 +263,7 @@
     "trough_date": "2024-11-21",
     "trough_price": 92.66,
     "recovery_date": "2025-02-06",
-    "total_return_pct": 27.4
+    "total_return_pct": 27.1
   },
   {
     "ticker": "BRG.OL",
@@ -277,7 +277,7 @@
     "trough_date": "2026-06-11",
     "trough_price": 138.4,
     "recovery_date": null,
-    "total_return_pct": -25.5
+    "total_return_pct": -26.1
   },
   {
     "ticker": "SCATC.OL",
@@ -515,7 +515,7 @@
     "trough_date": "2026-06-02",
     "trough_price": 439.4,
     "recovery_date": null,
-    "total_return_pct": 97.9
+    "total_return_pct": 98.7
   },
   {
     "ticker": "GJF.OL",
@@ -557,7 +557,7 @@
     "trough_date": "2026-06-18",
     "trough_price": 1118.0,
     "recovery_date": "2026-08-05",
-    "total_return_pct": 169.9
+    "total_return_pct": 164.5
   },
   {
     "ticker": "DNB.OL",
