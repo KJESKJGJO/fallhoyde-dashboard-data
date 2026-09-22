@@ -50,12 +50,6 @@
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYS1adnVhS2RaQkgtOGxqN0pyeHFKOFBtMW9CUlRubWNaNlBaLTJER2JQY0VyanpTR0NBVENmRUFxNmxjU1RMX2NKdl94ZXBPNklIdFE5MlU1YktwYmo4b3VkQVJKM0pndXE5LUFHTmZZVENNSWtnOU1rR252cWJQZndrSlkwR3FHRHg0cDdYSXRQNlRGMmdJTG0zV09NY1dyUGZ3NDhRM1VRVnJyUEwwb0d2bm5YdTVQMzdXR1U4c0c?oc=5"
       },
       {
-        "tittel": "Generalforsamlingen i Hunter Group avviser utbytteforslag – aksjen hopper",
-        "kilde": "E24",
-        "dato": "2023-02-16",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQkE2dmxtTnZjalRsWnlpN1dNejlpYjJOQVNBUzlHY2g1TTVWeFVmaXU2YjdpVkUtR2ItQ3VERFpRaER2SURSeHNpRGFhMGxZQUR3b28yTjJTZUhOM2Y4OU4tUVR3TDdaWUF3SkhHTm9XM3lvUjE4QXpHYXFJVzZuMGhBWkh1SnFzb2NiUklQeTc3VXZJaEk2RVk5dFlaYTlIUzBGQ1NDeGk5aE9Yc2czTg?oc=5"
-      },
-      {
         "tittel": "Solgte rett før kjempeoppgang – gikk glipp av milliongevinst",
         "kilde": "Finansavisen",
         "dato": "2025-11-27",
@@ -66,6 +60,12 @@
         "kilde": "E24",
         "dato": "2022-12-29",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQT0haTUdmNUdZZmVwb0VFSU9tR1NkLVN4LVRWdFJaSDNleWR3bmlyRVhGMXhqdG1OZXhocll2LXVQeE8wRzdYcElKbzl6dHd5TzlJd2RuWDZHaVNFbnZ1bVZYdnI2dEQyUGd1MElUbE0yVUdXNUJFcXJMNE96REc5cXBvaTByX2NRUmM3QmlQN3dNZGdRVVlKSnM2b2xBSGJLSUFtNlE0QkxxWm8xSC03MnJqOHZCZVlBODR1bTExOEVSTVdleVVlRmxpWV9WTzA?oc=5"
+      },
+      {
+        "tittel": "Drømmetreff i tankaksje: Har tjent 130 mill. på én måned",
+        "kilde": "Dagens Næringsliv",
+        "dato": "2026-09-11",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR21zdV9TdnphelhLLW1lNUZNRWhHQkJNMXpQRFlIQVA5TFdBSEtkTmw3UkZpT3Y0RkJ1NVVOSHlxUjZoUUYzRVFrVE9uTF9sS0NpRnFDazlDVkJzTzlxb0VCYVl2djY1MEMxdXMtT0lVN2Y2Z3IxSjR6blBXZUZmci13aTdDR3IzOEtvQXYzRUtPOEI0Q3RjWWxlZ1lrVW9TdkFtSDFjVEpCb19OT1E?oc=5"
       }
     ]
   },
@@ -238,7 +238,7 @@
       },
       {
         "tittel": "Onsdag fatter Polight-aksjonærene et tøvete vedtak",
-        "kilde": "Bergens Tidende",
+        "kilde": "bt.no",
         "dato": "2022-05-24",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVm83d0pzRkxRYkpGdE1hcHRCRk9wM2R1WllENGJ2b1UwUDVEcHh4akVsU1hHR3lMWXk4OE1ub3ZCSmQyXzNHbXM5aEl0SFBLdG5fSXZzblN0dnBVa3pnbmxPdFdCMDBEeFA5ajRMSFVnVHBfZFNadzliTDR6QjdUdXJQUjBEUVFaeE1ubWdHRDZJMFg2Wld1RE1NUQ?oc=5"
       }
@@ -272,10 +272,10 @@
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYUJ6LXBKWHVIVlpveDc2SnpPbGd5RlBQWGg3QVp0TlhraUVDMjJOZUZyX2FPQkFMdXhSTnd4OVRFV1BlckVqS3g2R0VrNXZDcTRnelV2QnNRS2lfRm83cC1uWTF4Q2FCRER5eWd1UEtsajl5TldCMFMzSEdMMzVSWHlBZ0stNVpUZ19n?oc=5"
       },
       {
-        "tittel": "Pareto med ny Tomra-analyse: Spår Oslo Børs' «dyreste» aksje opp 50 prosent",
+        "tittel": "Shorterne angriper: Vedder milliarder på kursfall",
         "kilde": "Finansavisen",
-        "dato": "2025-12-03",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdGxJalJFUUxYZE5WOEJWMnVGeWhweFFXZkZWbUVxaFRhU3ZMWjQwU3ZkMFZ2TkFnY1JXVzVvWkNsYWRTMmtadERYMmg3QkJmX185WUI2c3huOHcwWHk1ejhBaGR4QlBnQS0yN1pqUUtBVGprOFp2ektLZUE2akhTS3p0S0FYVTY2eHdQVi1YQlo1dmFCQjB1M1dyZzFIUFJ4Rm9JOFlZRm00WkxrYU5XUy1Ndmd0M2hXdG14SWViSkVxeVYtUnc?oc=5"
+        "dato": "2026-06-15",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTkY3OVp5U3Y4VXlSSjlnLURTa0x4djBoeG9RMzVkYUlGeXhETGxtLTdrT3dxOTM1WU1ON2xvYzZBZGJvQzlKZEFFZ3JOUzY0WjZGdTNyc3Y3YkhrRGttZFZqYWVLMHhPdTUxMDNLR0R5VkJfMzlVSDNtY1ZmN0I2TjZ4aW8yZ0duWXF5VHhudlF1Q1hCWXNRc2lpWm5TcDl3VVdBUXI2Zw?oc=5"
       }
     ]
   },
@@ -302,7 +302,7 @@
       },
       {
         "tittel": "Aker Solutions: Toppsjef går på dagen",
-        "kilde": "borsen.dagbladet.no",
+        "kilde": "Dagbladet",
         "dato": "2026-09-01",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE50RWZ0dlUyS1FVZHlzRWFpRDVtb3M4dDdqSzFTRHNqSHlaZDE2WjMzdlF0amlMbTdwMWp0eWVXUG5jRWVuRkI5S0tDZE1CMWpvd2NVVWZnb2VnMVY4eUI0MzFuZDZGV2c3V0FoRkFNWV9kU25y?oc=5"
       },
@@ -318,10 +318,10 @@
     "navn": "Frontline",
     "nyheter": [
       {
-        "tittel": "Opp over 100 prosent – Clarksons vil fortsatt ha Frontline",
+        "tittel": "Ny rekord på Oslo Børs: 2020 Bulkers snur opp – prises «klart under» konkurrentene",
         "kilde": "Finansavisen",
-        "dato": "2026-08-31",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZDZXZm8yMmM0ZFY1a2V2RklVeWUzNFU3MUFSOXFDNWZSMm1pUU9vcU5pMEVWRmxTQXIxZWJuMjdoWUNYTDY4NWZPMktPQUdYcmF0YVFLMVM4TWtRbXNfQ21kZHVFNzdhRW9IV3dhcVJoci0xb0J5WmpyRlZwNGJMbzRHZm9JNnpCbTVnQVpqMWF5WlRNUzlxSDZjTlRhMi1jVHFPbHhVNWZYU3dMUDlKTE13?oc=5"
+        "dato": "2026-09-17",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNUNtTUJZNDh2TDBicnhtZS1qcUZVZGtaOG9qdko3TjdEWXgyMDBzQVh2azNEaTdSMHAtSDRyS1VOd1V2SEk1RzZkOU5ydEVvWkhaM1R5SzJDejBnakFKNm9ZcnVYQnVqOXdUWmhnWkRvUkZrMWR1Q3I0M0k4WFRuWU9pR3VxOGI5UktBM3NxaE1xNmtwU2oyaGRQUlhiS2pzSTRaU2V6a0VBYTRoRW82Nnc4RnA3NGRYeHRJUzBTNDJpTDF5cF81VkExQQ?oc=5"
       },
       {
         "tittel": "Frontline-aksjen hoppet etter milliardhandel",
@@ -342,10 +342,10 @@
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdHJZZDZxUEVzVml5M0I3OGZlTFdyNFNfQWN3UG1CTFlwMGxIMEtJa18zOVN1NXlqamFUeWlSTzVubG1HYlRvVEp4QTY1R0JIZnp6c1llQ1FybHJOek5RdkM1ZkhfQWR4UlB6TW9Xemx6ODRxbUJXXzlvUDBHb1lqaUlGak53LWdMck1weUtIUmpVQWRDNHVrYnhZQlBuZlU1?oc=5"
       },
       {
-        "tittel": "Rekordkvartal for Frontline: Tjente 659 millioner dollar",
-        "kilde": "E24",
-        "dato": "2026-08-28",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeGg3NFo3d1p6Ukx3WFBOeU5uQnZkeVdWZlFYbnU4WV95NldLa2FxdXE2T3dFcWFtRHVOZ0R3RWY3VEs0YlNjdDItOC1iNkI3ejFQd2hzU2IwQU1XUDNmTmMzT0hrdzhibzdwMldXMXJ3WlBSWkhEekhyNm1TQ0tOeGRBWC1VX3lhUWtldjlBUTFsMkNONFZodmZFSHBQZXdYeldrSjFkZVdnWlk?oc=5"
+        "tittel": "Opp over 100 prosent – Clarksons vil fortsatt ha Frontline",
+        "kilde": "Finansavisen",
+        "dato": "2026-08-31",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZDZXZm8yMmM0ZFY1a2V2RklVeWUzNFU3MUFSOXFDNWZSMm1pUU9vcU5pMEVWRmxTQXIxZWJuMjdoWUNYTDY4NWZPMktPQUdYcmF0YVFLMVM4TWtRbXNfQ21kZHVFNzdhRW9IV3dhcVJoci0xb0J5WmpyRlZwNGJMbzRHZm9JNnpCbTVnQVpqMWF5WlRNUzlxSDZjTlRhMi1jVHFPbHhVNWZYU3dMUDlKTE13?oc=5"
       }
     ]
   },
@@ -447,10 +447,10 @@
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUjY0Q0h1VUsxY0NNSGM3endnbmxkbWM0V1Z3NkZpZE4wUVU3b1BTWTdjQlBwVXlsTnFad3B1RFVUR202c0pTSmRleVFteFRfYUx0QkRqVGRxUkIwbkIxTkJURmp1RTQ5ZzNmd3lTc1RjM1VzWW9BRTJxeWIzZ3JkRDVwMGhUdEstLV9FYkdPMDU0NWdyZk9DM193?oc=5"
       },
       {
-        "tittel": "Kjempeuenighet om TGS",
-        "kilde": "Finansavisen",
-        "dato": "2026-07-24",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRDJsSXNmMWE0dUx3dnFFNlAySG85a05UUE1JWS15UVFXeHM3UWZVUm42RGl3Y2FaV0p4QnhNdFRvSkhfaTZncU1JN3JteHZuSzRZRGRiMk5abDB0OWkxeFFiNzJ0ZTczOXJSaFVXdDJZNEdObWd2dXRzazlwWHJJTg?oc=5"
+        "tittel": "Tror ikke bunnen er nådd: Analytiker nedgraderer til selg og høvler kursmålet | DN",
+        "kilde": "Dagens Næringsliv",
+        "dato": "2026-07-07",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNFFDYTlfNlY1LWtZTWVJcEdyTnRCUTh4MkdPQWdSdlhvdGxpV002c25hX0NHYVhEdkZJQ1ozZ3VlaHpCS0Fkc1A0VTZYZ01LV0w5c0RwX1BqbEhNS1QybWw0ZWlrcDYwS2FCd01OVS1PSmJFaEo0Wm43aDdEdE5ueXZhUG9WYXh0TGNBZGc2LU1xbHNkNkNpa2p3RG8zSE5pOFhaV1RKS3NTNDlQblJWSA?oc=5"
       }
     ]
   },
@@ -458,16 +458,16 @@
     "navn": "Cadeler",
     "nyheter": [
       {
+        "tittel": "Flytter til Storbritannia: Cadeler vil lokke flere investorer",
+        "kilde": "Finansavisen",
+        "dato": "2026-09-22",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSFkweTBSUVRJUTgtRENaTXRXckxYbFRUdHdaYnR0QmQyNHlmOC1RblRXMThaa3docHh5TUhicTdLNkZZUXRvRXlFSi1kUC1sLVhkajhjckVYN19aS1p2b1Fuc0V5Q2RTQVduVkRYTGVBRmt0Q1lOTmF6a1BNTHk5bWFqejJSaDFxTWN4UW8zUVNvOFNvRzZScVpMbGN1YnhFZl9ZMzl5S2g0QTZ1Qks0MVFYdDQ?oc=5"
+      },
+      {
         "tittel": "Cadeler hentet 1,96 mrd.",
         "kilde": "E24",
         "dato": "2026-03-26",
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55bmxCYjh4SHdUNnVSdElrVzM1VTVQcUFRcEgyenF1ekpLM0JiUThOekwwVThDWElNaHhDVWlyWUJPWDMzSnNWWGxtSk01cUZGT3FUdGkyV0dmQkVBeTZpU3dfNVV2dw?oc=5"
-      },
-      {
-        "tittel": "Cadeler hentet 2 milliarder til nybygg",
-        "kilde": "Finansavisen",
-        "dato": "2026-03-26",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcV9OX2loYW1tMlJPVHcwOE1RSm5QczdxRXFfT2ZaVFhZMFNJa0g4blRJUnpRR2tMMnVIaWg4UlF5b3VrMjNVU29aYzNkdVBGRV8xSWlsc0FmUG4wVXVxSHFQVk0zUDBsdXN6OGhySkp6WTF3WXpkVW1DZVR5eHZyUlo2NUZldUI5UEJRR2dVOUJKTXFpbHhv?oc=5"
       },
       {
         "tittel": "DNB Carnegies anbefaling på Cadeler og Borr Drilling",
@@ -476,16 +476,16 @@
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNjRFcDFIR1hYc3FfenV2TE45LThTbHdxRmdIZU5oZURQejBiVnVXSlZLZjZyY2QwSUIyYm4wYmtaSVN1akVtTUQwbXNpbFNoVnZINm5vYVBwNkNydVQ3Q0oxNWxpaG1pTlRjcWlwWDJxa3hNNFBha1dHYlVyRTRaejRUZERZUjdlUmhqaHVrYWk3aDJESGRheUMwbDgzYmMtcmc?oc=5"
       },
       {
+        "tittel": "Cadeler hentet 2 milliarder til nybygg",
+        "kilde": "Finansavisen",
+        "dato": "2026-03-26",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcV9OX2loYW1tMlJPVHcwOE1RSm5QczdxRXFfT2ZaVFhZMFNJa0g4blRJUnpRR2tMMnVIaWg4UlF5b3VrMjNVU29aYzNkdVBGRV8xSWlsc0FmUG4wVXVxSHFQVk0zUDBsdXN6OGhySkp6WTF3WXpkVW1DZVR5eHZyUlo2NUZldUI5UEJRR2dVOUJKTXFpbHhv?oc=5"
+      },
+      {
         "tittel": "CADELER: VURDERER TO NYBYGG, KONVERTERE SKIP OG GJØRE EMISJON",
         "kilde": "Finansavisen",
         "dato": "2026-03-26",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOGlCRF9Sc0hvZ3J6Y05GRjgtZWdORVpwMUhBc3RsWVM0S3V1NUpfemtDekRjTDRIcnFIUk55Y2N2UXpBaE12ZldROG8yczVIVU1qSzdxM1hORG14b19mNjVETXZJSmk5RDBVaVRtSjhZaHlkRlQ1MXRXelNwdUdKNHVEdTdNVnB6Wkg2OEROM1d5ZUZZQVFtamZ2cG5Hc2M5NW9sQmtNWW9CdzN3SkpvaQ?oc=5"
-      },
-      {
-        "tittel": "Oslo Børs steg",
-        "kilde": "E24",
-        "dato": "2025-11-10",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkZGpRZThfSy1CcXk1ZGpkdktmYzBxSmVuLS02WE4zUEY2MGdCMW5YWUVWdDFDYXA3RE5NdExKODQ3UkV0dmVnZ1lXb0hIVHExcU5seHpjSDlZTlNOa1BzWDByeVBOdkFudzFNSm5pRXFPWFNiVUE?oc=5"
       }
     ]
   },
@@ -528,6 +528,18 @@
     "navn": "Kongsberg Gruppen",
     "nyheter": [
       {
+        "tittel": "Tidligere Kongsberg-sjef selger aksjer: –⁠ Fortsatt veldig troen",
+        "kilde": "E24",
+        "dato": "2026-09-21",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVHhEVmh0anA0aXhlTDA2SXdNQ0xUWGkzYklOY0l3NllYMlVhdGI5VHpQU2JGRVRCWkdkQVdFZ0hZcFV5X1ZyM01pY3RCOEgtemlTdVg0TVJZNzl3R0FjNndPTWpINWU4MkdQSXZlekw5UndpZDg5Q01lVmUyZjB5bFdPRW1wcmdpRGlYUkVBcnBIVHdoR3NqWUVFR1RGVmZjcXc?oc=5"
+      },
+      {
+        "tittel": "Ser 30 prosent oppside i «glemt» Kongsberg-aksje",
+        "kilde": "Finansavisen",
+        "dato": "2026-09-21",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNY1paLXlGWUVLbm5xSEZFeGYzTXVPelBVQ205T1lQNGZXTTJad1pMM2lSaU5qT0JiZVpMY1RWbmFnd3hPb2pUNVlIVkVoSGxZaWRRUmppZkJkMFNBNnpUS2lGMVZqZF9heUV5TS13eXR0Zm90MWxpWDVBbWlQVjZkbVR5R3o1eU02SmRXaGk0MDFpNWxwWGViejAtdWpXdjZJVlB2a0Jn?oc=5"
+      },
+      {
         "tittel": "Kongsberg Gruppen dro inn 10,4 mrd. i andre kvartal",
         "kilde": "E24",
         "dato": "2026-07-13",
@@ -544,18 +556,6 @@
         "kilde": "E24",
         "dato": "2026-06-08",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQmU3SzJ4Vy1CcC1yOVVLajlNM3JEWDRuNUhyTGFTZG1vMTljSDJIcmwxTl92alk5Wkk3NndBWjNsQ3VENGpMdmRBY04wcy1zWVBSQS1PLUFHTEQ1N2VTT01jMWZYUHhVM0hYYVZKLUZXdTBaQnhReUY3UXdWbnQ5WURsSC05ZF82QlRjRWln?oc=5"
-      },
-      {
-        "tittel": "Kongsberg Gruppen inngår kjempekontrakt med Polen",
-        "kilde": "Laagendalsposten",
-        "dato": "2026-01-30",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOa1VXRldJNXhoaWNRbEpLdXVobmhRSVpIWnNaTzJJSld6bHV3YVJaX0hmVWY1QjRra21xVTFKNVNaMmpQSlU4VXI1WGxQZVQtM3c1WXlCZkJjYWlNQ2lnSmtlMEpMRXVDcm9IMTh5S3E3YUZLRk1RdlJLR0tNVl9NTE9MSUlhLXI5X1dqanRGa09LTV85OFBZc3FqU1E?oc=5"
-      },
-      {
-        "tittel": "Pareto om KOG-fallet: – Bullshit",
-        "kilde": "Finansavisen",
-        "dato": "2026-06-10",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNb1RlQU9SYXpCX3hnUzRfalZ3LVRqOV9KWjdRZkkwclAwZXJaOFNfYWd4cXlIU1VUTkI1MlQ4ZVJEby1WM1hyQmdLTzM2N0ctOFJGTmNOZEVJMW1sLUhTNEFtOGtSNDhFeXVDcE5ZWUI1bVFTbVo2SFpsNy1ETGRScnVYN2NuMG1Ec0pmeWt3?oc=5"
       }
     ]
   },
@@ -563,16 +563,16 @@
     "navn": "Elopak",
     "nyheter": [
       {
-        "tittel": "ABG snur: Ser kjøpsmulighet etter kursfall",
-        "kilde": "Finansavisen",
-        "dato": "2026-05-05",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNkRmdThPNWpMaU4xdUtmRE9FSnZpQmJ0bDY3T0pxMFc3RzdiTC1LY1FFSEJMZXhMSG1SeXhUNnpQOWliZzk0RFcxX3lpaGt4Y3JSaS16cEswRVhQeDYwaUJKa1ZZRFhNbk9LbFZxQml0LVdsM3hpdU0xN2dQUGJzMnNDeGRSN0dkS21nVjdyTVQxakRrNUUyYVlIRUlGQQ?oc=5"
-      },
-      {
         "tittel": "Stygt angrep fra Sissener på «Børsens Frelsesarmeen» (+)",
         "kilde": "Dagens Næringsliv",
         "dato": "2026-03-23",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTXRzLVZaV2RqdjFvb3JGdFU4NVVGMFBQX0xXeE9zUXZtY3owLWI1ZUN2Ui1saktkWElrNTZkMy1TNzM0RC0wNXlQbXBuZ0hreUsteTFVcEtjdEpkc0xpZllXRlB6QzNxa2Eyc3YxQ3hDNGx3SEJxenVORDBqbW5HclBVVFB1bFplejVncXZjQkItek85UlNkaVNR?oc=5"
+      },
+      {
+        "tittel": "ABG snur: Ser kjøpsmulighet etter kursfall",
+        "kilde": "Finansavisen",
+        "dato": "2026-05-05",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNkRmdThPNWpMaU4xdUtmRE9FSnZpQmJ0bDY3T0pxMFc3RzdiTC1LY1FFSEJMZXhMSG1SeXhUNnpQOWliZzk0RFcxX3lpaGt4Y3JSaS16cEswRVhQeDYwaUJKa1ZZRFhNbk9LbFZxQml0LVdsM3hpdU0xN2dQUGJzMnNDeGRSN0dkS21nVjdyTVQxakRrNUUyYVlIRUlGQQ?oc=5"
       },
       {
         "tittel": "Økonomi og næringsliv, Spikkestad | Eierne solgte aksjer for 558 millioner – så stupte verdien på børsen",
@@ -581,10 +581,10 @@
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMW04dlVVelRxeUlxRlhzbjltNzZqQ0c5OUpXM0J3UVZaSGt1dTFfWXp2VGd6bEVpWHFEdFhMb3EydEN0Q2lESnNzTnVBMTlsQ0ZfQ0JaempKYWhrNWFmSlJLWG1sWmJWdzI4NXRua3pFa0NIZnpISlJGQ1VtYktGTWhISzEyTnNtTUlkUUpzcVFkdUNmc0cxb3FGazdDMERlWFhDS2doakFMZw?oc=5"
       },
       {
-        "tittel": "Elopak: Aksjekollaps etter resultatvarsel",
+        "tittel": "Morten Astrup satser på 79-årig svenske",
         "kilde": "Finansavisen",
-        "dato": "2026-03-23",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNc2hsalZIcnB4SjlPMDIxZktCdHFRWC1lZlZSaFVwaVVUc3RMbTZlX29fcTRiRGEycFJDOWRaUVVCcmlIWGEzQ3RlclFXUVRrcmVVYVRubWozOWM2el8wQUh2bTZXeTd3MjNxWmJheW5BQ095T2dlYTE2NDBrRmZJcHFYbnlfWFF4ZEtzRTlEMnVuZmNKQTdGdG1Iak0?oc=5"
+        "dato": "2026-07-06",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUTRka0tqbnRXSGhDZ1BqNE1rRGt5Mmo5dzY0aG1MQ09JWVVrOEIzNGZWYmZZNEVnemtUWkJnTFZKYnpBMUVLTWw4dDlmaGM5YlNpUGF3VXZYd0I5LW5PbXFSeXBWRHBhT0szWWtWbXZ6RkZLd2FRZDh2YTkzZWQwYjExRTRIVWdlZ21xdHFqYk5zWGw2UkFIcg?oc=5"
       },
       {
         "tittel": "Elopak: Første kvartal blir svakere enn ventet",
@@ -616,10 +616,10 @@
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE45Q0Q1eUtfY2RLaEs1OGRwRS1iZ0hFSTFwOU1JQk9pU1dpenRaNkpZNzc4YlpSWlpObk5NRVpId2Z3blRYc0lLc0dyT1VYRFVkbDY3cTRfM1BLanBtVnNNNTR1M0YxY2FkZWktS2EyalNpQjZ1Y05N?oc=5"
       },
       {
-        "tittel": "AutoStore-gründeren suste videre på børs: Kronjuvelen blør",
+        "tittel": "Oslo Børs stiger igjen: Aksje til værs på rekordtall – rally i forsvarssektoren",
         "kilde": "Finansavisen",
-        "dato": "2026-08-14",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM0tsNWVJR1dHTzgzYVhWSTFZUTUxWmRTT21Tam82RFdGUWQ5UkI2WktJNzA2NEZvQVk2NlpsZmU2aEUtOF9kWEFMMy1CN3BOaWxHcE9WZkJNWHlBcXAyenlXcGhfNmhqeFNXYVc5NXdVVG44WHExSU9FRmEwMng2a0tteWFyektMaEtGQ3gwQzNkbG84OEZseEdUOGFjeTNrcnpSTVppR0Q4alpuX1EteEtB?oc=5"
+        "dato": "2026-05-28",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaEc5Y3ljelJkUkxDUE1VTEhnUHFDQ3V3RHVFVHdjbDUteHl0UHB2b3o5ZVZJYl9JVWRldmxyQ213Q3l4N2UyTk5veVZUNmx4VzlpOVZVbm8xOTI0eGN1Yk91R1ZwOW9nZlhfU1BqaGJ2VWZ1LU1rOE4wVzNTNGs4WUEwbjl5ZlhCV2FLVF90ZGZyaWJVZDhERUp0aERRY0E5LUVqcWRaT0lNOHlzTzhWSnp3bjNzSTZsemgzUG15aWJ1dkNyOXYyUXNGVQ?oc=5"
       },
       {
         "tittel": "Pengene renner inn for Trond Myhre (68) – forvalter 180 mill. på Oslo Børs fra Sveits (+)",
@@ -738,16 +738,16 @@
     "navn": "SalMar",
     "nyheter": [
       {
+        "tittel": "Harald Moræus-Hanssen blir største eier – aksjen raser",
+        "kilde": "Finansavisen",
+        "dato": "2026-09-21",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNHREcTZVS3pJYTdkRGRRQ082UkliRHpZN3NqQkhCRGFrSnI1elRZUGJnUE9TOGNwQnpTUkVFWFQzNnJrUDRJb3pNNG5hTnpRaXBvRmU5dkprYzhLcmktUEQ3cllHTVdBMVppTEJDbUtldmZpbzRBdlprNVJMTzlOaEtPMG84OWttWWhwalZyRWF0emw2VV9DR0hfQUNxQkZxVHdqSVduMmNpZkE?oc=5"
+      },
+      {
         "tittel": "Salmar med kraftig resultatbedring",
         "kilde": "E24",
         "dato": "2026-08-25",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYXBQXzFDLXlUWUEtZ2c0dTc2cG1qNDdjRjJlTllfT1FMeDY2eWdNRE11TFEtdExVZzFuUDZpUjdWb1hGUmpSTDA2MGdMZXR1NDZEZVMzV2xweGhDa1JnSUNDUVdEMkd5anFWSzRzbjhBQ1gwazhocHdITF92QjlmVlJSc3BUb2Q0M01TMElSaUdyQlNwQlRIOG1Yb1F2ejFiLVNZWV9GU0xxNnZoTDI1bXpZdGZ3eHdJamp2akZDMmM?oc=5"
-      },
-      {
-        "tittel": "Salmar opp 27 prosent på få uker: – Sentimentet blir mer bull, sier analysesjef Christian Nordby",
-        "kilde": "Finansavisen",
-        "dato": "2026-08-26",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPakVtWVVWaWJ0NVNVNXptN0NDeVVmdTlva2Y2SF9LU2N6QmY1OTVhTDU4ZFFjXzg2R3ZVZnBZX1lJQ0tibTl4dVNTdTBnLUJUUnRLUHFENWd3VlIxUTZyY00zWUNPMEZ6UjVhZjk0c2dNRnVlU05GUzFiRVQtOHFqTmVuTDFXYlNSeC10Q0NTdmttbVc0WklFQVFSQ2RrY3E5R1RrUGUzZnNfVDlZdlJvU1djNTU2RWlxeVUyWk5ERkRKcG5YbHU3UVNtSmV6TWxxbWR6SF93d0p5M2Zwd0lN?oc=5"
       },
       {
         "tittel": "Resultatløft for Salmar – øker volumguiding",
@@ -757,15 +757,15 @@
       },
       {
         "tittel": "SalMar blar opp 3,4 milliarder kroner for 70 prosent av aksjene i Måsøval",
-        "kilde": "ilaks.no",
+        "kilde": "iLaks",
         "dato": "2026-07-08",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWmJmMWt6SjVRdlRISkZaeUJwcmhMVldIYlhNTDd2Mms4MVZETlJCUkp5QU5XTmw5elBuV1NjUEI5R0ktMjlPbWFVRDlFNDRYdTI0R3FoRzI5M3QzdkdYTEY3ODl3TDRaTmN2UnUtbEV3S2tHU0JRaS1FZFg0ZjJNejZCQXVwRkhldkxubnBLc3QtLWJx?oc=5"
       },
       {
-        "tittel": "Anbefalte aksjen mandag – suser til værs tirsdag",
+        "tittel": "Salmar opp 27 prosent på få uker: – Sentimentet blir mer bull, sier analysesjef Christian Nordby",
         "kilde": "Finansavisen",
-        "dato": "2026-08-25",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdXI5Q3pnWWVaV3prOHFzb2dCbnBGOHhmTjRKQ0hhRF93RTJhVGMxQ3ZvMHRXYzZQb1VKY1pza0VuUXJxdW8tN1p2SnBtODJMMTlzaFo4OV9kdXFzQ19rWndXVVZlUG5DSUhoRnY3RVBPbTlSd1RkZVp3VUUxZWZ6TkNkWndodG1TMTFtbktFaHp4TEk4YWlrSVY3SHBNMDdlbUpV?oc=5"
+        "dato": "2026-08-26",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPakVtWVVWaWJ0NVNVNXptN0NDeVVmdTlva2Y2SF9LU2N6QmY1OTVhTDU4ZFFjXzg2R3ZVZnBZX1lJQ0tibTl4dVNTdTBnLUJUUnRLUHFENWd3VlIxUTZyY00zWUNPMEZ6UjVhZjk0c2dNRnVlU05GUzFiRVQtOHFqTmVuTDFXYlNSeC10Q0NTdmttbVc0WklFQVFSQ2RrY3E5R1RrUGUzZnNfVDlZdlJvU1djNTU2RWlxeVUyWk5ERkRKcG5YbHU3UVNtSmV6TWxxbWR6SF93d0p5M2Zwd0lN?oc=5"
       }
     ]
   },
@@ -777,6 +777,12 @@
         "kilde": "Finansavisen",
         "dato": "2026-01-22",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeEswMlFVSnNPMFQ2aEhlWm1JSllfMjJSamllNGhicF9Rc3J3UDJkeW5tQVRoeV9CdVB0eExtcldmMTlBNHVXa3JvcmRKUXVrblU3MFltcWh2UGJfQWtPRG1Wd0lhSDdPX1N6M2E0OGg1WVpzOElhVE5WY3oxbUNGYWNYaWp5ZlJTc2lBOXI3X3BfQjZUbzFwNUszRXM3b1RLMkE?oc=5"
+      },
+      {
+        "tittel": "Lerøy Seafood-sjefen: Oppkjøp kan være en del av 50 milliardersmål",
+        "kilde": "E24",
+        "dato": "2022-09-22",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbmtQd0JwT0Zha2FmT3JxMFNDNFhYNWVyTzFXWi0zQ0x0bDF0X0NkMmNQNmtDVXppZzN2bnRqN1RoSTRLLTY2MjQzaWlhMG5SbVFaMDBSdWlWb3ZyNms0YWkxQmtGcXpHdFBkNXhTVlhUTUZraEhmR3NXTV9Edl8yVzVmUm91Y3M2cG1kVjlEWHZfTFphYkN3ZTRRaTNkdFBhUm5RTFJjeFdmSnBKUWc?oc=5"
       },
       {
         "tittel": "Kjøper Lerøy Seafood",
@@ -795,12 +801,6 @@
         "kilde": "Finansavisen",
         "dato": "2024-05-15",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVTY4ZUNRQVpHa1M3akpRaEs1M21LXzFaZnFsRVNqNS1UeVVjelhTYXJiZmF5Q0RDRXhrRmE1VFF4TS1EQVZkMG9pWXVqU2RKT1B6NUdDTnNsYVJUVUZLUmdESHZVcHJQNnFFckptaE96SGFwdFFNcnFMVDZhd3B3b0o3c1NzNzA0LVhuOXNEZnZiUQ?oc=5"
-      },
-      {
-        "tittel": "Oslo Børs åpner ned",
-        "kilde": "Finansavisen",
-        "dato": "2023-05-16",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1kWHRCb3QxeE43RktRWFV5by1OcmRtdnRZYUdYYXRBeW52WXBZMUUwelV2dXJ0TzRvYWhJUUdDb09hbWNLNzVqTEVZbDVzcGxzLXY4dHhoRjBnSmlwanIyVkkySE1GSEJ5YWJUU1dmR1RFZE5NRUxsR0FKMTBZUQ?oc=5"
       }
     ]
   },
@@ -831,10 +831,10 @@
     "navn": "Norsk Hydro",
     "nyheter": [
       {
-        "tittel": "UBS nedgraderer Hydro etter kraftig kursoppgang",
+        "tittel": "Oslo Børs åpner ned",
         "kilde": "Finansavisen",
-        "dato": "2026-04-09",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcFBRRVBPQjdsM3RYamoyWWlpTkZxNmw1MUhfdlJNaXl5WmMwTEcwQ1JPODQ0UXZTakFNNmprUTg1bVpNdEhvWk1DMTM2Mjh2WXkxRTlUU0V0eUV1Tld3T2lBUndURC1lUTJRcE83eGZ6T0pwOE1GdHBibThKb2RRSW5XX3Z5em9QRW5hREp2T0hfNHZtelNicmk4MW5HYk5sb2dIaldB?oc=5"
+        "dato": "2026-09-21",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBYWUVfcVB1TWdUMXJ5RVNiRXp0cGEtYVpKSEhyNWlfMjlrWGVZcUd3LTd3YjRtYVRlNXRNcmJpY0F2N2liMnlDS0ZNWFB3aXIwUnE5bUN3cWxJNlIzdWl3TXpVbTFqYV9hSnhILXNDd01JbDVMRzlfeC1TT2JIdw?oc=5"
       },
       {
         "tittel": "Nedgang på Oslo Børs",
@@ -843,10 +843,10 @@
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9yZ3BSMC1kME9fbEljVUxTQkpHSk54ZlZFQ2hsQ3hvbGpXNWZjX3dqWTJnaFEyUjBxRUFKWVhyZk9QdDhZVjZUTU9mUHVTeVlZZm4tTU5sUVVmM19nTVBRTmRIcVVPUQ?oc=5"
       },
       {
-        "tittel": "Søndagens aksjetips: Hydro og Palantir ga kjøpssignal – hva nå?",
+        "tittel": "UBS nedgraderer Hydro etter kraftig kursoppgang",
         "kilde": "Finansavisen",
-        "dato": "2026-08-09",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZl94RTBNcEZEaFhxX1RpM21ueUI0Tno1T3dMclhZMnFYQ2lJSzRPTGdnOXZhYzE4SG84dEw0dXJ0UERieDhTYVZQZ1g1b2F5c0E0c1R0MEMweEk0UkNsaGwxeVV4Q3R2cElJeWRvcW9FUU5hQUs0OHdwMzlDWEladS1RbkJ1aWdmb3dfcGRRZHV6b1d5dHFaS2duenhqVzBqSzB5N2lwczM0WkkwcHNLZ29kNA?oc=5"
+        "dato": "2026-04-09",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcFBRRVBPQjdsM3RYamoyWWlpTkZxNmw1MUhfdlJNaXl5WmMwTEcwQ1JPODQ0UXZTakFNNmprUTg1bVpNdEhvWk1DMTM2Mjh2WXkxRTlUU0V0eUV1Tld3T2lBUndURC1lUTJRcE83eGZ6T0pwOE1GdHBibThKb2RRSW5XX3Z5em9QRW5hREp2T0hfNHZtelNicmk4MW5HYk5sb2dIaldB?oc=5"
       },
       {
         "tittel": "Norsk Hydro-aksjen klatret på positiv Oslo Børs",
@@ -943,21 +943,21 @@
       },
       {
         "tittel": "Aksjeråd for juni: Disse aksjene satser ekspertene på nå",
-        "kilde": "VG",
+        "kilde": "vg.no",
         "dato": "2023-11-15",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOR3c3OUJRQ1JqOGIzZ3dDUkNpV2lyeEF3b3R5ZmVUUWhGRkJWU3BQZWFHNHpNbkc4LWRyTXV1N3BOV2ppOTR5UFZES0xYNTNUVW5HNWFlTEoxamc5emRZX2JDZGxLUDZ3ZlRmM2lTaTVURzFEQnQ4T25PSDJsWFpEMmx1cHA4cGRYbExOQlBPd3o4aWFqVnA1WEZaWVB2N0YtQ0w0MXNNMzFIUjQyWGpFRmRqVlIzZHV4dmdhVUVBOA?oc=5"
-      },
-      {
-        "tittel": "Ukens Investtech: To kjøp og ett salg på Oslo Børs",
-        "kilde": "E24",
-        "dato": "2026-01-23",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVWllNVlKWUt0ejJhN3IzZ2lhTFIzVzVfUkI5RHdpaTJkcm9ZcDhBRzZ0UlEzYVRXeXBLRkdGYmZ2SmVjWWFHMWhUY1BtREVtT29VX1dCeld6Wkp3a2J3Z0YxdVJqWTBfcVZOUXZkMk01N1pya01zU01QMUZKOWdtaHVpYVFBNEZ2QWRmNDViemY1Ni00SGJV?oc=5"
       },
       {
         "tittel": "Laster opp",
         "kilde": "Finansavisen",
         "dato": "2026-07-17",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96NU1Jaktyaml3dVNYcnl4enRsNkZGT1ozc1FBVFhqS2ZGYVBWeXdXNG9fWS1RLVRNMEZzMm56QTZDNGRuWndoc2s5clNFVXJLbDZncDJKVEZnZkdjand4SWhzbW5iNzJJaE9xVFFYbVB2eTls?oc=5"
+      },
+      {
+        "tittel": "Ukens Investtech: To kjøp og ett salg på Oslo Børs",
+        "kilde": "E24",
+        "dato": "2026-01-23",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVWllNVlKWUt0ejJhN3IzZ2lhTFIzVzVfUkI5RHdpaTJkcm9ZcDhBRzZ0UlEzYVRXeXBLRkdGYmZ2SmVjWWFHMWhUY1BtREVtT29VX1dCeld6Wkp3a2J3Z0YxdVJqWTBfcVZOUXZkMk01N1pya01zU01QMUZKOWdtaHVpYVFBNEZ2QWRmNDViemY1Ni00SGJV?oc=5"
       },
       {
         "tittel": "Lakse-aksje stuper på børsen",
@@ -983,12 +983,6 @@
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1KMzBILUNiRndFeXR2NVNhOEx2SzlfYlBpZUFlem85QWIwRnpkaTdZbmNfcWZ6ZHdkbkRqN1A3Z0xaVUplXzlrdkRYOXBBa3FfcndxcW56ZEQwazRkeEo1STV0bXZidHZaQm5UZWZsVGtvVkxl?oc=5"
       },
       {
-        "tittel": "Oslo Børs endte ned: Storsalg sendte oljeaksje ned",
-        "kilde": "Finansavisen",
-        "dato": "2026-09-18",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12QXF2dENkZTdoMFZXWTlpby02QWtLWTFUQ01aQzJKYmtVTGVZR1VvWnU3aWZBS2J4RDMxZDFmZEpneUtWbmZaUUFwcmtLUQ?oc=5"
-      },
-      {
         "tittel": "Oslo Børs bremset i sluttspurten – verste dag på over ett år for Orkla-aksjen",
         "kilde": "E24",
         "dato": "2026-05-20",
@@ -999,6 +993,12 @@
         "kilde": "Dagens Næringsliv",
         "dato": "2026-05-20",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10WnpPemZEamx5Xzh6RVRxYlZoZ2REakJLWEpVTlRzQnBBU3JscGVZM1FWRVkydTBoNnIxNy1Fc3FKNHk5cl9sdmpGUlI5LVRDamlIaTJSXzg0b1BfeVhOWC1vUDl0OW1xdnp4bkZrUjExa28?oc=5"
+      },
+      {
+        "tittel": "Resultatfall for Orkla - verste dag for aksjen på over et år",
+        "kilde": "matvarewatch.no",
+        "dato": "2026-05-20",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBicWM3UXVxdjZMMnptQi1mbWd4OGZnS1VNc21feXFxbW1vWnMySkVQVXVxb3RCbVh2VVoyRk01cWxMQkVZdm9jMlc2N012YjM0U1oxNTgtT1R1QkZqcHNMYkhLZHpzeDA0Z2xZdENpdw?oc=5"
       }
     ]
   },
@@ -1020,7 +1020,7 @@
       {
         "tittel": "Dagens aksjetips: Kitron eksploderte på høyt volum – overtar førsteplassen",
         "kilde": "Radio Haugaland",
-        "dato": "2026-09-06",
+        "dato": "2026-09-05",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeFpFWHdZRVJaTkJYZGpYRHFsNWJKcUFxd3VUajdoRUU5NkdCdmRZdzBmdy1rVUNOOGhWaFBlWG93ZWlnTEozMDdES1Q2VXEyRGRxb3Rac3FPLWttM0dEV0ZEeVRtNlk4LWtqZjFEaXlSVG04cksxb3c0ZFBjV3MyU1RST19YaUw2RU9lU3JmOWp1dFNm?oc=5"
       },
       {
@@ -1040,12 +1040,6 @@
   "TEL.OL": {
     "navn": "Telenor",
     "nyheter": [
-      {
-        "tittel": "Oslo Børs i rødt: Gigantsøksmål sender Telenor ned",
-        "kilde": "Finansavisen",
-        "dato": "2026-09-18",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPREFLZXZXenRnNmljUVREOGFUcURoY0t1MGc4ek9yOVUxeUlCaXF4OEhaY0RBX2RSOEIwNWlxQjYyZzEzOWtxUVNGcjQ4aXlMUHdqVElKTWczT241N0QtWVlCSllUUmhOZmdnUTJJMVZFdS1SdGVkN1R0cUJMTjYzeC1UdXFsQnB6LWctVklQeWVyNEhlbWVSQjZNdjFIY3BMTDAtS2x3?oc=5"
-      },
       {
         "tittel": "PST-ransaking sender Telenor-aksjen ned",
         "kilde": "Investornytt",
@@ -1069,6 +1063,12 @@
         "kilde": "E24",
         "dato": "2026-07-16",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44Rk5pUnhxT2lyXzBGa090d1NrbmlLcG1JRzNqSDcxRlVOejlEVElGSGxLWHVKaWx2RVhZMmJ1VDlRNnVkU0FLMFhiUi1EbXFwUnNIcTNtb2p4cFJEWWh0d3pQeV9yLXk4SzR6TjdwMA?oc=5"
+      },
+      {
+        "tittel": "Telenors børsras er en dom over ledelsen",
+        "kilde": "NHH",
+        "dato": "2026-08-10",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSnhoUGZTTUdmRFBDbjA5aGkzc1ZKSUJiMVJWanphLXdBUDZTYVBhSExxTlduX19Banczb19HczJ4bnVmQjQ5OVpmMnFEVFdnZExSTjNTR010eHIwWk00Q0w1cU1VV0ltai10ZjBLVi1EYVBtNVNjNXI4R280VFdDRFZJYmJXYUhYSW10RktBQ1FUZ0lYMkF2NGlWT2tiWmty?oc=5"
       }
     ]
   },
@@ -1076,16 +1076,16 @@
     "navn": "DNO",
     "nyheter": [
       {
+        "tittel": "DNO: MEGLERHUS MENER BUD ER INNVANNENDE, MEN ØKER KOMPLEKSITET",
+        "kilde": "Finansavisen",
+        "dato": "2026-09-01",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS3VMaHh4RHNpd0dQTUdxRDdhdjB6cnM4eFpPZDNBTklxWHZvaG82UkRsZXk1N1gwMFdsLS1ReWtqWTVjai1KeEIza0RkUFVqcHk0ZDNDUldablk4TFJELTdFSzJaYlgySVlSU29DVkotd0xXaWJYemstOFdBTktHejZTR2ZNd1Y5WTNsM0xnZEJxSE02SVNiSUZUVnY4djdXdHVjeU5vTzlGN2x6UUk3N2FB?oc=5"
+      },
+      {
         "tittel": "Jekker opp til «kjøp» etter brått kursfall",
         "kilde": "Dagens Næringsliv",
         "dato": "2025-10-27",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeVM5LXRTVHV3aHU5TXVhdGhMT3l2aDN4Y2NkdkoxVUd4SjRYSk84dWNLYmpZVDkzZUdSRVBfMllJbXNWbWRydTg2enRVVlN1X1JJejBibFRWTVVXbFlCREItVUlpdlRhd1lURERyX2lLQ2NKcUlHMUlYdGw3SnVzNzllODIyVnVVTk9ud1pPVGk5b01oNkVyZFdiYnpiY0dI?oc=5"
-      },
-      {
-        "tittel": "Aksjen langt bak konkurrentene: Oppgraderes før tallslipp",
-        "kilde": "Finansavisen",
-        "dato": "2025-11-03",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTGRTRFJmUzFSelV0N1FwSmdqUnB0cmhuYk1Lb0hCUVo1RmRiTVNLQ2hNeE1fTEVrYmljY0JMTjlsZVVOQUhYZm5WR1hucVhlOTFSMUNJemw3NFc1MW1RVFJlbTFOVnNvSUhtb2h4TEw5d2l0V0Eta19rMHlNT1ZfSWFmWjc1YzM1bU1JaEkwQ1NLLU94VjVRS0Y4UEtmRWl6cTVfMjN3c21BcVJBTjJZ?oc=5"
       },
       {
         "tittel": "Børskommentar: 2019 kan bli året DNO-aksjen klatrer ut av sin kurdiske skygge",
@@ -1094,10 +1094,10 @@
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNLWNFaGJSeXR4RUNCeDlMbTJfYnIwMERwZHhjSGZvUjlsdnprMWxORk1PaGFlcDZIU0FNV3h2OWtndHFSMEs1S1hsRDd1VV9iRWJrYXdxRGZ1ZzgyWW9aYXlWVkFBeEljNFItVVlwQlVJLWNDRzZSSnhjTWVNaDh4WHVPdzgzQjd6M1FDdFgxbGJmRDZqdVphelVubk94MWs5bTczLURWeXhfVzQ2bUNibkFUQTQ1MWJuaHc?oc=5"
       },
       {
-        "tittel": "Bunnfisker «AI-frykt»-aksjer – selger i olje",
+        "tittel": "Aksjen langt bak konkurrentene: Oppgraderes før tallslipp",
         "kilde": "Finansavisen",
-        "dato": "2026-02-18",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNkhOdkN1OU5wV2kwanlWSzNJLWVKU3lmOTRyUk9PM1hPRUdqaE5QbEpZSmhEX3l2WHFNVHFwMjNpV0lKSjlqcWVkTXRVWTY2Nm5MdmFLaDF1X081VXdjbkluVGZQZGk5ckVpZDRQems4VGhUVnkyVVgxVk1JVzFlQnlQeGZJTTdaQXlHQVZmV0hfTE80aXVHZXNn?oc=5"
+        "dato": "2025-11-03",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTGRTRFJmUzFSelV0N1FwSmdqUnB0cmhuYk1Lb0hCUVo1RmRiTVNLQ2hNeE1fTEVrYmljY0JMTjlsZVVOQUhYZm5WR1hucVhlOTFSMUNJemw3NFc1MW1RVFJlbTFOVnNvSUhtb2h4TEw5d2l0V0Eta19rMHlNT1ZfSWFmWjc1YzM1bU1JaEkwQ1NLLU94VjVRS0Y4UEtmRWl6cTVfMjN3c21BcVJBTjJZ?oc=5"
       },
       {
         "tittel": "DNO-aksjen stiger etter Faroe-oppkjøp",
@@ -1111,10 +1111,16 @@
     "navn": "Equinor",
     "nyheter": [
       {
-        "tittel": "Spår gullvinter for Equinor – oppgraderer aksjen",
+        "tittel": "Nedgang på Oslo Børs",
         "kilde": "E24",
-        "dato": "2026-09-18",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NaC03blhqWXZvXzEtUnlhdENGLVF0UEtlMkFxOTRidXpnZlV6Z0lhUGVpeHBKR0ljanp4ZUt4eUZORTNUMENQUm1id3RPUzhZclJOUmdXdlQyZXZ1cXR4d21tUVBsdw?oc=5"
+        "dato": "2026-09-21",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNU2gyTHNXdFdtTjdCX0lrcTlxQ2VRMVpMYkFMUkdGNlBrRlU5ZzJQMXFVR09PUTJaYTJUUkkyMV9rN081NEZObVI3bFdoaG9VV1ZrSzBzanVxeVREQ0tJM01ELWtxTGZDS3JZcnN6NzYwb2RmUXloTXozRnd1VUJaVzlKS3hiUEZ2a3hTcVJsSGhYLXZpWUZJUml1NA?oc=5"
+      },
+      {
+        "tittel": "Dagens aksjetips: Kongsberg holder toppen – Equinor rykker opp etter kraftig analytikerløft",
+        "kilde": "Radio Haugaland",
+        "dato": "2026-09-21",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa1VjYk5ENGtLdC13eXp4ZjBiYlB0VFdla244RGVaOHh0YkRGTmVFZXlPWmtlSWxnTGN5RmNwUUxTNFZ6M3FHVTlwMXFYODZqNTdXenpkY0lrRUFNaTV1QWdlMktwRm5uR2hpdWF1ekJFM0RYYXUwRExZTFozM19VSWRmLTR1WU56RmJEUk9NU1czZGthMUdMU0Q5SzR6TmZKcGNoTm1MUGRzWGs?oc=5"
       },
       {
         "tittel": "Meglerhus blir største optimist: Kan sitte med over 100 mrd. i cash",
@@ -1123,22 +1129,16 @@
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaDJabDQ4VDg4V1VFQWtSRXUxRDhFNklJVHdESTE4OEFwWE50YnprcjRScmlubFhZczJhTnFVS2JoZi0xYXduWnJuOGpHQ2xxbGVscVhCQlVtWkJQWGdTZkJQNndRTmpHN05YQzcybkJCS1Zlbl8za21qY0RtQndwSkcyOGJvTklTa1kyeDhzLWRVb1dNckpSZjV2Y3dQbUxKNTdRWWZmUm5LdnUwYVdHR1I4OElKNWlpaFJaTQ?oc=5"
       },
       {
+        "tittel": "Equinor-aksjen skjøt opp",
+        "kilde": "E24",
+        "dato": "2026-03-02",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0NGRINmFTWk12WEQ2Mk9uRTI3bF82WmdTcVozYlZ5THNWM2R2dFNRdzRCMzJPcTh0bGltZm16LTBmby01RmUtTm9tbFJRLU02QTRsRllpc0VudHlHdUtselJzLXM5YXlwUzlsUnhmR0hvZi11UGt3N2JlQlY4bzA?oc=5"
+      },
+      {
         "tittel": "Equinors norgessjef: – Vi har fullstendig endret måten vi skal jobbe på norsk sokkel (+)",
         "kilde": "Dagens Næringsliv",
         "dato": "2026-06-18",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTlJvcjBfcUJkUGpnQ042RU1oYkZqWEtyOXZtMXNJem1CMjNZUjJPZjBRQlNhbUZRV0I2N1h4RmFGVEhlS085aTA5M1Z1QzlweVE1VTFyZ1QyV1lYQUxhRklCUkdicDZDRldDZ1dkZWIwYXhjVGRWLUR3SFc5cFRTa1JxbXNzYkE5NUIzRXNDMGlRZFpwd0h1QWJjRnZqMjZKYU5aZnZyR0gteGxXYVhMd0xMVzE4UTRDRnNHOWUteThqNTYxTl9V?oc=5"
-      },
-      {
-        "tittel": "EQUINOR (NY): BANK OF AMERICA OPPGRADERER TIL KJØP (NØYTRAL), KURSMÅL 465 (400)",
-        "kilde": "Finansavisen",
-        "dato": "2026-09-18",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM0ZGWW1xWkM4azZtTmlqMDVxNFVnSGhUeWtTeGF1RTdoQk1EU1BNZEFvb1lTNlhmNzYzYWc4QlZXSzdMbUJqV0ZkUEc5d2lXeXpjZVc0cTVBeHBBNUN0NWxOanZyOEtvbFJFaGpBVlpWMF8xUmxxRnBoeHppbDBlVVpMeTZJOTJLMERMaEdPZ3ZfMmFybW43eGtESXd5OWFtWnJEejEyRTcxY1REVHFteUNhb3ZpWTAyOEltOVFES3U?oc=5"
-      },
-      {
-        "tittel": "Equinor-sjefen: –⁠ Et krevende prisbilde",
-        "kilde": "E24",
-        "dato": "2026-09-16",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMFI1NnFJajFPTXpnSWNadUJEdzl2d3ZiYW5CdmNUSl9yT2txMGNhRHZacmZIeFpvaU52UnlzSnVfS3djUFpLRHlEcnFjUGQtR1FSZkliYkFOakhTR2xETThJa291eDM3eWtoMVI2bGl2TGk3RklET3dKMUIyV2FHYVFR?oc=5"
       }
     ]
   },
@@ -1194,7 +1194,7 @@
       },
       {
         "tittel": "Kursskrell etter storsalg i Canada",
-        "kilde": "ilaks.no",
+        "kilde": "iLaks",
         "dato": "2026-06-30",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5TdHdOT3h1UEZJSGtSSVFqN2NLekNveS1CWkV5bXhUNVhHa0o0V1FfQmRteC1HX2dwb1ZObThUMWI3bTNDakNVWnRlNU5yYzc4YllGc0drT0xjWXBwQTktNmd3?oc=5"
       },
@@ -1222,16 +1222,16 @@
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9XMFJQNlgzWDhQSEQtQW9KN0lRX01jWXpCQzdHODdIWkdrdHVkR2tKSm1nSkNrdWM2anQ0amJFclN1dmpyN1ZHOFhHS0szU0dsOTdCZThQeFJqNExIZUw1RlFqRG1iUWhMUU9TWlVyeEpIc28?oc=5"
       },
       {
-        "tittel": "Blandede signaler i Flex LNG-aksjen",
-        "kilde": "Finansavisen",
-        "dato": "2024-08-12",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWV9KRks3RmdjWjRBRlRlUENjWmdqTWRlbWxoV29WdW9mVFR2aWlQZ0kxZ0FQNGM5NjBUelQtd0RiWFFIUWZhbnR1TW40WmhHVmhwYkYxYTF5QmFUeFM0QmI5OWZydm9PZ1VxNHZDaW9QMnI1WTJEbUFrWnptV2xvS2d5aGtsdVlXekhDN0VUcERqcDYtQ2c?oc=5"
-      },
-      {
         "tittel": "Øystein Kalleklev går av som sjef for Flex LNG",
         "kilde": "Dagens Næringsliv",
         "dato": "2025-03-31",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUGU5aG5iempPRVBiTzB6S0lIdmpjb0Q1SXZjSkZ6R3AzVTFzZmtjQU1PZEItb0tBS29xNzFzWHdtVkJURHlvdzJhTlpqZGk5aThVZHpBOUE4WEswSHpISjdRQklJUl9EZ0QybXV1Q2NKdjJYcTZUNU1WNFJOSTc0Z3NIaFNDOVM3SWtkb1M1V2NzZmdIZE1ZanNtZXhjZVVNZVZVR3RmN19VSml0dUJQVHBGbw?oc=5"
+      },
+      {
+        "tittel": "Flex LNG og MPCC kan gi viktige signaler nå",
+        "kilde": "Finansavisen",
+        "dato": "2024-04-01",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbERKelhDRHhsVjRLRXVRZmdHRjFpZ3RicW1kSkVXVzB5ZTZJdk1ibTZLeVd6TDdjOGhjYjdmT3BvY1FpSkFrR2ozSlpfankyX25Ib1ZORG9TTmwxQkRtWW5zSzFMcWtJZmV2TE92UDhZc0FmU2E5SG5QV2dlRGoxeUZXZjh6azVPLUxFWEt1cjNfaV83ZVhKQjNkUXZDdw?oc=5"
       },
       {
         "tittel": "Flex LNG økte resultatet kraftig – vil betale ekstra utbytte",
@@ -1240,10 +1240,10 @@
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObDhCUWR2OExQREd2TDgtQ1FJb1FUbEtlbkNsTzRJUjJmVDUyUU9QZG9YRzhJclh2YlQwdGJTaDhQNTlHeGRLQ3ZkZFFnSFl5MHRyZ2xoSW9nZmNkSGoxWXFLcmUweEZxWThxb0V3LXhwZ0RJTTFXX0prSEs0MjF4NmZRVXl6QmlnN0o2RVl5empySVQ5TE1BbFVObThBZzdK?oc=5"
       },
       {
-        "tittel": "Flex LNG og MPCC kan gi viktige signaler nå",
+        "tittel": "Flex tar opp kampen mot utbytteskatten",
         "kilde": "Finansavisen",
-        "dato": "2024-04-01",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbERKelhDRHhsVjRLRXVRZmdHRjFpZ3RicW1kSkVXVzB5ZTZJdk1ibTZLeVd6TDdjOGhjYjdmT3BvY1FpSkFrR2ozSlpfankyX25Ib1ZORG9TTmwxQkRtWW5zSzFMcWtJZmV2TE92UDhZc0FmU2E5SG5QV2dlRGoxeUZXZjh6azVPLUxFWEt1cjNfaV83ZVhKQjNkUXZDdw?oc=5"
+        "dato": "2024-05-23",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeWZrMWtkMFJrMW5rMjZ0MXRGRjZ6eHVjRUVna2k0V2hqNUtsOUEzQ1BDTDNiazVHdmVFQTVNOWpuRFJmQVNuYVI4R2hlSGlBUWVNRC1ZUmhsbngxU1FneWViQXpqdTdIWlFBbGE5bXNFMkFFMUVrN0RHSUJObnhubUVBNDhNOFgzN09QWnVvbGY4TFNIWC1RZVNR?oc=5"
       }
     ]
   },
@@ -1266,19 +1266,19 @@
         "tittel": "Protector Forsikring-aksjen faller etter tallslipp",
         "kilde": "E24",
         "dato": "2025-10-23",
-        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE54Vm1NZlNYaHRFUXlxMV9xNW9uU0daT3N5UDZ6ZkZ3c1JhOEZ6U1d5NExGUDJyMEJNMm1rWW5aT2xYRXJlakwyR2dMOHI?oc=5"
-      },
-      {
-        "tittel": "Bratt kursfall for børsvinner etter ferske tall: – Man kaller det «meme-stock» (+)",
-        "kilde": "Dagens Næringsliv",
-        "dato": "2025-10-23",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeEtJQjFheVRMTWc1YUlEWldma2FVa0E5WEw1cl95NkZTRlAwZ2N4MTZIMm9Nc0xQYzR5MFpyMFJ4czJ2UzI5TU4zSFEzN0xwY0N4Mm0xcUlYR3dCRFlqTC03YVV6RXpLTGtjdHBsdVI1cVdVdFdrM2JLV0dPbXU3c2RjS2ViOTZlbUUtRzJzTXNVbk8xeHl0eEw2RDdmNGdyUXFrMlB4S1Fjc3E0VGZUMEZDdjdvWUhxNmN5bUZoaFBZT09lck9wRHpTVQ?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9Od09UYTVtcVRLVHIxaVB0UmVuZ2ZUOUpISkdLcnFzS183aGhiMmFUWElOQVBWRGlhY2ZvQVYxYUdsYVV0RWx2RHVKb2FDenlOaHFIYXkzOA?oc=5"
       },
       {
         "tittel": "Søndagens aksjetips: Protector Forsikring i all-time high. Hva nå?",
         "kilde": "Finansavisen",
         "dato": "2025-12-28",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdXJoM2JkZExac296cGhLTnk4cVV6Q05JOUszVXhCcEJPbm5pOFFhQm9UYkc5aG1pZTI5Vm5IVlNGTkdDbGtCU1lCRWIxamZNTVExbnJGSHlUbXVzUWttZkJXUm9Rc2MwOWgyR1NOc1RlMG8tNHdiZEV1X1BpRkd6bUZiTHJaWWNXM1V5NGM5dlZfMW5GTUY4THh2ZVdhTmhXM0VKZGRTNTl5NzBWOHczakdGYzg1UEJrVGc?oc=5"
+      },
+      {
+        "tittel": "Denne norske aksjen har steget over 1100 prosent på fire år",
+        "kilde": "Dagens Næringsliv",
+        "dato": "2024-02-01",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQzVvVC1RMlNzT2M3b0wzN3M0M3lVUldQdnF6NkJMa3c0eGdWV0I4cHk0SUZEUHZ4NS1Day1NU2ZKUlZwc3hLcmx3T1BtMnktdF9HM3pZUGVlWXRyVmZqbEZXaHhTaUJhdmFTMGlsTzVyR3U2dFJhNlRHVlNfRXNWeHBJcW9iR1lEVWxDdjFjVGpVbERCX24tR29mWW9xc1FUNmdEWElPek5xVlJPbmQ2UlFQOV9WN2p2d2xzNXlRQ2hhSzY1QkxHRUI1Z2NSTGFzcnIxWm5WSEpLVnND?oc=5"
       }
     ]
   },
@@ -1286,16 +1286,16 @@
     "navn": "Gjensidige",
     "nyheter": [
       {
-        "tittel": "Dansk høyesterettsdom kostet Gjensidige 419 mill.",
-        "kilde": "Dagens Næringsliv",
-        "dato": "2026-07-12",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaW1FM21MNGhxUjBrMW1jcXJ5WlBQeHJwU2FYbnZ0bUdxQkpXMXo5dnpuRlJqWlhnb3JfZ0tmaF9CN3ZPUG4tZzlNeWxUYTNJTGM0SzBPN1VMcktlZ0s2WjR2emxGQ1NsSTB6QXJ1ZlJWMFFMRFktdG1UUWxXdVlFSmdyMzRHVm5hdUx5V0pFdk5CWVNmX21IbGpicXBhbzF3TGptc2xJS29QZ2c0UFY0Y3EtNjJQZml4?oc=5"
-      },
-      {
         "tittel": "Nedgang for Gjensidige – resultat før skatt på drøyt to milliarder",
         "kilde": "E24",
         "dato": "2025-10-24",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOWlaaUc3WTZwTlJVRm4yRlhOMjRaRXhtZ3p1MXBralNvQXRLbi1LV2RxTmNWQnJCXzBZeEY2VUdoTFlMeThfc19tTTl4YlFrblY3Q1paTXRmblN3ZEpGUWxFb2RGZlY2dmNZbFB5X0lTN3Z1dnFMa1NxRjJkRkc2d1QySGZuZ2llbG41MDFESE5KREowWko0a3hqUm1RaWs1eXNGNDZRd0RVRGszcFk5b3dLSUo?oc=5"
+      },
+      {
+        "tittel": "Dansk høyesterettsdom kostet Gjensidige 419 mill.",
+        "kilde": "Dagens Næringsliv",
+        "dato": "2026-07-12",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaW1FM21MNGhxUjBrMW1jcXJ5WlBQeHJwU2FYbnZ0bUdxQkpXMXo5dnpuRlJqWlhnb3JfZ0tmaF9CN3ZPUG4tZzlNeWxUYTNJTGM0SzBPN1VMcktlZ0s2WjR2emxGQ1NsSTB6QXJ1ZlJWMFFMRFktdG1UUWxXdVlFSmdyMzRHVm5hdUx5V0pFdk5CWVNmX21IbGpicXBhbzF3TGptc2xJS29QZ2c0UFY0Y3EtNjJQZml4?oc=5"
       },
       {
         "tittel": "ABG starter dekning på Protector – oppgraderer Gjensidige",
@@ -1310,28 +1310,16 @@
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RVDRYY09GTVZ4TFZZNWdjMXVRWVdSc216a0VyV21GYTdmUE9hZUQwZzJ2NDdMY0NKY0FMY055dGMzZEF1dnhlQWU3SDJsZTAybE5UQXNUY1AyNHVfN0dkZlVmazhaVFZETnAtdXdn?oc=5"
       },
       {
-        "tittel": "Kraftig fall for Gjensidige-aksjen",
-        "kilde": "E24",
-        "dato": "2025-10-24",
-        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1ORWRzbHYzeDU3MS1yQW5MdS1pOW5pS2xoSzlqT0VybFAxZlNWTTR5c1doa3JPekQyY0tYY0hmQ1hNVW9qZDBlMUNzX20?oc=5"
+        "tittel": "Forsikringsaksjer straffes etter momsrykter: – Frykten er overdreven, ifølge ABG",
+        "kilde": "Finansavisen",
+        "dato": "2026-06-23",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVTdDeEoxYnNObEZQdHV1RVBjYXJ2QWdYT3RpTnR1UzJWRGptTUFDTHR0cU82ZDBHdTlJYzJ0cWRObXVGZ1lWREVnX21XRS1rc0JMWXVjTmNoM08tYXRLNGNZODIwdHhfYTRTODB6aXd4eXFuR3hIOF8wQ0VRZzNmc29qN2phcU5KcXVvamh0MjBPbllCRDBPU1llX3F3NzhzVlhVN2dIZTktUTllcDhXTHdrak5CcVhBdU1HdW1hX0xDZzZ0SVl2YklB?oc=5"
       }
     ]
   },
   "AKRBP.OL": {
     "navn": "Aker BP",
     "nyheter": [
-      {
-        "tittel": "Tyngste fall for Oslo Børs siden juli",
-        "kilde": "E24",
-        "dato": "2026-09-18",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoYkx5T1gtUWtDSjhYQ3kwMUlSWHF6b2Z2b2tJdUNtSE5SLUQ4V1ptbTNTdm5QNi1pRkl3OVhuYnotdC1jay1ucDhvMEtMYWY4NkNLX2hRRWJzOWlVajBoNWhLU0tkTHJyS0dfX25UTQ?oc=5"
-      },
-      {
-        "tittel": "Lundin-familien med storsalg i Aker BP",
-        "kilde": "Finansavisen",
-        "dato": "2026-09-18",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeG1pMjdtUTZPREE3UzRQaDJwVlhjc3g3NjZMRWFEcmVEa1N3dURYZHFGSkNQQ1ppVFJPbUV0N3B6U29HUmhjWVFqc1QzdkpmZVYwcXBWNGcxdzFpMGN5VkdRZU51TlpXLUt0WUhmSmhqYVFJbzhuRkFvZnJNRkZzaGhsYU5iamcyUzRucS1rQ0RGNmFMdjBV?oc=5"
-      },
       {
         "tittel": "Utlendinger kjøper Røkke-aksjer – nordmenn tar gevinst",
         "kilde": "Finansavisen",
@@ -1349,6 +1337,18 @@
         "kilde": "Aker BP",
         "dato": "2023-09-26",
         "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5IdDJJM1d5aW1MMHJtbFQtM05HV2kwamtpTDdaekp5TnRkdUdmemlYYmhYb005QUU0UmIyRlZ1V0pQMFctbl9hdTFBUmQ?oc=5"
+      },
+      {
+        "tittel": "Aker BP-sjefen om oljemarkedet: – Ganske dramatisk",
+        "kilde": "Dagens Næringsliv",
+        "dato": "2026-05-06",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORTJVSE1neW9OSzdzRWxSUWx0bTNPdU55R1BRVTBGWFBKbmFfY0QtbTdoUWNBZE9uTEtaaEhtTWIzX3RKb0g0aFRrX3ZGUThaY1lQUV8yYVN6QkFvY1BfZUpzbWZnRG83ZFY4cEtQb0R0U0psaUwybnZWSVdzam5PdnJzelVQTjdZdmZWMXQ0MnJHWlpxU0hLVEJHZGtLUzRTSXQ4YnlWMGNvSk51b01fdzR3?oc=5"
+      },
+      {
+        "tittel": "Aker BP-aksjen raste etter varsko fra Equinor-sjefen",
+        "kilde": "Finansavisen",
+        "dato": "2026-02-04",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ1kzaVhlTi1RSm5hZ1FGejdlSTdDYWhhOVNMQ0w3UEpjQUgxWG8xT0djWE55aC1kU3NUbVNuMXFXTjZ3dXZES0RZQlBKNnRscnpBLWYxMDAtLUlqUnZ5dGRvQXdQNWVvaGZVR2JKYk1Ob1RaZkJrWWxWRExid0dPTDNVb3lxLXcwYnRfY2kxby1TU095cGxwZjFVVjJNX3pWbkhEUEFaVUYxdw?oc=5"
       }
     ]
   },
@@ -1379,12 +1379,6 @@
     "navn": "DNB",
     "nyheter": [
       {
-        "tittel": "DNB Carnegie nedgraderer: – Ta gevinst",
-        "kilde": "Finansavisen",
-        "dato": "2026-09-18",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWFdZVU9MdENQZnBSVHBDLUh3b2plaUNpQUNIczB0VnBRcnM0NXVPV0tXb3E1TXVZVXUzZTZ6WTJxMGl6d3FHVkhWOEJ2Rm9tVXFnajdJNzBXV2c5SUZCTUdVN1lLWGtaZS1zdjN1UFdJUjU1N0NCVld2bUtGS0ZNZmRBaHYtODB2UFNUWDhFUGNkdURsbWc?oc=5"
-      },
-      {
         "tittel": "– Aksjen du skal eie hvis du vil sove godt om natten",
         "kilde": "E24",
         "dato": "2026-09-17",
@@ -1403,10 +1397,16 @@
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9veGxnTXZCa3I5cWxhSlVuSV9iQXdVeEgyZWlrRHJfbm40VnNIdW4xVFNMRnhFaUt3UDlUbmdBQWZmaVlFUDlKdmVXcDAzN3RaVk0tc2NCQm1TLS1EUXhPRkFmcXpHUQ?oc=5"
       },
       {
-        "tittel": "Meglerhusene elsker DNB-aksjen",
+        "tittel": "Analytiker om DNB: –⁠ Vi er negative til aksjen",
         "kilde": "E24",
-        "dato": "2026-09-03",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9Zay1RWXluTm1QdjhJZnF4OHZEV05JRUwzVlRiOVR4OHNYQVNkWk5Scmo4aWllRXpjMlBfUl84Y3RPbFBZaVZ5bTB1SzlPMHE1anMtZjcxLVNKZHZlbGJJeWZhSl82QjNCanJZd0FsaXlJb2pxaEVOZU1B?oc=5"
+        "dato": "2026-03-23",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMkdUQzNPX29yYkVNNEpEVDlZV3E2UFZORHY2NXlSTGdCb3NxMVVDSUQwTFRodnJNMmRCczR5VnJ1OVNOazAzQTZYajdYVUY3Q3c0M2gyRmIzdF9IbF8xY1NVUUc4Z3NUWmMzUzVZM3ExTlNNWW9kQ1BsUThrT3dKN0NRdnM3dWhLTjR3?oc=5"
+      },
+      {
+        "tittel": "Analytikerkræsjet: DNB opp eller ned?",
+        "kilde": "Finansavisen",
+        "dato": "2026-05-21",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVUluX2VPamJMOW5OWHlpcnhVdUJKdzNfWDlnQ291Snl3aVZDVW1iaEVfT0VZVTgyLU9LbUJJUEExeVZGRmlrVElnTXZmMXpIUVZMV2c0ZGhfTFJwTW5HT1MwOEllVVExcnIwR1E0U2ExVWM0V0pRRmRrZnc0eWV5N1I4Qm5sY240VlRKS2FFUzZ5SmlX?oc=5"
       }
     ]
   },
