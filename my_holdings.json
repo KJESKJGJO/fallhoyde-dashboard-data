@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T04:59:18Z",
+  "generated_at": "2026-09-27T05:07:30Z",
   "holdinger": [
     {
       "ticker": "HUNT.OL",
@@ -17,8 +17,8 @@
           "faktor": "vlcc_ais",
           "navn": "VLCC AIS-avvik (DHT Puma / Eagle Victoria)",
           "utlost": true,
-          "forklaring": "DHT Puma: AIS-signal 360 t gammelt (over 48t-grense), underveis (ikke til anker). Eagle Victoria: AIS-signal 168 t gammelt (over 48t-grense), underveis (ikke til anker).",
-          "sist_sjekket_utc": "2026-09-26T04:59:14Z"
+          "forklaring": "DHT Puma: AIS-signal 384 t gammelt (over 48t-grense), underveis (ikke til anker). Eagle Victoria: AIS-signal 0 t gammelt, underveis (ikke til anker).",
+          "sist_sjekket_utc": "2026-09-27T05:07:26Z"
         },
         {
           "faktor": "shortsalg",
@@ -27,7 +27,7 @@
           "forklaring": "Finanstilsynet registrerer akkumulert shortposisjon på 0,79% i Hunter Group akkurat nå, meldt av: CITADEL SECURITIES (EUROPE) LIMITED (0,79%).",
           "akkumulert_short_pct": 0.79,
           "kilde": "https://ssr.finanstilsynet.no/Home/Details/NO0012953720",
-          "sist_sjekket_utc": "2026-09-26T04:59:15Z"
+          "sist_sjekket_utc": "2026-09-27T05:07:28Z"
         },
         {
           "faktor": "volumavvik",
@@ -39,12 +39,12 @@
           "snittvolum_20d": 5969346.0,
           "multiplikator": 1.27,
           "kursendring_pct": -3.08,
-          "sist_sjekket_utc": "2026-09-26T04:59:17Z"
+          "sist_sjekket_utc": "2026-09-27T05:07:29Z"
         },
         {
           "faktor": "flaggemelding",
           "navn": "Flaggemelding (større eierandel - Oslo Børs Newsweb)",
-          "sist_sjekket_utc": "2026-09-26T04:59:17Z",
+          "sist_sjekket_utc": "2026-09-27T05:07:29Z",
           "utlost": true,
           "forklaring": "The Goldman Sachs Group, Inc. sendte flaggemelding 24/09/2026: eierandelen gikk ned fra 5,66% til 2,50% av stemmene i Hunter Group.",
           "kilde": "https://newsweb.oslobors.no/message/683098"
