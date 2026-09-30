@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T05:13:29Z",
+  "generated_at": "2026-09-30T05:00:59Z",
   "holdinger": [
     {
       "ticker": "HUNT.OL",
@@ -9,16 +9,16 @@
           "faktor": "kursvarsel",
           "navn": "Kurs under 12,50 NOK",
           "utlost": false,
-          "forklaring": "Siste kjente kurs 18,54 NOK er over varselgrensen på 12,50 NOK.",
-          "siste_kurs": 18.54,
-          "sist_sjekket_utc": "2026-09-28T14:23:35.606484Z"
+          "forklaring": "Siste kjente kurs 17,50 NOK er over varselgrensen på 12,50 NOK.",
+          "siste_kurs": 17.5,
+          "sist_sjekket_utc": "2026-09-29T14:36:18Z"
         },
         {
           "faktor": "vlcc_ais",
           "navn": "VLCC AIS-avvik (DHT Puma / Eagle Victoria)",
           "utlost": true,
-          "forklaring": "DHT Puma: AIS-signal 432 t gammelt (over 48t-grense), underveis (ikke til anker). Eagle Victoria: AIS-signal 28 t gammelt, underveis (ikke til anker).",
-          "sist_sjekket_utc": "2026-09-29T05:13:26Z"
+          "forklaring": "DHT Puma: AIS-signal 456 t gammelt (over 48t-grense), underveis (ikke til anker). Eagle Victoria: AIS-signal 48 t gammelt, underveis (ikke til anker).",
+          "sist_sjekket_utc": "2026-09-30T05:00:56Z"
         },
         {
           "faktor": "shortsalg",
@@ -27,24 +27,24 @@
           "forklaring": "Finanstilsynet registrerer akkumulert shortposisjon på 0,79% i Hunter Group akkurat nå, meldt av: CITADEL SECURITIES (EUROPE) LIMITED (0,79%).",
           "akkumulert_short_pct": 0.79,
           "kilde": "https://ssr.finanstilsynet.no/Home/Details/NO0012953720",
-          "sist_sjekket_utc": "2026-09-29T05:13:27Z"
+          "sist_sjekket_utc": "2026-09-30T05:00:57Z"
         },
         {
           "faktor": "volumavvik",
           "navn": "Unormalt handelsvolum",
           "utlost": false,
-          "forklaring": "2026-09-28: volumet var 1,3x 20-dagers snitt (kursendring +8,7%) - ikke over terskelen for unormalt salgsvolum.",
-          "dato": "2026-09-28",
-          "volum_siste_dag": 7942477.0,
-          "snittvolum_20d": 5928528.0,
-          "multiplikator": 1.34,
-          "kursendring_pct": 8.71,
-          "sist_sjekket_utc": "2026-09-29T05:13:29Z"
+          "forklaring": "2026-09-29: volumet var 0,7x 20-dagers snitt (kursendring -4,3%) - ikke over terskelen for unormalt salgsvolum.",
+          "dato": "2026-09-29",
+          "volum_siste_dag": 4517802.0,
+          "snittvolum_20d": 6167267.0,
+          "multiplikator": 0.73,
+          "kursendring_pct": -4.33,
+          "sist_sjekket_utc": "2026-09-30T05:00:58Z"
         },
         {
           "faktor": "flaggemelding",
           "navn": "Flaggemelding (større eierandel - Oslo Børs Newsweb)",
-          "sist_sjekket_utc": "2026-09-29T05:13:29Z",
+          "sist_sjekket_utc": "2026-09-30T05:00:58Z",
           "utlost": false,
           "forklaring": "Ingen flaggemelding registrert for Hunter Group på Oslo Børs Newsweb de siste 3 dagene.",
           "kilde": null
