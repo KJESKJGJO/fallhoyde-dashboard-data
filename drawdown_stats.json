@@ -11,7 +11,7 @@
     "trough_date": "2026-10-01",
     "trough_price": 4.15,
     "recovery_date": null,
-    "total_return_pct": -95.6
+    "total_return_pct": -95.5
   },
   {
     "ticker": "HUNT.OL",
@@ -25,7 +25,7 @@
     "trough_date": "2024-12-16",
     "trough_price": 0.44,
     "recovery_date": "2025-11-27",
-    "total_return_pct": 788.6
+    "total_return_pct": 850.2
   },
   {
     "ticker": "GSF.OL",
@@ -33,13 +33,13 @@
     "sektor": "Sjømat",
     "univers": "bredt",
     "currency": "NOK",
-    "max_drawdown_pct": -68.3,
+    "max_drawdown_pct": -70.4,
     "peak_date": "2025-12-30",
     "peak_price": 77.85,
-    "trough_date": "2026-09-21",
-    "trough_price": 24.64,
+    "trough_date": "2026-10-05",
+    "trough_price": 23.02,
     "recovery_date": null,
-    "total_return_pct": -48.6
+    "total_return_pct": -52.5
   },
   {
     "ticker": "NEL.OL",
@@ -53,7 +53,7 @@
     "trough_date": "2025-03-11",
     "trough_price": 1.96,
     "recovery_date": null,
-    "total_return_pct": -63.1
+    "total_return_pct": -64.1
   },
   {
     "ticker": "AUTO.OL",
@@ -67,7 +67,7 @@
     "trough_date": "2025-04-30",
     "trough_price": 4.65,
     "recovery_date": "2026-01-15",
-    "total_return_pct": 51.0
+    "total_return_pct": 47.8
   },
   {
     "ticker": "WAWI.OL",
@@ -81,7 +81,7 @@
     "trough_date": "2025-04-04",
     "trough_price": 64.05,
     "recovery_date": "2026-06-11",
-    "total_return_pct": 70.6
+    "total_return_pct": 68.5
   },
   {
     "ticker": "PLT.OL",
@@ -95,7 +95,7 @@
     "trough_date": "2025-04-09",
     "trough_price": 2.62,
     "recovery_date": "2025-10-21",
-    "total_return_pct": 270.0
+    "total_return_pct": 258.0
   },
   {
     "ticker": "TOM.OL",
@@ -109,7 +109,7 @@
     "trough_date": "2026-04-24",
     "trough_price": 90.0,
     "recovery_date": null,
-    "total_return_pct": -43.4
+    "total_return_pct": -43.0
   },
   {
     "ticker": "AKSO.OL",
@@ -123,7 +123,7 @@
     "trough_date": "2025-10-17",
     "trough_price": 25.98,
     "recovery_date": null,
-    "total_return_pct": -7.1
+    "total_return_pct": -6.0
   },
   {
     "ticker": "FRO.OL",
@@ -137,7 +137,7 @@
     "trough_date": "2025-04-04",
     "trough_price": 134.9,
     "recovery_date": "2026-01-14",
-    "total_return_pct": 96.3
+    "total_return_pct": 101.8
   },
   {
     "ticker": "ECO",
@@ -151,7 +151,7 @@
     "trough_date": "2025-04-04",
     "trough_price": 18.54,
     "recovery_date": "2025-11-12",
-    "total_return_pct": 188.5
+    "total_return_pct": 192.9
   },
   {
     "ticker": "BWLPG.OL",
@@ -165,7 +165,7 @@
     "trough_date": "2025-04-04",
     "trough_price": 91.65,
     "recovery_date": "2026-02-27",
-    "total_return_pct": 48.7
+    "total_return_pct": 48.8
   },
   {
     "ticker": "TGS.OL",
@@ -179,7 +179,7 @@
     "trough_date": "2025-09-22",
     "trough_price": 70.05,
     "recovery_date": "2026-03-25",
-    "total_return_pct": 12.5
+    "total_return_pct": 14.2
   },
   {
     "ticker": "CDLR",
@@ -193,7 +193,7 @@
     "trough_date": "2025-11-21",
     "trough_price": 15.92,
     "recovery_date": "2026-05-05",
-    "total_return_pct": -13.5
+    "total_return_pct": -14.6
   },
   {
     "ticker": "BAKKA.OL",
@@ -207,7 +207,7 @@
     "trough_date": "2025-07-18",
     "trough_price": 393.0,
     "recovery_date": null,
-    "total_return_pct": -24.3
+    "total_return_pct": -24.8
   },
   {
     "ticker": "KOG.OL",
@@ -221,7 +221,7 @@
     "trough_date": "2025-11-24",
     "trough_price": 229.15,
     "recovery_date": "2026-02-18",
-    "total_return_pct": 41.8
+    "total_return_pct": 42.3
   },
   {
     "ticker": "ELO.OL",
@@ -235,7 +235,7 @@
     "trough_date": "2026-05-29",
     "trough_price": 33.55,
     "recovery_date": null,
-    "total_return_pct": -15.7
+    "total_return_pct": -18.4
   },
   {
     "ticker": "NOHAL.OL",
@@ -249,7 +249,7 @@
     "trough_date": "2025-05-27",
     "trough_price": 18.3,
     "recovery_date": "2026-08-26",
-    "total_return_pct": 1.4
+    "total_return_pct": 0.0
   },
   {
     "ticker": "NOD.OL",
@@ -263,7 +263,7 @@
     "trough_date": "2024-11-21",
     "trough_price": 92.66,
     "recovery_date": "2025-02-06",
-    "total_return_pct": 35.2
+    "total_return_pct": 34.9
   },
   {
     "ticker": "BRG.OL",
@@ -277,7 +277,7 @@
     "trough_date": "2026-06-11",
     "trough_price": 138.4,
     "recovery_date": null,
-    "total_return_pct": -23.2
+    "total_return_pct": -24.4
   },
   {
     "ticker": "SCATC.OL",
@@ -291,7 +291,7 @@
     "trough_date": "2026-07-29",
     "trough_price": 90.65,
     "recovery_date": null,
-    "total_return_pct": 31.7
+    "total_return_pct": 30.5
   },
   {
     "ticker": "SALM.OL",
@@ -305,7 +305,7 @@
     "trough_date": "2025-07-11",
     "trough_price": 411.6,
     "recovery_date": "2025-10-16",
-    "total_return_pct": 6.8
+    "total_return_pct": 4.9
   },
   {
     "ticker": "LSG.OL",
@@ -319,7 +319,7 @@
     "trough_date": "2026-07-01",
     "trough_price": 38.0,
     "recovery_date": null,
-    "total_return_pct": -14.1
+    "total_return_pct": -15.0
   },
   {
     "ticker": "SUBC.OL",
@@ -333,7 +333,7 @@
     "trough_date": "2025-04-09",
     "trough_price": 137.4,
     "recovery_date": "2025-07-21",
-    "total_return_pct": 69.9
+    "total_return_pct": 75.1
   },
   {
     "ticker": "NHY.OL",
@@ -347,7 +347,7 @@
     "trough_date": "2026-10-01",
     "trough_price": 79.44,
     "recovery_date": null,
-    "total_return_pct": 34.7
+    "total_return_pct": 36.4
   },
   {
     "ticker": "VAR.OL",
@@ -361,7 +361,7 @@
     "trough_date": "2025-04-09",
     "trough_price": 27.28,
     "recovery_date": "2026-03-09",
-    "total_return_pct": 44.3
+    "total_return_pct": 46.3
   },
   {
     "ticker": "ELMRA.OL",
@@ -375,7 +375,7 @@
     "trough_date": "2026-06-08",
     "trough_price": 28.7,
     "recovery_date": "2026-06-25",
-    "total_return_pct": 40.9
+    "total_return_pct": 40.4
   },
   {
     "ticker": "YAR.OL",
@@ -383,13 +383,13 @@
     "sektor": "Industri",
     "univers": "bredt",
     "currency": "NOK",
-    "max_drawdown_pct": -30.6,
+    "max_drawdown_pct": -30.7,
     "peak_date": "2026-04-07",
     "peak_price": 596.8,
-    "trough_date": "2026-10-01",
-    "trough_price": 414.3,
+    "trough_date": "2026-10-05",
+    "trough_price": 413.7,
     "recovery_date": null,
-    "total_return_pct": 35.2
+    "total_return_pct": 34.7
   },
   {
     "ticker": "ORK.OL",
@@ -403,7 +403,7 @@
     "trough_date": "2026-09-18",
     "trough_price": 90.55,
     "recovery_date": null,
-    "total_return_pct": -3.8
+    "total_return_pct": -4.6
   },
   {
     "ticker": "KIT.OL",
@@ -417,7 +417,7 @@
     "trough_date": "2026-07-17",
     "trough_price": 82.25,
     "recovery_date": null,
-    "total_return_pct": 207.6
+    "total_return_pct": 213.5
   },
   {
     "ticker": "TEL.OL",
@@ -431,7 +431,7 @@
     "trough_date": "2026-10-01",
     "trough_price": 126.9,
     "recovery_date": null,
-    "total_return_pct": -4.3
+    "total_return_pct": -4.2
   },
   {
     "ticker": "DNO.OL",
@@ -445,7 +445,7 @@
     "trough_date": "2026-07-06",
     "trough_price": 16.08,
     "recovery_date": null,
-    "total_return_pct": 60.7
+    "total_return_pct": 61.7
   },
   {
     "ticker": "EQNR.OL",
@@ -459,7 +459,7 @@
     "trough_date": "2026-06-25",
     "trough_price": 308.8,
     "recovery_date": "2026-09-14",
-    "total_return_pct": 43.1
+    "total_return_pct": 43.5
   },
   {
     "ticker": "ODL.OL",
@@ -473,7 +473,7 @@
     "trough_date": "2026-07-01",
     "trough_price": 82.2,
     "recovery_date": null,
-    "total_return_pct": 76.8
+    "total_return_pct": 78.4
   },
   {
     "ticker": "MOWI.OL",
@@ -501,7 +501,7 @@
     "trough_date": "2025-04-08",
     "trough_price": 20.21,
     "recovery_date": "2025-08-27",
-    "total_return_pct": 19.6
+    "total_return_pct": 20.3
   },
   {
     "ticker": "PROT.OL",
@@ -529,7 +529,7 @@
     "trough_date": "2026-03-27",
     "trough_price": 241.8,
     "recovery_date": null,
-    "total_return_pct": 36.9
+    "total_return_pct": 35.4
   },
   {
     "ticker": "AKRBP.OL",
@@ -543,7 +543,7 @@
     "trough_date": "2026-07-01",
     "trough_price": 298.1,
     "recovery_date": "2026-09-14",
-    "total_return_pct": 35.4
+    "total_return_pct": 36.8
   },
   {
     "ticker": "AKER.OL",
@@ -557,7 +557,7 @@
     "trough_date": "2026-10-01",
     "trough_price": 1368.0,
     "recovery_date": null,
-    "total_return_pct": 137.0
+    "total_return_pct": 138.0
   },
   {
     "ticker": "DNB.OL",
@@ -571,7 +571,7 @@
     "trough_date": "2025-04-09",
     "trough_price": 239.2,
     "recovery_date": "2025-06-12",
-    "total_return_pct": 38.8
+    "total_return_pct": 38.6
   },
   {
     "ticker": "STB.OL",
@@ -585,6 +585,6 @@
     "trough_date": "2025-04-11",
     "trough_price": 117.8,
     "recovery_date": "2025-06-20",
-    "total_return_pct": 67.1
+    "total_return_pct": 66.9
   }
 ]
