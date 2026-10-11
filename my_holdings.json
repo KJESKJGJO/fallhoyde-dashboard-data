@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T04:57:39Z",
+  "generated_at": "2026-10-11T04:54:00Z",
   "holdinger": [
     {
       "ticker": "HUNT.OL",
@@ -17,8 +17,8 @@
           "faktor": "vlcc_ais",
           "navn": "VLCC AIS-avvik (DHT Puma / Eagle Victoria)",
           "utlost": true,
-          "forklaring": "DHT Puma: AIS-signal 696 t gammelt (over 48t-grense), underveis (ikke til anker). Eagle Victoria: AIS-signal 288 t gammelt (over 48t-grense), underveis (ikke til anker).",
-          "sist_sjekket_utc": "2026-10-10T04:57:35Z"
+          "forklaring": "DHT Puma: AIS-signal 720 t gammelt (over 48t-grense), underveis (ikke til anker). Eagle Victoria: AIS-signal 312 t gammelt (over 48t-grense), underveis (ikke til anker).",
+          "sist_sjekket_utc": "2026-10-11T04:53:57Z"
         },
         {
           "faktor": "shortsalg",
@@ -27,7 +27,7 @@
           "forklaring": "Finanstilsynet registrerer akkumulert shortposisjon på 0,79% i Hunter Group akkurat nå, meldt av: CITADEL SECURITIES (EUROPE) LIMITED (0,79%).",
           "akkumulert_short_pct": 0.79,
           "kilde": "https://ssr.finanstilsynet.no/Home/Details/NO0012953720",
-          "sist_sjekket_utc": "2026-10-10T04:57:37Z"
+          "sist_sjekket_utc": "2026-10-11T04:53:58Z"
         },
         {
           "faktor": "volumavvik",
@@ -39,12 +39,12 @@
           "snittvolum_20d": 6227408.0,
           "multiplikator": 0.94,
           "kursendring_pct": -3.9,
-          "sist_sjekket_utc": "2026-10-10T04:57:38Z"
+          "sist_sjekket_utc": "2026-10-11T04:53:59Z"
         },
         {
           "faktor": "flaggemelding",
           "navn": "Flaggemelding (større eierandel - Oslo Børs Newsweb)",
-          "sist_sjekket_utc": "2026-10-10T04:57:38Z",
+          "sist_sjekket_utc": "2026-10-11T04:53:59Z",
           "utlost": false,
           "forklaring": "Ingen flaggemelding registrert for Hunter Group på Oslo Børs Newsweb de siste 3 dagene.",
           "kilde": null
