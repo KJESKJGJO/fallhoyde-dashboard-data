@@ -25,6 +25,12 @@
         "tittel": "Aker-aksjen presset av amerikansk børsfall og IPO-bekymringer",
         "forklaring": "E24 omtalte at en Wall Street-notert aksje dro Aker-aksjen ned etter ferske inflasjonstall, samtidig som markedet bekymret seg for utsatt børsnotering og lavere prising. Dette sammenfalt med den nye bunndatoen 14. oktober.",
         "kilde_url": "https://e24.no/boers-og-finans/i/KrlJKE/roekke-konkurrent-stuper-frykt-for-utsatt-ipo-og-lavere-prising"
+      },
+      {
+        "dato": "2026-10-15",
+        "tittel": "Aker-aksjen faller etter uro for neocloud-selskaper",
+        "forklaring": "Börskollen/EFN knyttet Aker-fallet i Oslo til kraftige fall i neocloud-selskaper på Wall Street dagen før. Artikkelen peker på Akers sammenlignbare eksponering gjennom Nscale som en mulig smitteeffekt, i tråd med den nye bunndatoen 15. oktober.",
+        "kilde_url": "https://www.borskollen.se/nyheter/12/norska-investmentjatten-aker-faller-efter-neocloud-oron"
       }
     ]
   },
@@ -726,6 +732,12 @@
         "tittel": "Citi senker kursmålet på Norsk Hydro",
         "forklaring": "Citi senket kursmålet på Norsk Hydro fra 98 til 86 kroner og beholdt en nøytral anbefaling. Analytikerkuttet kom rundt den nye bunndatoen 14. oktober og kan ha bidratt til presset på aksjen, men kilden fastslår ikke at det alene forårsaket kursfallet.",
         "kilde_url": "https://markets.businessinsider.com/news/stocks/norsk-hydro-price-target-lowered-to-nok-86-from-nok-98-at-citi-1036623055"
+      },
+      {
+        "dato": "2026-10-14",
+        "tittel": "JPMorgan senker kursmålet på Norsk Hydro",
+        "forklaring": "JPMorgan senket kursmålet på Norsk Hydro fra 97 til 91 kroner og beholdt en nøytral anbefaling. Meldingen ble publisert like før den nye bunndatoen 15. oktober; kilden oppgir ingen særskilt begrunnelse, så den kan ha bidratt til markedsuro, men dokumenterer ikke alene kursfallet.",
+        "kilde_url": "https://markets.businessinsider.com/news/stocks/norsk-hydro-price-target-lowered-to-nok-91-from-nok-97-at-jpmorgan-1036627796"
       }
     ]
   },
