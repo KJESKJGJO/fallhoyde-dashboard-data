@@ -11,7 +11,7 @@
     "trough_date": "2026-10-01",
     "trough_price": 4.15,
     "recovery_date": null,
-    "total_return_pct": -94.2
+    "total_return_pct": -94.1
   },
   {
     "ticker": "HUNT.OL",
@@ -25,7 +25,7 @@
     "trough_date": "2024-12-16",
     "trough_price": 0.44,
     "recovery_date": "2025-11-27",
-    "total_return_pct": 714.9
+    "total_return_pct": 773.6
   },
   {
     "ticker": "GSF.OL",
@@ -39,7 +39,7 @@
     "trough_date": "2026-10-12",
     "trough_price": 22.7,
     "recovery_date": null,
-    "total_return_pct": -52.2
+    "total_return_pct": -52.0
   },
   {
     "ticker": "NEL.OL",
@@ -53,7 +53,7 @@
     "trough_date": "2025-03-11",
     "trough_price": 1.96,
     "recovery_date": null,
-    "total_return_pct": -64.3
+    "total_return_pct": -63.4
   },
   {
     "ticker": "AUTO.OL",
@@ -67,7 +67,7 @@
     "trough_date": "2025-04-30",
     "trough_price": 4.65,
     "recovery_date": "2026-01-15",
-    "total_return_pct": 37.5
+    "total_return_pct": 41.3
   },
   {
     "ticker": "WAWI.OL",
@@ -81,7 +81,7 @@
     "trough_date": "2025-04-04",
     "trough_price": 64.05,
     "recovery_date": "2026-06-11",
-    "total_return_pct": 63.6
+    "total_return_pct": 62.8
   },
   {
     "ticker": "PLT.OL",
@@ -95,7 +95,7 @@
     "trough_date": "2025-04-09",
     "trough_price": 2.62,
     "recovery_date": "2025-10-21",
-    "total_return_pct": 319.0
+    "total_return_pct": 329.5
   },
   {
     "ticker": "TOM.OL",
@@ -109,7 +109,7 @@
     "trough_date": "2026-10-08",
     "trough_price": 88.85,
     "recovery_date": null,
-    "total_return_pct": -44.6
+    "total_return_pct": -43.3
   },
   {
     "ticker": "AKSO.OL",
@@ -123,7 +123,7 @@
     "trough_date": "2025-10-17",
     "trough_price": 25.98,
     "recovery_date": null,
-    "total_return_pct": -9.1
+    "total_return_pct": -6.7
   },
   {
     "ticker": "FRO.OL",
@@ -137,7 +137,7 @@
     "trough_date": "2025-04-04",
     "trough_price": 134.9,
     "recovery_date": "2026-01-14",
-    "total_return_pct": 105.7
+    "total_return_pct": 100.1
   },
   {
     "ticker": "ECO",
@@ -151,7 +151,7 @@
     "trough_date": "2025-04-04",
     "trough_price": 18.54,
     "recovery_date": "2025-11-12",
-    "total_return_pct": 194.8
+    "total_return_pct": 196.5
   },
   {
     "ticker": "BWLPG.OL",
@@ -165,7 +165,7 @@
     "trough_date": "2025-04-04",
     "trough_price": 91.65,
     "recovery_date": "2026-02-27",
-    "total_return_pct": 46.5
+    "total_return_pct": 45.0
   },
   {
     "ticker": "TGS.OL",
@@ -179,7 +179,7 @@
     "trough_date": "2025-09-22",
     "trough_price": 70.05,
     "recovery_date": "2026-03-25",
-    "total_return_pct": 12.6
+    "total_return_pct": 17.4
   },
   {
     "ticker": "CDLR",
@@ -193,7 +193,7 @@
     "trough_date": "2025-11-21",
     "trough_price": 15.92,
     "recovery_date": "2026-05-05",
-    "total_return_pct": -16.7
+    "total_return_pct": -15.3
   },
   {
     "ticker": "BAKKA.OL",
@@ -207,7 +207,7 @@
     "trough_date": "2025-07-18",
     "trough_price": 393.0,
     "recovery_date": null,
-    "total_return_pct": -23.2
+    "total_return_pct": -23.3
   },
   {
     "ticker": "KOG.OL",
@@ -221,7 +221,7 @@
     "trough_date": "2025-11-24",
     "trough_price": 229.15,
     "recovery_date": "2026-02-18",
-    "total_return_pct": 39.2
+    "total_return_pct": 45.2
   },
   {
     "ticker": "ELO.OL",
@@ -235,7 +235,7 @@
     "trough_date": "2026-05-29",
     "trough_price": 33.55,
     "recovery_date": null,
-    "total_return_pct": -19.7
+    "total_return_pct": -17.4
   },
   {
     "ticker": "NOHAL.OL",
@@ -249,7 +249,7 @@
     "trough_date": "2025-05-27",
     "trough_price": 18.3,
     "recovery_date": "2026-08-26",
-    "total_return_pct": 0.0
+    "total_return_pct": 0.7
   },
   {
     "ticker": "NOD.OL",
@@ -263,7 +263,7 @@
     "trough_date": "2024-11-21",
     "trough_price": 92.66,
     "recovery_date": "2025-02-06",
-    "total_return_pct": 19.8
+    "total_return_pct": 21.4
   },
   {
     "ticker": "BRG.OL",
@@ -277,7 +277,7 @@
     "trough_date": "2026-06-11",
     "trough_price": 138.4,
     "recovery_date": null,
-    "total_return_pct": -25.9
+    "total_return_pct": -25.3
   },
   {
     "ticker": "SCATC.OL",
@@ -291,7 +291,7 @@
     "trough_date": "2026-07-29",
     "trough_price": 90.65,
     "recovery_date": null,
-    "total_return_pct": 28.2
+    "total_return_pct": 30.3
   },
   {
     "ticker": "SALM.OL",
@@ -305,7 +305,7 @@
     "trough_date": "2025-07-11",
     "trough_price": 411.6,
     "recovery_date": "2025-10-16",
-    "total_return_pct": 1.9
+    "total_return_pct": 1.2
   },
   {
     "ticker": "LSG.OL",
@@ -319,7 +319,7 @@
     "trough_date": "2026-07-01",
     "trough_price": 38.0,
     "recovery_date": null,
-    "total_return_pct": -14.7
+    "total_return_pct": -14.5
   },
   {
     "ticker": "SUBC.OL",
@@ -333,7 +333,7 @@
     "trough_date": "2025-04-09",
     "trough_price": 137.4,
     "recovery_date": "2025-07-21",
-    "total_return_pct": 74.2
+    "total_return_pct": 78.8
   },
   {
     "ticker": "NHY.OL",
@@ -347,7 +347,7 @@
     "trough_date": "2026-10-15",
     "trough_price": 76.0,
     "recovery_date": null,
-    "total_return_pct": 27.8
+    "total_return_pct": 29.3
   },
   {
     "ticker": "VAR.OL",
@@ -361,7 +361,7 @@
     "trough_date": "2025-04-09",
     "trough_price": 27.28,
     "recovery_date": "2026-03-09",
-    "total_return_pct": 55.8
+    "total_return_pct": 59.0
   },
   {
     "ticker": "ELMRA.OL",
@@ -389,7 +389,7 @@
     "trough_date": "2026-10-12",
     "trough_price": 400.4,
     "recovery_date": null,
-    "total_return_pct": 34.4
+    "total_return_pct": 34.2
   },
   {
     "ticker": "ORK.OL",
@@ -403,7 +403,7 @@
     "trough_date": "2026-09-18",
     "trough_price": 90.55,
     "recovery_date": null,
-    "total_return_pct": 0.3
+    "total_return_pct": -1.0
   },
   {
     "ticker": "KIT.OL",
@@ -417,7 +417,7 @@
     "trough_date": "2026-07-17",
     "trough_price": 82.25,
     "recovery_date": null,
-    "total_return_pct": 187.9
+    "total_return_pct": 195.3
   },
   {
     "ticker": "TEL.OL",
@@ -431,7 +431,7 @@
     "trough_date": "2026-10-12",
     "trough_price": 124.2,
     "recovery_date": null,
-    "total_return_pct": -6.1
+    "total_return_pct": -5.5
   },
   {
     "ticker": "DNO.OL",
@@ -444,8 +444,8 @@
     "peak_price": 21.92,
     "trough_date": "2026-07-06",
     "trough_price": 16.08,
-    "recovery_date": null,
-    "total_return_pct": 80.7
+    "recovery_date": "2026-10-16",
+    "total_return_pct": 86.1
   },
   {
     "ticker": "EQNR.OL",
@@ -459,7 +459,7 @@
     "trough_date": "2026-06-25",
     "trough_price": 308.8,
     "recovery_date": "2026-09-14",
-    "total_return_pct": 52.5
+    "total_return_pct": 53.7
   },
   {
     "ticker": "ODL.OL",
@@ -473,7 +473,7 @@
     "trough_date": "2026-07-01",
     "trough_price": 82.2,
     "recovery_date": null,
-    "total_return_pct": 84.1
+    "total_return_pct": 88.8
   },
   {
     "ticker": "MOWI.OL",
@@ -501,7 +501,7 @@
     "trough_date": "2025-04-08",
     "trough_price": 20.21,
     "recovery_date": "2025-08-27",
-    "total_return_pct": 9.6
+    "total_return_pct": 8.1
   },
   {
     "ticker": "PROT.OL",
@@ -515,7 +515,7 @@
     "trough_date": "2026-10-08",
     "trough_price": 400.0,
     "recovery_date": null,
-    "total_return_pct": 91.2
+    "total_return_pct": 94.6
   },
   {
     "ticker": "GJF.OL",
@@ -529,7 +529,7 @@
     "trough_date": "2026-03-27",
     "trough_price": 241.8,
     "recovery_date": null,
-    "total_return_pct": 38.5
+    "total_return_pct": 40.7
   },
   {
     "ticker": "AKRBP.OL",
@@ -543,7 +543,7 @@
     "trough_date": "2026-07-01",
     "trough_price": 298.1,
     "recovery_date": "2026-09-14",
-    "total_return_pct": 46.6
+    "total_return_pct": 48.8
   },
   {
     "ticker": "AKER.OL",
@@ -571,7 +571,7 @@
     "trough_date": "2025-04-09",
     "trough_price": 239.2,
     "recovery_date": "2025-06-12",
-    "total_return_pct": 37.0
+    "total_return_pct": 37.8
   },
   {
     "ticker": "STB.OL",
@@ -585,6 +585,6 @@
     "trough_date": "2025-04-11",
     "trough_price": 117.8,
     "recovery_date": "2025-06-20",
-    "total_return_pct": 64.9
+    "total_return_pct": 65.5
   }
 ]
