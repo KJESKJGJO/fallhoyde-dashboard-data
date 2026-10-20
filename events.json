@@ -31,6 +31,12 @@
         "tittel": "Aker-aksjen faller etter uro for neocloud-selskaper",
         "forklaring": "Börskollen/EFN knyttet Aker-fallet i Oslo til kraftige fall i neocloud-selskaper på Wall Street dagen før. Artikkelen peker på Akers sammenlignbare eksponering gjennom Nscale som en mulig smitteeffekt, i tråd med den nye bunndatoen 15. oktober.",
         "kilde_url": "https://www.borskollen.se/nyheter/12/norska-investmentjatten-aker-faller-efter-neocloud-oron"
+      },
+      {
+        "dato": "2026-10-19",
+        "tittel": "Nscale-uro bidrar til kraftig fall i Aker",
+        "forklaring": "Adresseavisen/NTB rapporterte at Aker falt kraftig mens markedet bekymret seg for forsinkelser og mulig lavere verdsettelse ved en planlagt Nscale-børsnotering; artikkelen viser også til medieopplysninger om Microsofts uttrekning fra et datasenterprosjekt i Storbritannia. Dette er omtalt som markeds- og analytikerbekymringer, ikke som en bekreftet årsaksforklaring fra Aker.",
+        "kilde_url": "https://www.adressa.no/nyheter/innenriks/i/d7Qj0z/kraftig-aker-fall-etter-nscale-troebbel-i-storbritannia"
       }
     ]
   },
@@ -738,6 +744,12 @@
         "tittel": "JPMorgan senker kursmålet på Norsk Hydro",
         "forklaring": "JPMorgan senket kursmålet på Norsk Hydro fra 97 til 91 kroner og beholdt en nøytral anbefaling. Meldingen ble publisert like før den nye bunndatoen 15. oktober; kilden oppgir ingen særskilt begrunnelse, så den kan ha bidratt til markedsuro, men dokumenterer ikke alene kursfallet.",
         "kilde_url": "https://markets.businessinsider.com/news/stocks/norsk-hydro-price-target-lowered-to-nok-91-from-nok-97-at-jpmorgan-1036627796"
+      },
+      {
+        "dato": "2026-10-19",
+        "tittel": "DNB Carnegie senker kursmålet på Norsk Hydro",
+        "forklaring": "DNB Carnegie senket kursmålet på Norsk Hydro fra 90 til 80 kroner og gjentok anbefalingen «hold» samme dag som aksjen satte ny bunn. Analytikerendringen kan ha bidratt til markedsuroen, men kilden dokumenterer ikke at den alene forårsaket kursfallet.",
+        "kilde_url": "https://www.marketscreener.com/news/dnb-carnegie-lowers-price-target-for-norsk-hydro-to-nok-80-90-reiterates-hold-ce785cdad08af026"
       }
     ]
   },
