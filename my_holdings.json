@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T05:02:08Z",
+  "generated_at": "2026-10-25T05:00:21Z",
   "holdinger": [
     {
       "ticker": "HUNT.OL",
@@ -11,14 +11,14 @@
           "utlost": false,
           "forklaring": "Siste kjente kurs 17,70 NOK er over varselgrensen på 12,50 NOK.",
           "siste_kurs": 17.7,
-          "sist_sjekket_utc": "2026-10-24T04:58:59Z"
+          "sist_sjekket_utc": "2026-10-25T05:00:09Z"
         },
         {
           "faktor": "vlcc_ais",
           "navn": "VLCC AIS-avvik (DHT Puma / Eagle Victoria)",
           "utlost": true,
-          "forklaring": "DHT Puma: AIS-signal 6 t gammelt, underveis (ikke til anker). Eagle Victoria: AIS-signal 72 t gammelt (over 48t-grense), underveis (ikke til anker).",
-          "sist_sjekket_utc": "2026-10-24T05:02:05Z"
+          "forklaring": "DHT Puma: AIS-signal 30 t gammelt, underveis (ikke til anker). Eagle Victoria: AIS-signal 96 t gammelt (over 48t-grense), underveis (ikke til anker).",
+          "sist_sjekket_utc": "2026-10-25T05:00:18Z"
         },
         {
           "faktor": "shortsalg",
@@ -27,7 +27,7 @@
           "forklaring": "Finanstilsynet registrerer akkumulert shortposisjon på 0,80% i Hunter Group akkurat nå, meldt av: CITADEL SECURITIES (EUROPE) LIMITED (0,8%).",
           "akkumulert_short_pct": 0.8,
           "kilde": "https://ssr.finanstilsynet.no/Home/Details/NO0012953720",
-          "sist_sjekket_utc": "2026-10-24T05:02:06Z"
+          "sist_sjekket_utc": "2026-10-25T05:00:19Z"
         },
         {
           "faktor": "volumavvik",
@@ -39,12 +39,12 @@
           "snittvolum_20d": 5044641.0,
           "multiplikator": 0.75,
           "kursendring_pct": 4.24,
-          "sist_sjekket_utc": "2026-10-24T05:02:07Z"
+          "sist_sjekket_utc": "2026-10-25T05:00:21Z"
         },
         {
           "faktor": "flaggemelding",
           "navn": "Flaggemelding (større eierandel - Oslo Børs Newsweb)",
-          "sist_sjekket_utc": "2026-10-24T05:02:07Z",
+          "sist_sjekket_utc": "2026-10-25T05:00:21Z",
           "utlost": false,
           "forklaring": "Ingen flaggemelding registrert for Hunter Group på Oslo Børs Newsweb de siste 3 dagene.",
           "kilde": null
