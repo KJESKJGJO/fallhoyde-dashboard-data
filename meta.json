@@ -1,13 +1,13 @@
 {
-  "last_updated_utc": "2026-10-29T05:02:59Z",
+  "last_updated_utc": "2026-10-30T05:02:59Z",
   "source": "Perplexity Computer - Fallhøyde dashboard",
   "note": "Offentlig datafeed. Kun aksjekurser og offentlige nyhetsreferanser. Ingen personopplysninger.",
   "files": [
     "drawdown_stats.json",
-    "events.json",
-    "my_holdings.json",
-    "news_feed.json",
     "price_series.json",
-    "signals.json"
+    "events.json",
+    "signals.json",
+    "news_feed.json",
+    "my_holdings.json"
   ]
 }
