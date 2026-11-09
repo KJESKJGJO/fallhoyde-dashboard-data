@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T05:02:43Z",
+  "generated_at": "2026-11-09T05:06:31Z",
   "holdinger": [
     {
       "ticker": "HUNT.OL",
@@ -9,9 +9,11 @@
           "faktor": "kursvarsel",
           "navn": "Kurs under 12,50 NOK",
           "utlost": false,
-          "forklaring": "Siste kjente kurs 16,20 NOK er over varselgrensen på 12,50 NOK.",
-          "siste_kurs": 16.2,
-          "sist_sjekket_utc": "2026-11-06T14:16:45.841125Z"
+          "forklaring": "Siste sluttkurs 15,78 NOK (2026-11-06) er over varselgrensen på 12,50 NOK.",
+          "siste_kurs": 15.78,
+          "sist_sjekket_utc": "2026-11-09T05:06:31Z",
+          "kursdato": "2026-11-06",
+          "kilde": "HUNT_OL.csv (siste sluttkurs)"
         },
         {
           "faktor": "vlcc_ais",
