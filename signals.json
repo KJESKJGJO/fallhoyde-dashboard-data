@@ -1,9 +1,9 @@
 {
   "disclaimer": "Alle signaler under er regelbaserte, systematiske tekniske/kvantitative beregninger basert på historiske kursdata og offentlige nøkkeltall. Dette er IKKE personlig eller lisensiert investeringsrådgivning, og skal ikke tolkes som en anbefaling om å kjøpe eller selge konkrete verdipapirer. Historisk avkastning er ingen garanti for fremtidig avkastning.",
-  "generated_at": "2026-11-15T05:02:34Z",
+  "generated_at": "2026-11-16T05:01:26Z",
   "momentum": {
     "methodology": "Tidsserie- og tverrsnittsmomentum: rangerer alle aksjer i universet etter kursutvikling de siste 63 handelsdagene (~3 måneder). Topp kvartil med positiv avkastning = Kjøp, bunn kvartil = Selg, resten = Hold. Samme lookback-periode og rangeringslogikk som ble brukt i de tidligere backtestede momentum-demoene for norske vekst- og bredt-univers-aksjer.",
-    "generated_at": "2026-11-15T05:02:34Z",
+    "generated_at": "2026-11-16T05:01:26Z",
     "signals": [
       {
         "ticker": "HUNT.OL",
@@ -387,7 +387,7 @@
   },
   "kontrarian": {
     "methodology": "Kontrarian/bunnfangst: bruker eksisterende drawdown-tall fra Fallhøyde-beregningen. Aksjer med betydelig fall fra toppen (≤ -40%) som nå handles over sitt 20-dagers glidende snitt og ikke lenger setter nye bunner, flagges som Kjøp-kandidater (tegn til reversering). Aksjer som fortsatt setter nye bunner eller handles under glidende snitt får Vent. Aksjer uten stort fall får ingen signal fra denne strategien.",
-    "generated_at": "2026-11-15T05:02:34Z",
+    "generated_at": "2026-11-16T05:01:26Z",
     "signals": [
       {
         "ticker": "AUTO.OL",
@@ -771,7 +771,7 @@
   },
   "teknisk_nyheter": {
     "methodology": "Kombinerer et enkelt teknisk trendsignal (20-dagers glidende snitt vs. 50-dagers - samme SMA-krysningslogikk som i strategies.py) med nyhetsdata fra hendelseslisten. Selskapsspesifikke negative nyheter demper et positivt teknisk signal til Hold; sektordrevne negative bevegelser demper et negativt signal fra Selg til Hold, siden slike fall ofte normaliserer med resten av sektoren.",
-    "generated_at": "2026-11-15T05:02:34Z",
+    "generated_at": "2026-11-16T05:01:26Z",
     "signals": [
       {
         "ticker": "DNO.OL",
@@ -1197,14 +1197,14 @@
   },
   "fundamental": {
     "methodology": "Enkel verdi- og lønnsomhetsscreen basert på nøkkeltall (P/E, resultat per aksje og dividendeavkastning) hentet direkte fra markedsdata. Selskaper med negativt resultat (EPS ≤ 0) flagges Selg uavhengig av kurs. Blant lønnsomme selskaper rangeres de laveste 30% på P/E som Kjøp (billigst), de høyeste 30% som Selg (dyrest), resten Hold. NB: fulle lønnsomhets- og gjeldsnøkkeltall (margin, ROE, D/E) har begrenset historikk-dekning for enkelte Oslo Børs-noterte selskaper i datakilden, så denne strategien bruker kun P/E, EPS-tegn og dividendeavkastning - en forenklet fundamental-screen, ikke en full kvalitetsanalyse.",
-    "generated_at": "2026-11-15T05:02:34Z",
+    "generated_at": "2026-11-16T05:01:26Z",
     "signals": [
       {
         "ticker": "HUNT.OL",
         "navn": "Hunter Group",
         "sektor": "Shipping",
         "label": "Kjøp",
-        "pe": 2.0731061560833735,
+        "pe": 2.0729076587493935,
         "eps": 7.90745,
         "dividend_yield_pct": 24.6,
         "rationale": "Lønnsomt selskap (EPS 7.91) med lav prising: P/E 2.1 er blant de 11 laveste av 36 lønnsomme aksjer i universet, pluss 24.6% dividendeavkastning."
@@ -1224,7 +1224,7 @@
         "navn": "Okeanis Eco Tankers",
         "sektor": "Shipping",
         "label": "Kjøp",
-        "pe": 4.86084126984127,
+        "pe": 4.859910430839002,
         "eps": 10.79,
         "dividend_yield_pct": 11.05,
         "rationale": "Lønnsomt selskap (EPS 10.79) med lav prising: P/E 4.9 er blant de 11 laveste av 36 lønnsomme aksjer i universet, pluss 11.0% dividendeavkastning."
@@ -1254,7 +1254,7 @@
         "navn": "BW LPG",
         "sektor": "Shipping",
         "label": "Kjøp",
-        "pe": 7.49552380952381,
+        "pe": 7.4948061224489795,
         "eps": 26.47,
         "dividend_yield_pct": 11.52,
         "rationale": "Lønnsomt selskap (EPS 26.47) med lav prising: P/E 7.5 er blant de 11 laveste av 36 lønnsomme aksjer i universet, pluss 11.5% dividendeavkastning."
@@ -1264,7 +1264,7 @@
         "navn": "Yara International",
         "sektor": "Industri",
         "label": "Kjøp",
-        "pe": 7.66144693140794,
+        "pe": 7.659979783393499,
         "eps": 54.67,
         "dividend_yield_pct": 5.41,
         "rationale": "Lønnsomt selskap (EPS 54.67) med lav prising: P/E 7.7 er blant de 11 laveste av 36 lønnsomme aksjer i universet, pluss 5.4% dividendeavkastning."
@@ -1274,17 +1274,17 @@
         "navn": "Equinor",
         "sektor": "Energi",
         "label": "Kjøp",
-        "pe": 8.85025862785863,
+        "pe": 8.849411226611226,
         "eps": 45.32,
         "dividend_yield_pct": 3.57,
-        "rationale": "Lønnsomt selskap (EPS 45.32) med lav prising: P/E 8.9 er blant de 11 laveste av 36 lønnsomme aksjer i universet, pluss 3.6% dividendeavkastning."
+        "rationale": "Lønnsomt selskap (EPS 45.32) med lav prising: P/E 8.8 er blant de 11 laveste av 36 lønnsomme aksjer i universet, pluss 3.6% dividendeavkastning."
       },
       {
         "ticker": "VAR.OL",
         "navn": "Vår Energi",
         "sektor": "Energi",
         "label": "Kjøp",
-        "pe": 9.043587105624143,
+        "pe": 9.042721193415638,
         "eps": 5.58226,
         "dividend_yield_pct": 9.67,
         "rationale": "Lønnsomt selskap (EPS 5.58) med lav prising: P/E 9.0 er blant de 11 laveste av 36 lønnsomme aksjer i universet, pluss 9.7% dividendeavkastning."
@@ -1304,7 +1304,7 @@
         "navn": "Cadeler",
         "sektor": "Shipping/offshore vind",
         "label": "Kjøp",
-        "pe": 10.187876049999998,
+        "pe": 10.188259824999998,
         "eps": 2.51,
         "dividend_yield_pct": 0,
         "rationale": "Lønnsomt selskap (EPS 2.51) med lav prising: P/E 10.2 er blant de 11 laveste av 36 lønnsomme aksjer i universet."
@@ -1314,10 +1314,10 @@
         "navn": "Aker BP",
         "sektor": "Energi",
         "label": "Hold",
-        "pe": 10.250708059701491,
+        "pe": 10.24972656716418,
         "eps": 31.14112,
         "dividend_yield_pct": 7.6,
-        "rationale": "Lønnsomt selskap (EPS 31.14) med P/E 10.3 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
+        "rationale": "Lønnsomt selskap (EPS 31.14) med P/E 10.2 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
       },
       {
         "ticker": "NHY.OL",
@@ -1344,7 +1344,7 @@
         "navn": "Odfjell Drilling",
         "sektor": "Oljeservice",
         "label": "Hold",
-        "pe": 11.270816666666667,
+        "pe": 11.268658333333335,
         "eps": 9.39,
         "dividend_yield_pct": 9.13,
         "rationale": "Lønnsomt selskap (EPS 9.39) med P/E 11.3 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
@@ -1354,7 +1354,7 @@
         "navn": "Wallenius Wilhelmsen",
         "sektor": "Shipping",
         "label": "Hold",
-        "pe": 11.607559731543622,
+        "pe": 11.60644832214765,
         "eps": 17.06,
         "dividend_yield_pct": 9.3,
         "rationale": "Lønnsomt selskap (EPS 17.06) med P/E 11.6 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
@@ -1374,7 +1374,7 @@
         "navn": "Elopak",
         "sektor": "Industri",
         "label": "Hold",
-        "pe": 12.748989012030624,
+        "pe": 12.748962107181919,
         "eps": 2.882,
         "dividend_yield_pct": 4.84,
         "rationale": "Lønnsomt selskap (EPS 2.88) med P/E 12.7 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
@@ -1384,7 +1384,7 @@
         "navn": "DNO",
         "sektor": "Energi",
         "label": "Hold",
-        "pe": 14.230792258064518,
+        "pe": 14.229429677419354,
         "eps": 0.17977,
         "dividend_yield_pct": 7.1,
         "rationale": "Lønnsomt selskap (EPS 0.18) med P/E 14.2 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
@@ -1404,7 +1404,7 @@
         "navn": "Mowi",
         "sektor": "Sjømat",
         "label": "Hold",
-        "pe": 15.578405611678832,
+        "pe": 15.578372735766422,
         "eps": 10.49,
         "dividend_yield_pct": 3.73,
         "rationale": "Lønnsomt selskap (EPS 10.49) med P/E 15.6 i midtre del av universets verdsettelsesspenn - ingen tydelig verdi- eller overprisingssignal."
@@ -1464,7 +1464,7 @@
         "navn": "Bakkafrost",
         "sektor": "Sjømat",
         "label": "Selg",
-        "pe": 19.932639791937575,
+        "pe": 19.929824447334195,
         "eps": 9.95178,
         "dividend_yield_pct": 1.17,
         "rationale": "Lønnsomt (EPS 9.95), men høyt priset: P/E 19.9 er blant de 11 høyeste av 36 lønnsomme aksjer i universet."
@@ -1484,7 +1484,7 @@
         "navn": "Kitron",
         "sektor": "Teknologi",
         "label": "Selg",
-        "pe": 24.545673459999996,
+        "pe": 24.547110909999997,
         "eps": 3.881,
         "dividend_yield_pct": 0.77,
         "rationale": "Lønnsomt (EPS 3.88), men høyt priset: P/E 24.5 er blant de 11 høyeste av 36 lønnsomme aksjer i universet."
@@ -1504,7 +1504,7 @@
         "navn": "Tomra Systems",
         "sektor": "Industri",
         "label": "Selg",
-        "pe": 28.917664740279932,
+        "pe": 28.918290261275267,
         "eps": 2.13248,
         "dividend_yield_pct": 2.19,
         "rationale": "Lønnsomt (EPS 2.13), men høyt priset: P/E 28.9 er blant de 11 høyeste av 36 lønnsomme aksjer i universet."
@@ -1514,7 +1514,7 @@
         "navn": "TGS",
         "sektor": "Oljeservice",
         "label": "Selg",
-        "pe": 33.10990441511152,
+        "pe": 33.10356395084206,
         "eps": 3.5732,
         "dividend_yield_pct": 4.2,
         "rationale": "Lønnsomt (EPS 3.57), men høyt priset: P/E 33.1 er blant de 11 høyeste av 36 lønnsomme aksjer i universet."
@@ -1524,7 +1524,7 @@
         "navn": "AutoStore",
         "sektor": "Teknologi",
         "label": "Selg",
-        "pe": 33.142015936254985,
+        "pe": 33.13884262948208,
         "eps": 0.37524,
         "dividend_yield_pct": 0,
         "rationale": "Lønnsomt (EPS 0.38), men høyt priset: P/E 33.1 er blant de 11 høyeste av 36 lønnsomme aksjer i universet."
@@ -1564,10 +1564,10 @@
         "navn": "Nordic Semiconductor",
         "sektor": "Teknologi",
         "label": "Selg",
-        "pe": 66.55599008147362,
+        "pe": 66.54961742826781,
         "eps": 2.6664,
         "dividend_yield_pct": 0,
-        "rationale": "Lønnsomt (EPS 2.67), men høyt priset: P/E 66.6 er blant de 11 høyeste av 36 lønnsomme aksjer i universet."
+        "rationale": "Lønnsomt (EPS 2.67), men høyt priset: P/E 66.5 er blant de 11 høyeste av 36 lønnsomme aksjer i universet."
       },
       {
         "ticker": "GSF.OL",
@@ -1623,7 +1623,7 @@
   },
   "risikofilter": {
     "methodology": "Strategi-Match med Risiko-filter: strategi-score summerer +25 poeng for hver av de 4 strategiene (momentum, kontrarian, teknisk+nyheter, fundamental) som gir Kjøp-signal (0-100). Risiko-score summerer +25 poeng per utløst risikofaktor (0-100): (a) teknisk strekk - kurs >15% over 20- eller 50-dagers glidende snitt (fanger momentum-/teknisk-overreaksjon); (b) syklisk/spekulativ risiko - P/E under 4 kombinert med >40% avkastning siste 3 måneder (fanger P/E-blindhet der ekstremt lav P/E skyldes forbigående marginer, ikke sunn verdsettelse); (c) likviditetsrisiko - likviditetsgrad (omløpsmidler/kortsiktig gjeld) under 1.2, ekskludert for bank/forsikring der målet ikke er meningsfullt; (d) juridisk/nyhetsflagg - nøkkelordsøk ('rettssak', 'disputt', 'krangel' m.fl.) i nyheter og hendelser (fanger positiv-sentiment-skjevheten i ren RSS-basert nyhetsscoring). En høy strategi-score kombinert med en høy risiko-score betyr at aksjen utløser kjøpssignaler i modellene, men har underliggende risikofaktorer som modellene isolert sett ikke fanger opp - IKKE personlig eller lisensiert investeringsrådgivning. To supplerende faktorer vises i tillegg for alle aksjer, men teller ikke i risiko-scoren over (den forblir 0-100 basert på de 4 faktorene over): (e) shortsalg - minst én aktiv, meldepliktig shortposisjon (≥0,5%) registrert i Finanstilsynets offentlige shortregister (SSR) akkurat nå; (f) volumavvik - siste handelsdags volum ≥2,5x 20-dagers snittvolum kombinert med kursfall samme dag.",
-    "generated_at": "2026-11-15T05:02:34Z",
+    "generated_at": "2026-11-16T05:01:26Z",
     "signals": [
       {
         "ticker": "ECO",
@@ -1652,7 +1652,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 4.86084126984127,
+            "verdi_pe": 4.859910430839002,
             "verdi_avkastning_3m_pct": 41.66,
             "telles_i_score": true
           },
@@ -1722,7 +1722,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 10.187876049999998,
+            "verdi_pe": 10.188259824999998,
             "verdi_avkastning_3m_pct": 13.77,
             "telles_i_score": true
           },
@@ -1791,7 +1791,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": true,
             "forklaring": "Ekstremt lav P/E (2.1) kombinert med kraftig kursoppgang siste 3 måneder (+72.2%) - typisk mønster for syklisk/spekulativ overreaksjon der lav P/E kan skyldes forbigående høye marginer, ikke varig inntjeningsevne.",
-            "verdi_pe": 2.0731061560833735,
+            "verdi_pe": 2.0729076587493935,
             "verdi_avkastning_3m_pct": 72.24,
             "telles_i_score": true
           },
@@ -1860,7 +1860,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 14.230792258064518,
+            "verdi_pe": 14.229429677419354,
             "verdi_avkastning_3m_pct": 16.43,
             "telles_i_score": true
           },
@@ -1929,7 +1929,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 8.85025862785863,
+            "verdi_pe": 8.849411226611226,
             "verdi_avkastning_3m_pct": 3.43,
             "telles_i_score": true
           },
@@ -1998,7 +1998,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 11.270816666666667,
+            "verdi_pe": 11.268658333333335,
             "verdi_avkastning_3m_pct": 8.48,
             "telles_i_score": true
           },
@@ -2136,7 +2136,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 12.748989012030624,
+            "verdi_pe": 12.748962107181919,
             "verdi_avkastning_3m_pct": 8.69,
             "telles_i_score": true
           },
@@ -2274,7 +2274,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 9.043587105624143,
+            "verdi_pe": 9.042721193415638,
             "verdi_avkastning_3m_pct": 2.25,
             "telles_i_score": true
           },
@@ -2343,7 +2343,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 15.578405611678832,
+            "verdi_pe": 15.578372735766422,
             "verdi_avkastning_3m_pct": 12.88,
             "telles_i_score": true
           },
@@ -2615,7 +2615,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 10.250708059701491,
+            "verdi_pe": 10.24972656716418,
             "verdi_avkastning_3m_pct": -5.3,
             "telles_i_score": true
           },
@@ -2683,7 +2683,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 33.142015936254985,
+            "verdi_pe": 33.13884262948208,
             "verdi_avkastning_3m_pct": 0.19,
             "telles_i_score": true
           },
@@ -2751,7 +2751,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 7.49552380952381,
+            "verdi_pe": 7.4948061224489795,
             "verdi_avkastning_3m_pct": -2.13,
             "telles_i_score": true
           },
@@ -2819,7 +2819,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 66.55599008147362,
+            "verdi_pe": 66.54961742826781,
             "verdi_avkastning_3m_pct": 10.23,
             "telles_i_score": true
           },
@@ -2955,7 +2955,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 7.66144693140794,
+            "verdi_pe": 7.659979783393499,
             "verdi_avkastning_3m_pct": -2.4,
             "telles_i_score": true
           },
@@ -3293,7 +3293,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 11.607559731543622,
+            "verdi_pe": 11.60644832214765,
             "verdi_avkastning_3m_pct": -0.36,
             "telles_i_score": true
           },
@@ -3359,7 +3359,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 33.10990441511152,
+            "verdi_pe": 33.10356395084206,
             "verdi_avkastning_3m_pct": 1.24,
             "telles_i_score": true
           },
@@ -4019,7 +4019,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 28.917664740279932,
+            "verdi_pe": 28.918290261275267,
             "verdi_avkastning_3m_pct": -5.67,
             "telles_i_score": true
           },
@@ -4085,7 +4085,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 19.932639791937575,
+            "verdi_pe": 19.929824447334195,
             "verdi_avkastning_3m_pct": -7.48,
             "telles_i_score": true
           },
@@ -4283,7 +4283,7 @@
             "navn": "Syklisk/spekulativ lav P/E",
             "utlost": false,
             "forklaring": "P/E er ikke ekstremt lav nok til å utløse syklisk risikofaktor.",
-            "verdi_pe": 24.545673459999996,
+            "verdi_pe": 24.547110909999997,
             "verdi_avkastning_3m_pct": 2.08,
             "telles_i_score": true
           },
