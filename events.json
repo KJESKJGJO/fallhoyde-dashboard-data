@@ -43,6 +43,12 @@
         "tittel": "Aker ASA-aksjen gikk eks-utbytte på 29 kroner per aksje",
         "forklaring": "Aker ASA-aksjen ble handlet eks-utbytte fra 6. november etter at styret vedtok et kontantutbytte på NOK 29 per aksje. Den ujusterte kursserien kan derfor registrere et nytt drawdown-bunnpunkt rundt eks-datoen, selv om utbyttejustert avkastning er mer relevant for å vurdere det økonomiske tapet.",
         "kilde_url": "https://newsweb.oslobors.no/message/685545"
+      },
+      {
+        "dato": "2026-11-13",
+        "tittel": "Nscale rapporterte større Q3-tap mens Aker-aksjen falt videre",
+        "forklaring": "Nscale rapporterte et nettotap på USD 1,69 mrd. i Q3, mot USD 1,02 mrd. i Q2, opplyst i et oppdatert prospekt; Aker er en stor aksjonær i selskapet. MarketScreener viste samtidig at Aker-aksjen stengte 17. november ned 1,11 prosent, men kilden fastslår ikke at Nscale-nyheten alene forårsaket fallet.",
+        "kilde_url": "https://www.marketscreener.com/news/nscale-widened-loss-in-third-quarter-ce785ed9db8ff02c"
       }
     ]
   },
@@ -389,6 +395,12 @@
         "tittel": "Q3-resultater viste lavere TCE og fortsatt mykt spotmarked",
         "forklaring": "Flex LNG rapporterte Q3-inntekter på USD 97,4 mill. mot USD 106,8 mill. i Q2, og TCE falt fra USD 86 119 til USD 78 875 per dag. Ledelsen ventet et dempet, potensielt volatilt spotmarked resten av 2026, blant annet på grunn av flere fartøyleveranser og lavere LNG-eksport fra Midtøsten. Dette er relevant bakgrunn inn mot ny bunn 16. november, men kilden identifiserer ikke en egen nyhetshendelse på selve bunndagen.",
         "kilde_url": "https://www.stocktitan.net/news/FLNG/flex-lng-third-quarter-2026-earnings-0gjp9ce6k6ig.html"
+      },
+      {
+        "dato": "2026-11-17",
+        "tittel": "Ny 52-ukers bunn uten identifisert ny selskapskatalysator",
+        "forklaring": "MarketBeat rapporterte at Flex LNG traff en ny 52-ukers intradagsbunn på USD 24,00 den 17. november. Artikkelen fant ingen spesifikk selskaps- eller sektorkatalysator; Q3-rapporten fra 11. november hadde allerede beskrevet lavere TCE og et mykt spotmarked.",
+        "kilde_url": "https://www.marketbeat.com/instant-alerts/price-flex-lng-nyse-flng-sets-new-12-month-low-heres-why-2026-11-17/"
       }
     ]
   },
