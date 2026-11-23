@@ -49,6 +49,12 @@
         "tittel": "Nscale rapporterte større Q3-tap mens Aker-aksjen falt videre",
         "forklaring": "Nscale rapporterte et nettotap på USD 1,69 mrd. i Q3, mot USD 1,02 mrd. i Q2, opplyst i et oppdatert prospekt; Aker er en stor aksjonær i selskapet. MarketScreener viste samtidig at Aker-aksjen stengte 17. november ned 1,11 prosent, men kilden fastslår ikke at Nscale-nyheten alene forårsaket fallet.",
         "kilde_url": "https://www.marketscreener.com/news/nscale-widened-loss-in-third-quarter-ce785ed9db8ff02c"
+      },
+      {
+        "dato": "2026-11-20",
+        "tittel": "Aker-eksponeringen mot Nscale møtte usikkerhet om amerikansk lisens",
+        "forklaring": "Bloomberg rapporterte at Nscale, der Aker er en av de største eierne, kan trenge amerikansk lisens for å fortsette å levere AI-kapasitet til ByteDance med avanserte Nvidia-brikker. Dette kan påvirke verdsettelsen av Akers porteføljeeksponering og var en relevant nyhet samme dag som den nye bunnen; kilden fastslår ikke at den alene forklarer aksjefallet.",
+        "kilde_url": "https://www.marketscreener.com/news/nscale-may-need-u-s-license-to-provide-ai-capacity-to-tiktok-owner-bn-ce785ed2d18eff2d"
       }
     ]
   },
@@ -84,6 +90,12 @@
         "tittel": "Aker BP faller mens oljeprisen svekkes",
         "forklaring": "Aker BP stengte 1,20 prosent lavere 9. november, selv om Oslo OBX steg 1,23 prosent. Samme dags markedsrapport viste samtidig et fall i Brent; dette gir sektorkontekst for den nye bunndatoen, men fastslår ikke én enkelt årsak til aksjefallet.",
         "kilde_url": "https://www.investing.com/news/stock-market-news/norway-stocks-higher-at-close-of-trade-oslo-obx-up-123-5012807"
+      },
+      {
+        "dato": "2026-11-20",
+        "tittel": "Goldman Sachs senket kursmålet for Aker BP og gjentok salgsanbefaling",
+        "forklaring": "Goldman Sachs senket kursmålet fra NOK 280 til NOK 260 og gjentok salgsanbefalingen 20. november. Analytikeroppdateringen kom samtidig med den nye bunn-datoen og er en relevant markedsdriver, men kilden dokumenterer ikke at den var eneste årsak til fallet.",
+        "kilde_url": "https://www.marketscreener.com/news/goldman-sachs-cuts-price-target-for-aker-bp-to-nok-260-280-reiterates-sell-ce785ed2d18ff226"
       }
     ]
   },
@@ -401,6 +413,12 @@
         "tittel": "Ny 52-ukers bunn uten identifisert ny selskapskatalysator",
         "forklaring": "MarketBeat rapporterte at Flex LNG traff en ny 52-ukers intradagsbunn på USD 24,00 den 17. november. Artikkelen fant ingen spesifikk selskaps- eller sektorkatalysator; Q3-rapporten fra 11. november hadde allerede beskrevet lavere TCE og et mykt spotmarked.",
         "kilde_url": "https://www.marketbeat.com/instant-alerts/price-flex-lng-nyse-flng-sets-new-12-month-low-heres-why-2026-11-17/"
+      },
+      {
+        "dato": "2026-11-11",
+        "tittel": "Flex LNG beskrev et svakt spotmarked i Q3-oppdateringen",
+        "forklaring": "I Q3-oppdateringen rapporterte Flex LNG lavere driftsinntekter enn i Q2 og beskrev LNG-spotmarkedet som svakt, med økt skipstilgjengelighet og mange nybygg på vei. Dette gir kontekst til kursfallet fram mot den nye bunnen 20. november, men dokumenterer ikke en enkelt dags utløsende årsak.",
+        "kilde_url": "https://www.theglobeandmail.com/investing/markets/stocks/FLNG-N/pressreleases/8786398/flex-lng-flng-q3-2026-earnings-call-transcript/"
       }
     ]
   },
@@ -518,6 +536,12 @@
         "tittel": "Norne kutter kursmålet på Grieg Seafood, men gjentar hold",
         "forklaring": "Norne Securities senket kursmålet fra 32 til 25 kroner og gjentok anbefalingen «hold». MarketScreener viste en kurs på 23,28 kroner, opp 0,61 prosent, da meldingen ble publisert; kilden dokumenterer derfor ingen umiddelbar negativ kursreaksjon og dette er analytikerkontekst, ikke en bekreftet årsak til den nye bunnen 2. november.",
         "kilde_url": "https://es.marketscreener.com/noticias/norne-securities-recorta-el-precio-objetivo-de-grieg-seafood-a-25-nok-32-y-reitera-mantener-ce785cddd881ff25"
+      },
+      {
+        "dato": "2026-11-18",
+        "tittel": "Fearnley nedgraderte Grieg Seafood til hold",
+        "forklaring": "MarketScreener/Finwire meldte at Fearnley senket anbefalingen fra kjøp til hold og kursmålet til NOK 24. Ny bunn kom to handelsdager senere; nedgraderingen er en nærliggende sentimenthendelse, men kilden fastslår ikke at den alene forårsaket kursfallet.",
+        "kilde_url": "https://www.marketscreener.com/news/fearnley-downgrades-grieg-seafood-to-hold-buy-target-price-nok-24-bn-ce785edcde80f72c"
       }
     ]
   },
@@ -1205,6 +1229,12 @@
         "tittel": "Pareto senker Tomras kursmål til 173 kroner, gjentar kjøp",
         "forklaring": "Ny bunn 8. oktober sammenfalt med meldingen om at Pareto Securities senket kursmålet fra 193 til 173 kroner, men gjentok kjøpsanbefalingen. Dette gir relevant samtidig markedsinformasjon, uten å fastslå at analytikerendringen alene forårsaket kursfallet.",
         "kilde_url": "https://www.borskollen.se/nyheter/28/flash-pareto-securities-sanker-riktkursen-for-tomra-till-173-norska-kronor-193-upprepar-kop"
+      },
+      {
+        "dato": "2026-11-19",
+        "tittel": "Alamut tok en større shortposisjon i Tomra",
+        "forklaring": "Finwire rapporterte at det britiske hedgefondet Alamut hadde en shortposisjon tilsvarende 0,7 prosent av Tomra og argumenterte for at utrullingen av britisk pantesystem kunne skuffe. Dette var en relevant sentimenthendelse dagen før den nye bunnen, uten at kilden beviser at den alene utløste fallet.",
+        "kilde_url": "https://www.marketscreener.com/news/british-hedge-fund-attacks-tomra-with-short-position-efn-ce785ed2d98df522"
       }
     ]
   },
@@ -1310,6 +1340,12 @@
         "tittel": "Berenberg kuttet Yaras kursmål etter svak Q3-rapport",
         "forklaring": "Berenberg reduserte kursmålet fra NOK 440 til NOK 425 og opprettholdt anbefalingen «hold» etter å ha omtalt Q3-rapporten som svak; meglerhuset pekte på høye energikostnader og økt kinesisk urea-tilbud. Dette var en ny negativ megleroppdatering mens aksjen var på vei mot den nye drawdown-bunnen 29. oktober, men kilden sier ikke at kursmålskuttet alene forklarer fallet.",
         "kilde_url": "https://uk.investing.com/news/analyst-ratings/berenberg-cuts-yara-stock-price-target-on-energy-cost-concerns-93CH-4968469"
+      },
+      {
+        "dato": "2026-11-19",
+        "tittel": "Kepler Cheuvreux nedgraderte Yara til hold på kostnadsbekymring",
+        "forklaring": "Kepler Cheuvreux nedgraderte Yara fra kjøp til hold og kuttet kursmålet til NOK 416 fra NOK 545. Analytikeren viste til høye europeiske gasskostnader som presser nitrogenmarginene og svekker utsiktene for inntjening og kontantstrøm; hendelsen falt sammen med den nye bunnperioden.",
+        "kilde_url": "https://in.investing.com/news/stock-market-news/yara-stock-downgraded-by-kepler-cheuvreux-on-gas-cost-concerns-93CH-5714532"
       }
     ]
   }
