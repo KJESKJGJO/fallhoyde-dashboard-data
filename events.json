@@ -96,6 +96,12 @@
         "tittel": "Goldman Sachs senket kursmålet for Aker BP og gjentok salgsanbefaling",
         "forklaring": "Goldman Sachs senket kursmålet fra NOK 280 til NOK 260 og gjentok salgsanbefalingen 20. november. Analytikeroppdateringen kom samtidig med den nye bunn-datoen og er en relevant markedsdriver, men kilden dokumenterer ikke at den var eneste årsak til fallet.",
         "kilde_url": "https://www.marketscreener.com/news/goldman-sachs-cuts-price-target-for-aker-bp-to-nok-260-280-reiterates-sell-ce785ed2d18ff226"
+      },
+      {
+        "dato": "2026-11-23",
+        "tittel": "Fallende oljepris legger press på europeiske energiselskaper",
+        "forklaring": "En markedsartikkel 23. november beskrev at oljepris under 90 dollar presset europeiske olje- og gassaksjer, og trakk fram Aker BP blant de norske produsentene som hadde falt betydelig i november. Dette er sektor- og råvarekontekst, ikke en ny selskapsspesifikk melding.",
+        "kilde_url": "https://www.eleconomista.es/mercados-cotizaciones/noticias/14029924/11/26/el-petroleo-pierde-los-90-dolares-y-presiona-en-bolsa-a-las-energeticas-europeas.html"
       }
     ]
   },
@@ -228,6 +234,12 @@
         "tittel": "Cadeler plc overtar børsnoteringen etter aksjebytte",
         "forklaring": "Cadeler plc begynte handel på Oslo Børs og NYSE etter at hver Cadeler A/S-aksje ble byttet mot én plc-aksje, mens A/S-aksjen og de gamle NYSE-ADS-ene ble suspendert. De gamle ADS-ene representerte fire A/S-aksjer, så tickerbyttet medførte et enhetsbrudd i rå prishistorikk; den nye raden er normalisert til samme fire-aksjeenhet for å unngå et kunstig drawdown.",
         "kilde_url": "https://newsweb.oslobors.no/message/685658"
+      },
+      {
+        "dato": "2026-11-23",
+        "tittel": "Q3-rapport: sterk omsetningsvekst, men lønnsomhet og driftskostnader tynget",
+        "forklaring": "Cadeler rapporterte 23. november sterk omsetningsvekst i Q3, men lavere nettoresultat og press fra prosjektkostnader, fartøystans og integrasjonskostnader etter Menck-oppkjøpet. Investing.com knyttet markedets negative reaksjon til disse lønnsomhets- og driftsbekymringene.",
+        "kilde_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-cadeler-posts-strong-q3-revenue-growth-in-2026-93CH-5045766"
       }
     ]
   },
@@ -787,6 +799,12 @@
         "tittel": "Q3-inntektsfall og fortsatt tap preger Nel-bildet",
         "forklaring": "En analyse publisert 30. oktober viste til at Nel rapporterte 63 prosent lavere Q3-inntekter fra kundekontrakter, EBITDA på minus 93 millioner kroner og netto tap på 141 millioner kroner, til tross for sterkere ordreinngang og større ordrereserve. Artikkelen peker på at svakere alkalisk aktivitet og avstanden mellom ordreinngang og faktisk omsetning kan holde investorforventningene nede.",
         "kilde_url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/nel-asa-s-order-book-tells-one-story-the-income-statement-another/70432695"
+      },
+      {
+        "dato": "2026-11-20",
+        "tittel": "Nel kraftig ned i bredt Oslo-fall",
+        "forklaring": "Investing.com beskrev et bredt norsk børsfall 20. november, der Oslo OBX falt 1,49 prosent og Nel ble dagens største taper med et fall på 15,98 prosent. Artikkelen peker på svakhet i flere sektorer, men ikke på en særskilt selskapsmelding som forklaring.",
+        "kilde_url": "https://in.investing.com/news/stock-market-news/norway-shares-lower-at-close-of-trade-oslo-obx-down-149-5718212"
       }
     ]
   },
